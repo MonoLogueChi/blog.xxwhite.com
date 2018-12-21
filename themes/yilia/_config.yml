@@ -135,7 +135,7 @@ slider:
   showTags: false
 
 # MarkDown文件下载地址,如：http://md.xxwhite.com
-mdhost: 'http://md.xxwhite.com'
+mdhost: 'https://raw.githubusercontent.com/MonoLogueChi/www.xxwhite.com/master/source/_posts'
 
 #pangu.js
 
