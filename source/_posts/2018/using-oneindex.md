@@ -1,0 +1,93 @@
+---
+title: OneIndex下载站搭建
+date: 2018-07-07 08:49:12
+tags: [建站笔记 ,涨姿势]
+
+keywords: OneIndex OneDrive 下载站
+comments: true
+---
+
+很早之前就有为自己博客搭建一个下载站的想法了，正好这几天不算太忙，就弄个OneIndex实施一下。
+
+<!-- more -->
+
+鉴于国内网盘纷纷倒下，蓝奏云也不太受待见，百度云限速严重，而且不装客户端还不给你下载，其他网盘分享文件都略微有些蛋疼，所以我就决定自己搭建一个下载站，用来分发博客里分享的文件。
+
+更重要的一点，以后我发的视频有地方放了，不需要像以前那样，先发到视频网站，然后再用外部播放器。
+
+## 需求
+
+|   需求    |  备注    |
+|:-------|:--------|
+|   OneDrive    |   必须  |
+|   主机空间    |   必须；PHP 5.6+ 打开curl支持    |
+|   域名    |   非必需 |
+
+### OneDrive
+
+没有的朋友在这里注册一个[onedrive.live.com](https://onedrive.live.com?invref=6d31d88d0e039653&invscr=90)，如果你不能正常注册的话，可以试试直接用Windows客户端注册，也可以直接用Windows的Microsoft 帐户登陆，反正具体要怎么弄，你们自己想办法吧，如果连这一步都搞不定的话，那么可以直接关掉这篇文章了。
+
+### 主机空间
+
+还是和以前一样，推荐使用vps，使用主机空间的话，应该也是可以的，但是并不推荐使用，VPS的话，我可以推荐两家，一家是我以前一直在用的搬瓦工，另一家是hiformance，这两家都支持支付宝收款，相对来说hiformance的优惠力度更大一点，但是性能什么的怎么样，那就要另说了。总之，你花多少钱买什么样的东西，心里应该要有点ACD数。
+
+弄完了之后宝塔面板直接撸下来就行了，也不用自己配或者搞什么LNMP什么的，都是给自己找麻烦。
+
+### 域名
+
+域名不算非必需的，但是有一个最好，如果想长久用的话，建议花钱搞一个域名，便宜的一年也就几块钱十几块钱的。
+
+## 搭建过程
+
+### PHP
+
+Nginx、PHP什么的我就不多说了，宝塔面板一梭子撸下来就行了。
+
+### OneIndex
+
+去[GitHub](https://github.com/donwa/oneindex)下载，并且解压，然后想办法传上去就可以了，至于权限什么的，保证cache和config有读写权限就可以了。不建议直接clone到vps里。
+
+然后访问主机空间，按照提示去安装就可以了，一步一步走下去就行了。
+
+### 静态规则
+
+去掉问号使用
+
+```
+location / {
+	index index.html index.php; 
+	if (-f $request_filename/index.html){ 
+		rewrite (.*) $1/index.html break; 
+	} 
+	if (-f $request_filename/index.php){ 
+		rewrite (.*) $1/index.php; 
+	} 
+	if (!-f $request_filename){ 
+		rewrite (.*) /index.php; 
+	} 
+}
+```
+
+## Dplayer
+
+使用Dplayer的时候有可能会遇到跨域请求的问题，只需要在index.php内添加
+```
+header("Access-Control-Allow-Origin: https://www.xxwhite.com");
+```
+就可以了。
+
+例如[测试视频](https://www.xxwhite.com/2017/VideoTest.html)
+
+## 速度测试
+
+目前我的域名还在备案过程中，根目录还不能访问，想测试速度的可以先用这个文件试一下
+
+[测速视频](https://dl.sm9.top/Video/2018/%E6%8E%98%E5%9C%B0%E6%B1%82%E5%8D%87_x264.mp4)
+
+## 最后来个广告
+
+我现在打算订阅一年的Office365家庭版，想找几个人合作一下，80一位，满三位就发车，需要的请联系我，在下方留言或者使用左侧的联系方式都可以。
+
+
+
+

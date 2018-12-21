@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Allow: /2017/
+Allow: /2018/
+Allow: /2019/
+Allow: /aboutme
+Allow: /archives/
+Allow: /tags/ 
+Disallow: /assets/
+Disallow: /fonts/
+
+Sitemap: https://www.xxwhite.com/sitemap.xml
+Sitemap: https://www.xxwhite.com/baidusitemap.xml

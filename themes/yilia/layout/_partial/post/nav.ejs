@@ -1,0 +1,32 @@
+<% if (post.prev || post.next){ %>
+<nav id="article-nav">
+  <% if (post.prev){ %>
+    <a href="<%- url_for(post.prev.path) %>" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        <% if (post.prev.title){ %>
+          <%= post.prev.title %>
+        <% } else { %>
+          (no title)
+        <% } %>
+      </div>
+    </a>
+  <% } %>
+  <% if (post.next){ %>
+    <a href="<%- url_for(post.next.path) %>" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"><%= post.next.title %></div>
+      <i class="icon-circle-right"></i>
+    </a>
+  <% } %>
+  <% if (theme.mdhost){ %>
+    <br>
+    <a href="<%- url_for(theme.mdhost) %><%- url_for(post.path) %>.txt" target="_blank">获取文章MarkDown文件</a>    
+  <% } %>
+ <% if (theme.valine.visitor){ %>  
+  <span style="float:right;color:#0094d5" id="<%- url_for(post.path) %>" class="leancloud_visitors" data-flag-title="<%= page.title %>">
+      <span class="post-meta-item-text">本文阅读量 </span>
+      <span class="leancloud-visitors-count">0</span>
+    </span>
+ <% } %>
+</nav>
+<% } %>
