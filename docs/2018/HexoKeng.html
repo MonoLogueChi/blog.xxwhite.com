@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="叉叉白">
 <meta property="og:description" content="这里记录了使用Hexo博客的一些小问题（坑），如果刚刚开始使用Hexo博客的，建议看一下这篇文章，以后遇到的问题我也会加在这里面的。">
 <meta property="og:locale" content="Zh-cn">
-<meta property="og:updated_time" content="2018-12-21T12:04:33.600Z">
+<meta property="og:updated_time" content="2018-12-21T14:20:14.102Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于Hexo的一些小问题">
 <meta name="twitter:description" content="这里记录了使用Hexo博客的一些小问题（坑），如果刚刚开始使用Hexo博客的，建议看一下这篇文章，以后遇到的问题我也会加在这里面的。">
@@ -33,21 +33,14 @@
       background: linear-gradient(200deg,#a0cfe4,#e8c37e);
     }
   </style>
+  <script>function dynamicLoadJs(e,n){d=document,t="script",o=d.createElement(t),s=d.getElementsByTagName(t)[0],o.src=e,n&&o.addEventListener("load",function(e){n(e)}),s.parentNode.insertBefore(o,s)}</script>
   
 
   
 
   
-<script>
-(function(u, c) {
-  var d = document, t = 'script', o = d.createElement(t),
-      s = d.getElementsByTagName(t)[0];
-  o.src = u;
-  if (c) { o.addEventListener('load', function(e) { c(e); }); }
-  s.parentNode.insertBefore(o, s);
-})('//cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js', function() {
-  pangu.spacingPage();
-});
+<script async>
+(dynamicLoadJs('//cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js',function(){pangu.spacingPage();}))();
 </script>
 
 </head>
@@ -414,13 +407,12 @@
         @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
       </style>
       <div id="vcomment" class="comment"></div>
-<script async src="//cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
-<script async src="//cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script>
 <script async>
     var notify = false == true ? true : false;
     var verify = false == true ? true : false;
     var visitor = true == true ? true : false;
-    window.onload = function() {
+    dynamicLoadJs('//cdn.jsdelivr.net/npm/valine/dist/Valine.min.js');
+    dynamicLoadJs('//cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js',function(){
         new Valine({
             av: AV,
             el: '#vcomment',
@@ -435,7 +427,7 @@
             path: '/2018/HexoKeng.html',
             visitor: visitor
         });
-    }
+    });
 </script>
     </section>
   
@@ -448,7 +440,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2017-2018 MonoLogueChi
+    		&copy; 2017-2019 MonoLogueChi
     		
           <br><a href="http://www.miibeian.gov.cn/" target="_blank">蒙ICP备17004911号-1</a>
     		
@@ -533,11 +525,11 @@
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
+                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
+                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -545,19 +537,19 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">测试</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">随便水水</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">涨姿势</a>
+                <a href="javascript:void(0)" class="js-tag color3">测试</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">C#</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">涨姿势</a>
               </li>
              
               <li class="article-tag-list-item">

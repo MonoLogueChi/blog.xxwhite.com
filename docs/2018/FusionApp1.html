@@ -21,7 +21,7 @@
 <meta property="og:image" content="https://s1.ax2x.com/2018/03/20/UZVYY.png">
 <meta property="og:image" content="https://s1.ax2x.com/2018/03/20/UJrzi.png">
 <meta property="og:image" content="https://s1.ax2x.com/2018/03/20/UJElX.png">
-<meta property="og:updated_time" content="2018-12-21T12:04:33.600Z">
+<meta property="og:updated_time" content="2018-12-21T14:20:14.102Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Fusion App非官方介绍（上）">
 <meta name="twitter:description" content="最近在酷安发现一个神器——Fusion App，今天就来简单介绍一下这个小东西怎么用。">
@@ -39,21 +39,14 @@
       background: linear-gradient(200deg,#a0cfe4,#e8c37e);
     }
   </style>
+  <script>function dynamicLoadJs(e,n){d=document,t="script",o=d.createElement(t),s=d.getElementsByTagName(t)[0],o.src=e,n&&o.addEventListener("load",function(e){n(e)}),s.parentNode.insertBefore(o,s)}</script>
   
 
   
 
   
-<script>
-(function(u, c) {
-  var d = document, t = 'script', o = d.createElement(t),
-      s = d.getElementsByTagName(t)[0];
-  o.src = u;
-  if (c) { o.addEventListener('load', function(e) { c(e); }); }
-  s.parentNode.insertBefore(o, s);
-})('//cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js', function() {
-  pangu.spacingPage();
-});
+<script async>
+(dynamicLoadJs('//cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js',function(){pangu.spacingPage();}))();
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css"></head>
@@ -443,13 +436,12 @@ FusionApp的UI模板的组件可自由装卸与定制，这使它可以与网页
         @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
       </style>
       <div id="vcomment" class="comment"></div>
-<script async src="//cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
-<script async src="//cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script>
 <script async>
     var notify = false == true ? true : false;
     var verify = false == true ? true : false;
     var visitor = true == true ? true : false;
-    window.onload = function() {
+    dynamicLoadJs('//cdn.jsdelivr.net/npm/valine/dist/Valine.min.js');
+    dynamicLoadJs('//cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js',function(){
         new Valine({
             av: AV,
             el: '#vcomment',
@@ -464,7 +456,7 @@ FusionApp的UI模板的组件可自由装卸与定制，这使它可以与网页
             path: '/2018/FusionApp1.html',
             visitor: visitor
         });
-    }
+    });
 </script>
     </section>
   
@@ -477,7 +469,7 @@ FusionApp的UI模板的组件可自由装卸与定制，这使它可以与网页
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2017-2018 MonoLogueChi
+    		&copy; 2017-2019 MonoLogueChi
     		
           <br><a href="http://www.miibeian.gov.cn/" target="_blank">蒙ICP备17004911号-1</a>
     		
@@ -562,11 +554,11 @@ FusionApp的UI模板的组件可自由装卸与定制，这使它可以与网页
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
+                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
+                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -574,19 +566,19 @@ FusionApp的UI模板的组件可自由装卸与定制，这使它可以与网页
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">测试</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">随便水水</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">涨姿势</a>
+                <a href="javascript:void(0)" class="js-tag color3">测试</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">C#</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">涨姿势</a>
               </li>
              
               <li class="article-tag-list-item">

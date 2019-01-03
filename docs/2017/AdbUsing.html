@@ -24,7 +24,7 @@
 <meta property="og:image" content="https://i.loli.net/2017/10/02/59d21915bf157.png">
 <meta property="og:image" content="https://i.loli.net/2017/10/02/59d21ed5a34fa.png">
 <meta property="og:image" content="https://i.loli.net/2017/10/02/59d21f9eead63.png">
-<meta property="og:updated_time" content="2018-12-21T12:04:33.584Z">
+<meta property="og:updated_time" content="2018-12-21T14:20:14.090Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ADB配置和ADB刷机">
 <meta name="twitter:description" content="adb的全称为Android Debug Bridge，就是起到调试桥的作用。通过adb我们可以在Eclipse中方便通过DDMS来调试Android程序，说白了就是debug工具。adb的工作方式比较特殊，采用监听Socket TCP 5554等端口的方式让IDE和Qemu通讯，默认情况下adb会daemon相关的网络端口，所以当我们运行Eclipse时adb进程就会自动运行。">
@@ -42,21 +42,14 @@
       background: linear-gradient(200deg,#a0cfe4,#e8c37e);
     }
   </style>
+  <script>function dynamicLoadJs(e,n){d=document,t="script",o=d.createElement(t),s=d.getElementsByTagName(t)[0],o.src=e,n&&o.addEventListener("load",function(e){n(e)}),s.parentNode.insertBefore(o,s)}</script>
   
 
   
 
   
-<script>
-(function(u, c) {
-  var d = document, t = 'script', o = d.createElement(t),
-      s = d.getElementsByTagName(t)[0];
-  o.src = u;
-  if (c) { o.addEventListener('load', function(e) { c(e); }); }
-  s.parentNode.insertBefore(o, s);
-})('//cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js', function() {
-  pangu.spacingPage();
-});
+<script async>
+(dynamicLoadJs('//cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js',function(){pangu.spacingPage();}))();
 </script>
 
 </head>
@@ -480,13 +473,12 @@
         @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
       </style>
       <div id="vcomment" class="comment"></div>
-<script async src="//cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
-<script async src="//cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script>
 <script async>
     var notify = false == true ? true : false;
     var verify = false == true ? true : false;
     var visitor = true == true ? true : false;
-    window.onload = function() {
+    dynamicLoadJs('//cdn.jsdelivr.net/npm/valine/dist/Valine.min.js');
+    dynamicLoadJs('//cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js',function(){
         new Valine({
             av: AV,
             el: '#vcomment',
@@ -501,7 +493,7 @@
             path: '/2017/AdbUsing.html',
             visitor: visitor
         });
-    }
+    });
 </script>
     </section>
   
@@ -514,7 +506,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2017-2018 MonoLogueChi
+    		&copy; 2017-2019 MonoLogueChi
     		
           <br><a href="http://www.miibeian.gov.cn/" target="_blank">蒙ICP备17004911号-1</a>
     		
@@ -599,11 +591,11 @@
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
+                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
+                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -611,19 +603,19 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">测试</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">随便水水</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">涨姿势</a>
+                <a href="javascript:void(0)" class="js-tag color3">测试</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">C#</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">涨姿势</a>
               </li>
              
               <li class="article-tag-list-item">

@@ -25,7 +25,7 @@
 <meta property="og:image" content="https://s1.ax1x.com/2018/09/22/iuM9JI.jpg">
 <meta property="og:image" content="https://s1.ax1x.com/2018/09/22/iuMiSP.jpg">
 <meta property="og:image" content="https://s1.ax1x.com/2018/09/23/iuMllV.png">
-<meta property="og:updated_time" content="2018-12-21T12:04:33.615Z">
+<meta property="og:updated_time" content="2018-12-21T14:20:14.110Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="二手洋垃圾改造">
 <meta name="twitter:description" content="最近一直我那台老掉牙的笔记本实在是不行了，看现在电脑实在是太贵了，就搞了台二手洋垃圾回来，然后自己动手魔改一番。">
@@ -43,21 +43,14 @@
       background: linear-gradient(200deg,#a0cfe4,#e8c37e);
     }
   </style>
+  <script>function dynamicLoadJs(e,n){d=document,t="script",o=d.createElement(t),s=d.getElementsByTagName(t)[0],o.src=e,n&&o.addEventListener("load",function(e){n(e)}),s.parentNode.insertBefore(o,s)}</script>
   
 
   
 
   
-<script>
-(function(u, c) {
-  var d = document, t = 'script', o = d.createElement(t),
-      s = d.getElementsByTagName(t)[0];
-  o.src = u;
-  if (c) { o.addEventListener('load', function(e) { c(e); }); }
-  s.parentNode.insertBefore(o, s);
-})('//cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js', function() {
-  pangu.spacingPage();
-});
+<script async>
+(dynamicLoadJs('//cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js',function(){pangu.spacingPage();}))();
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css"></head>
@@ -294,7 +287,7 @@
 <p><img src="https://s1.ax1x.com/2018/09/22/iuMCWt.jpg" alt="水冷扣具"></p>
 <p>扣具什么的安装都很简单，先把水冷头连接好，然后对准了把双面胶粘上，然后再拧螺丝就可以了，如果有一套螺母固定螺丝就更好了，可惜我没有M3.5的螺母。</p>
 <p>由于后来买的PWM调速器还在路上，所以暂时就先拿个变压电源充当调速器吧，如果水冷效果好的话，后面再买个高级点的调速器，直接用CPU温度控制。</p>
-<div id="dplayer4" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer4"),"loop":true,"screenshot":"yes","video":{"url":"https://dl.sm9.top/Video/2018/%E5%86%B7%E6%8E%92%E8%B0%83%E9%80%9F.mp4"},"danmaku":{"id":"F933308B39E58A8B894625BA29D6E962","api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> 
+<div id="dplayer3" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer3"),"loop":true,"screenshot":"yes","video":{"url":"https://dl.sm9.top/Video/2018/%E5%86%B7%E6%8E%92%E8%B0%83%E9%80%9F.mp4"},"danmaku":{"id":"F933308B39E58A8B894625BA29D6E962","api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> 
 <p>这煤气灶火有点旺，压不住了。</p>
 <p>机箱里面是没地方放了，只能放外面了。</p>
 <p><img src="https://s1.ax1x.com/2018/09/22/iuM9JI.jpg" alt="外置冷排"></p>
@@ -475,13 +468,12 @@
         @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
       </style>
       <div id="vcomment" class="comment"></div>
-<script async src="//cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
-<script async src="//cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script>
 <script async>
     var notify = false == true ? true : false;
     var verify = false == true ? true : false;
     var visitor = true == true ? true : false;
-    window.onload = function() {
+    dynamicLoadJs('//cdn.jsdelivr.net/npm/valine/dist/Valine.min.js');
+    dynamicLoadJs('//cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js',function(){
         new Valine({
             av: AV,
             el: '#vcomment',
@@ -496,7 +488,7 @@
             path: '/2018/personal-server.html',
             visitor: visitor
         });
-    }
+    });
 </script>
     </section>
   
@@ -509,7 +501,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2017-2018 MonoLogueChi
+    		&copy; 2017-2019 MonoLogueChi
     		
           <br><a href="http://www.miibeian.gov.cn/" target="_blank">蒙ICP备17004911号-1</a>
     		
@@ -594,11 +586,11 @@
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
+                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
+                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -606,19 +598,19 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">测试</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">随便水水</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">涨姿势</a>
+                <a href="javascript:void(0)" class="js-tag color3">测试</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">C#</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">涨姿势</a>
               </li>
              
               <li class="article-tag-list-item">
