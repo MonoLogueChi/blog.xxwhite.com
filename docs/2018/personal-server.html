@@ -43,8 +43,8 @@
       background: linear-gradient(200deg,#a0cfe4,#e8c37e);
     }
   </style>
-  <script>function loadScript(e,t){d=document,o=d.createElement("script"),s=d.getElementsByTagName("body")[0].appendChild(o),o.setAttribute("src",e),t&&o.addEventListener("load",function(e){t(e)}),s.parentNode.insertBefore(o,s)}</script>
-  <script></script><script defer="defer" src="/assets/./main.857b39.js"></script><script async>loadScript("/assets/slider.bb613a.js")</script>
+  <script>function loadScript(e,t){d=document,o=d.createElement("script"),s=d.getElementsByTagName("head")[0].appendChild(o),o.setAttribute("src",e),t&&o.addEventListener("load",function(e){t(e)}),s.parentNode.insertBefore(o,s)}</script>
+  <script></script><script defer="defer" src="/assets/./main.857b39.js"></script><script>loadScript("/assets/slider.bb613a.js")</script>
 <script src="https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css"></head>
 </html>
 <body>
@@ -279,7 +279,7 @@
 <p><img src="https://s1.ax1x.com/2018/09/22/iuMCWt.jpg" alt="水冷扣具"></p>
 <p>扣具什么的安装都很简单，先把水冷头连接好，然后对准了把双面胶粘上，然后再拧螺丝就可以了，如果有一套螺母固定螺丝就更好了，可惜我没有M3.5的螺母。</p>
 <p>由于后来买的PWM调速器还在路上，所以暂时就先拿个变压电源充当调速器吧，如果水冷效果好的话，后面再买个高级点的调速器，直接用CPU温度控制。</p>
-<div id="dplayer3" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer3"),"loop":true,"screenshot":"yes","video":{"url":"https://dl.sm9.top/Video/2018/%E5%86%B7%E6%8E%92%E8%B0%83%E9%80%9F.mp4"},"danmaku":{"id":"F933308B39E58A8B894625BA29D6E962","api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> 
+<div id="dplayer2" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer2"),"loop":true,"screenshot":"yes","video":{"url":"https://dl.sm9.top/Video/2018/%E5%86%B7%E6%8E%92%E8%B0%83%E9%80%9F.mp4"},"danmaku":{"id":"F933308B39E58A8B894625BA29D6E962","api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> 
 <p>这煤气灶火有点旺，压不住了。</p>
 <p>机箱里面是没地方放了，只能放外面了。</p>
 <p><img src="https://s1.ax1x.com/2018/09/22/iuM9JI.jpg" alt="外置冷排"></p>
@@ -460,11 +460,11 @@
         @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
       </style>
       <div id="vcomment" class="comment"></div>
-<script async>
+<script async="async">
     var notify = false == true ? true : false;
     var verify = false == true ? true : false;
     var visitor = true == true ? true : false;
-    loadScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js');
+    loadScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js',function(){
     loadScript('https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js',function(){
         new Valine({
             av: AV,
@@ -480,6 +480,7 @@
             path: '/2018/personal-server.html',
             visitor: visitor
         });
+    });
     });
 </script>
     </section>
@@ -576,23 +577,11 @@
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Unity</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">测试</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">随便水水</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">软件</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -604,7 +593,11 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">软件</a>
+                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -613,6 +606,10 @@
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">小工具</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Unity</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -629,6 +626,10 @@
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">dotnet</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">测试</a>
               </li>
             
             <div class="clearfix"></div>

@@ -40,8 +40,8 @@
       background: linear-gradient(200deg,#a0cfe4,#e8c37e);
     }
   </style>
-  <script>function loadScript(e,t){d=document,o=d.createElement("script"),s=d.getElementsByTagName("body")[0].appendChild(o),o.setAttribute("src",e),t&&o.addEventListener("load",function(e){t(e)}),s.parentNode.insertBefore(o,s)}</script>
-  <script></script><script defer="defer" src="/assets/./main.857b39.js"></script><script async>loadScript("/assets/slider.bb613a.js")</script>
+  <script>function loadScript(e,t){d=document,o=d.createElement("script"),s=d.getElementsByTagName("head")[0].appendChild(o),o.setAttribute("src",e),t&&o.addEventListener("load",function(e){t(e)}),s.parentNode.insertBefore(o,s)}</script>
+  <script></script><script defer="defer" src="/assets/./main.857b39.js"></script><script>loadScript("/assets/slider.bb613a.js")</script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" class="aplayer-style-marker">
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-script-marker"></script>
 <script>var meting_api='https://sm.sm9.top/api.php?server=:server&type=:type&id=:id&r=:r'</script>
@@ -208,7 +208,7 @@
 <p>前两天在v站无意中看到了关于valine的评论，这是什么东东，难道大清亡了？看了一下，是个不错的好东东，正好我对畅言不太满意，即使是用了自定义样式也不方便。好，那就研究一下，看看能不能用上。</p>
 <a id="more"></a>
 
-    <div id="aplayer-mgQGfZRM" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="000VSOZG47CInE" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div>
+    <div id="aplayer-lkJYfeaw" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="000VSOZG47CInE" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div>
 <h2 id="先看看有没有现成的轮子"><a class="markdownIt-Anchor" href="#先看看有没有现成的轮子"></a> 先看看有没有现成的轮子</h2>
 <p>最先想到的是valine的官网和yilia项目，看了一下，果然找到了。</p>
 <p><a href="https://github.com/litten/hexo-theme-yilia/pull/646" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia/pull/646</a></p>
@@ -439,11 +439,11 @@ avatar参数详见<a href="https://valine.js.org/avatar" target="_blank" rel="no
         @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
       </style>
       <div id="vcomment" class="comment"></div>
-<script async>
+<script async="async">
     var notify = false == true ? true : false;
     var verify = false == true ? true : false;
     var visitor = true == true ? true : false;
-    loadScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js');
+    loadScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js',function(){
     loadScript('https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js',function(){
         new Valine({
             av: AV,
@@ -459,6 +459,7 @@ avatar参数详见<a href="https://valine.js.org/avatar" target="_blank" rel="no
             path: '/2017/Valine.html',
             visitor: visitor
         });
+    });
     });
 </script>
     </section>
@@ -555,23 +556,11 @@ avatar参数详见<a href="https://valine.js.org/avatar" target="_blank" rel="no
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Unity</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">测试</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">随便水水</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">软件</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -583,7 +572,11 @@ avatar参数详见<a href="https://valine.js.org/avatar" target="_blank" rel="no
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">软件</a>
+                <a href="javascript:void(0)" class="js-tag color5">建站笔记</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">搞机</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -592,6 +585,10 @@ avatar参数详见<a href="https://valine.js.org/avatar" target="_blank" rel="no
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">小工具</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Unity</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -608,6 +605,10 @@ avatar参数详见<a href="https://valine.js.org/avatar" target="_blank" rel="no
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">dotnet</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">测试</a>
               </li>
             
             <div class="clearfix"></div>
