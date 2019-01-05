@@ -6,29 +6,23 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://www.xxwhite.com">
-  <title>Unity包管理和调试 | 叉叉白</title>
+  <title>为知识付费 | 叉叉白</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="前面讲了怎么打造Unity最强IDE，那么今天就来讲一下怎么用前面搭建好的环境快速开发。">
-<meta name="keywords" content="Unity VisualStudio ReSharper IDE NuGet Debug 断点 调试">
+  <meta name="description" content="昨天收了一个一百块钱的红包，感觉有点受之有愧。">
+<meta name="keywords" content="为至少付费 付费学习">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Unity包管理和调试">
-<meta property="og:url" content="https://www.xxwhite.com/2018/unity-vs-debug.html">
+<meta property="og:title" content="为知识付费">
+<meta property="og:url" content="https://www.xxwhite.com/2019/pay-for-knowledge.html">
 <meta property="og:site_name" content="叉叉白">
-<meta property="og:description" content="前面讲了怎么打造Unity最强IDE，那么今天就来讲一下怎么用前面搭建好的环境快速开发。">
+<meta property="og:description" content="昨天收了一个一百块钱的红包，感觉有点受之有愧。">
 <meta property="og:locale" content="Zh-cn">
-<meta property="og:image" content="https://s1.ax1x.com/2018/12/08/F8JmxH.png">
-<meta property="og:image" content="https://s1.ax1x.com/2018/12/08/F8ti4K.gif">
-<meta property="og:image" content="https://s1.ax1x.com/2018/12/09/F8tnHI.gif">
-<meta property="og:image" content="https://s1.ax1x.com/2018/12/09/F8NeRU.png">
-<meta property="og:image" content="https://s1.ax1x.com/2018/12/09/F8qATH.png">
-<meta property="og:image" content="https://s1.ax1x.com/2018/12/09/F8qlnS.png">
-<meta property="og:image" content="https://s1.ax1x.com/2018/12/09/F8zsrq.png">
-<meta property="og:image" content="https://s1.ax1x.com/2018/12/09/FGp64U.png">
-<meta property="og:updated_time" content="2018-12-21T14:20:14.112Z">
+<meta property="og:image" content="https://s2.ax1x.com/2019/01/05/F7imHs.jpg">
+<meta property="og:image" content="https://s2.ax1x.com/2019/01/05/F7iuEn.jpg">
+<meta property="og:updated_time" content="2019-01-05T04:40:23.127Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Unity包管理和调试">
-<meta name="twitter:description" content="前面讲了怎么打造Unity最强IDE，那么今天就来讲一下怎么用前面搭建好的环境快速开发。">
-<meta name="twitter:image" content="https://s1.ax1x.com/2018/12/08/F8JmxH.png">
+<meta name="twitter:title" content="为知识付费">
+<meta name="twitter:description" content="昨天收了一个一百块钱的红包，感觉有点受之有愧。">
+<meta name="twitter:image" content="https://s2.ax1x.com/2019/01/05/F7imHs.jpg">
   
     <link rel="alternative" href="/atom.xml" title="叉叉白" type="application/atom+xml">
   
@@ -182,87 +176,39 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-2018/unity-vs-debug" class="article article-type-post " itemscope="" itemprop="blogPost">
+            <article id="post-2019/pay-for-knowledge" class="article article-type-post " itemscope="" itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Unity包管理和调试
+      为知识付费
     </h1>
   
 
         
-        <a href="/2018/unity-vs-debug.html" class="archive-article-date">
-  	<time datetime="2018-12-08T14:10:18.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-12-08</time>
+        <a href="/2019/pay-for-knowledge.html" class="archive-article-date">
+  	<time datetime="2019-01-05T04:08:07.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-01-05</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>前面讲了怎么<a href="/2018/unity-vs-resharper.html">打造Unity最强IDE</a>，那么今天就来讲一下怎么用前面搭建好的环境快速开发。</p>
+        <p>昨天收了一个一百块钱的红包，感觉有点受之有愧。</p>
 <a id="more"></a>
-<h2 id="nuget包管理"><a class="markdownIt-Anchor" href="#nuget包管理"></a> Nuget包管理</h2>
-<blockquote>
-<p>NuGet is the package manager for .NET. The NuGet client tools provide the ability to produce and consume packages. The NuGet Gallery is the central package repository used by all package authors and consumers.</p>
-</blockquote>
-<p>对于 .net 项目而言，NuGet确实是最好的包管理器，Unity项目也不不例外。</p>
-<p>那么今天就来讲一下在Unity项目里管理NuGet包。</p>
-<h3 id="cli"><a class="markdownIt-Anchor" href="#cli"></a> cli</h3>
-<p>使用命令行工具，理论上是可行的，但是未免也太蛋疼了吧，还是换个更好一点的工具试试吧；</p>
-<h3 id="nugetforunity"><a class="markdownIt-Anchor" href="#nugetforunity"></a> NuGetForUnity</h3>
-<blockquote>
-<p>NuGetForUnity is a NuGet client built from scratch to run inside the Unity Editor. NuGet is a package management system which makes it easy to create packages that are distributed on a server and consumed by users. NuGet supports sematic versioning for packages as well as dependencies on other packages.</p>
-</blockquote>
-<p>从介绍上来看，这是一款专为Unity打造的NuGet包管理工具，并且是开源工具，发布在GitHub上：</p>
-<ul>
-<li>开源地址：<a href="https://github.com/GlitchEnzo/NuGetForUnity" target="_blank" rel="noopener">https://github.com/GlitchEnzo/NuGetForUnity</a></li>
-<li>插件下载地址：<a href="https://github.com/GlitchEnzo/NuGetForUnity/releases" target="_blank" rel="noopener">https://github.com/GlitchEnzo/NuGetForUnity/releases</a></li>
-</ul>
-<p>下载之后导入插件，然后就可以正常使用了（某些版本可能会有点bug，这东西暂时还不太稳定，主要是依赖这种东西太蛋疼了，你根本不会知道哪些包会和Unity冲突）</p>
-<p><img src="https://s1.ax1x.com/2018/12/08/F8JmxH.png" alt="使用NuGet包"></p>
-<p>先随便导入一个包吧，以后会用到这个包</p>
-<blockquote>
-<p>这里有个坑注意一下，有些依赖导入Unity之后会报错，这个时候需要手动把报错的包卸载掉。</p>
-</blockquote>
-<h2 id="调试"><a class="markdownIt-Anchor" href="#调试"></a> 调试</h2>
-<p>Unity如果出线错误，或者是没有出线自己预想的结果，这个时候应该怎么办呢？应该自己想办法查找问题所在，而不应该第一时间就跑去问某某某，自己是哪里出了问题。</p>
-<p>今天就大致讲一下怎么自己排查问题出在哪里。</p>
-<h3 id="debuglog"><a class="markdownIt-Anchor" href="#debuglog"></a> Debug.Log()</h3>
-<p>这是最常用的一种方法，我们用 <code>Debug.Log</code> 把我们想要检查的对象的某个属性输出在日志里，然后去看和我们预想的是不是一样的。</p>
-<p>比如我创建了一个简单的Demo（可以在文章结尾下载到）</p>
-<p>预期是这样的<br>
-<img src="https://s1.ax1x.com/2018/12/08/F8ti4K.gif" alt="预期"><br>
-但是实际上却是这样的<br>
-<img src="https://s1.ax1x.com/2018/12/09/F8tnHI.gif" alt="实际"></p>
-<p>为什么会这样呢？肯定是中间哪里弄错了，先来看一下代码</p>
-<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"><span class="keyword">using</span> UnityEngine.UI;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">DebugLog</span> : <span class="title">MonoBehaviour</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">private</span> Slider _slider0;</span><br><span class="line">    <span class="keyword">private</span> Slider _slider1;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">Start</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        _slider0 = GameObject.Find(<span class="string">"Slider0"</span>).GetComponent&lt;Slider&gt;();</span><br><span class="line">        _slider1 = GameObject.Find(<span class="string">"Slider1"</span>).GetComponent&lt;Slider&gt;();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">Update</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        SyncSlider();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">SyncSlider</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="keyword">var</span> value0 = _slider0.<span class="keyword">value</span> * <span class="number">0.5f</span>;</span><br><span class="line">        _slider1.<span class="keyword">value</span> = value0;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>一眼望过去，左看又看，横看竖看也看不出来问题啊 <s>（这要是还看不出来就是真眼瞎了）</s></p>
-<p>既然肉眼看不出来，那咱们就先简单分析一下这简简单单的两行代码，原理也很简单，先获取到<code>Slider0</code>的值，赋值给<code>value0</code>，然后再把<code>value0</code>的值赋给<code>Slider1</code>。</p>
-<p>咱们打一下Log看看<code>value0</code>的值是不是与<code>Slider0</code>的值一致</p>
-<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">SyncSlider</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="keyword">var</span> value0 = _slider0.<span class="keyword">value</span> * <span class="number">0.5f</span>;</span><br><span class="line">        Debug.Log(<span class="string">$"Slider0Value:<span class="subst">&#123;_slider0.<span class="keyword">value</span>&#125;</span>,value0:<span class="subst">&#123;value0&#125;</span>"</span>);</span><br><span class="line">        _slider1.<span class="keyword">value</span> = value0;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-<p><img src="https://s1.ax1x.com/2018/12/09/F8NeRU.png" alt="Log"></p>
-<p>我们截取了Unity中控制台窗口的一部分，从图中我们可以看出，<code>value0</code>的值总是<code>Slider0</code>的值的一半，再返回去检查代码，发现原来是手抖加了一个<code>* 0.5</code>啊，改过来就可以符合我们的预期了。</p>
-<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">    private void SyncSlider()</span><br><span class="line">    &#123;</span><br><span class="line"><span class="deletion">-       var value0 = _slider0.value * 0.5f;</span></span><br><span class="line"><span class="addition">+       var value0 = _slider0.value;</span></span><br><span class="line">        _slider1.value = value0;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-<h3 id="打断点"><a class="markdownIt-Anchor" href="#打断点"></a> 打断点</h3>
-<p>说实话，这个例子举得不太恰当，因为在被Update函数调用的函数里打断点调试，是一件很蛋疼的事，需要一些技巧才能熟练使用。但是今天仅仅是演示怎么找到问题所在，所以看我怎么操作就可以了。</p>
-<p>首先是需要安装 <code>Visual Studio Tools for Unity</code></p>
-<p><img src="https://s1.ax1x.com/2018/12/09/F8qATH.png" alt="安装Visual Studio Tools for Unity"></p>
-<p>同样用刚才的项目做演示，打开刚才的项目，简单将 <code>Debug.Log()</code> 注释掉</p>
-<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"><span class="keyword">using</span> UnityEngine.UI;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">DebugLog</span> : <span class="title">MonoBehaviour</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">private</span> Slider _slider0;</span><br><span class="line">    <span class="keyword">private</span> Slider _slider1;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">Start</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        _slider0 = GameObject.Find(<span class="string">"Slider0"</span>).GetComponent&lt;Slider&gt;();</span><br><span class="line">        _slider1 = GameObject.Find(<span class="string">"Slider1"</span>).GetComponent&lt;Slider&gt;();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">Update</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        SyncSlider();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">SyncSlider</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line">        <span class="keyword">var</span> value0 = _slider0.<span class="keyword">value</span> * <span class="number">0.5f</span>;</span><br><span class="line">        <span class="comment">//Debug.Log($"Slider0Value:&#123;_slider0.value&#125;,value0:&#123;value0&#125;");</span></span><br><span class="line">        _slider1.<span class="keyword">value</span> = value0;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>将调试信息改为 <code>附加到Unity并播放</code></p>
-<p><img src="https://s1.ax1x.com/2018/12/09/F8qlnS.png" alt="附加到Unity并播放"></p>
-<p>因为需要打断点的位置需要在 <code>Update</code> 方法里调用，所以如果一开始直接就打断点的话，这个东西根本没有办法调试，我们需要先让程序运行起来，中途再打断点。</p>
-<p><img src="https://s1.ax1x.com/2018/12/09/F8zsrq.png" alt="打断点"></p>
-<p>通过打断点的方法，我们同样可以找到问题所在。</p>
-<p>除了上面说的，先运行再打断点，还可以用加判断条件的方法调试被 <code>Update</code> 调用的方法。</p>
-<p><img src="https://s1.ax1x.com/2018/12/09/FGp64U.png" alt="判断断点"></p>
-<p>考虑到上面这个例子有点不太恰当，在Demo里我又写了一个关于2D碰撞检测的问题，有兴趣的可以研究一下这个东西怎么调试</p>
-<h3 id="比较两种方法"><a class="markdownIt-Anchor" href="#比较两种方法"></a> 比较两种方法</h3>
-<p>使用 Debug.Log() 和打断点两种方法，具体哪一种比较好用呢？从理论上来讲，打断点好用，而且功能强大，越是复杂的问题，使用起来相对 Debug.Log() 越简单，但是在某些问题上，Debug.Log() 却又非常方便，两种调试方法结合起来使用，可以让你迅速找到问题所在，遇到小问题，再也不用去某某群问别人“为什么我照着教程做，但是XX结果和教程里不一样呢？”</p>
-<p>Demo下载地址：<a href="https://dl.sm9.top/blog/unity/%E8%B0%83%E8%AF%95demo/" target="_blank" rel="noopener">https://dl.sm9.top/blog/unity/调试demo/</a></p>
+<p>昨天体检回来发现有个人给我发消息，谁想请问帮忙解决一个问题，可以付费</p>
+<p><img src="https://s2.ax1x.com/2019/01/05/F7imHs.jpg" alt="F7imHs.jpg"></p>
+<p>当时正好要去上班，就打算随便指导他一下，也没想付费的事，后来看他态度挺认真的，也一直搞不定，就开电脑自己截图给他演示讲解了一下，再后来看他自己搞定了，我就去上班了。</p>
+<p>等我下班回来，发现他真给我发了一个红包，本来也没打算收的，但是他那一句为知识付费打动了我<br>
+，真是一个一百块钱的红包。</p>
+<p><img src="https://s2.ax1x.com/2019/01/05/F7iuEn.jpg" alt="F7iuEn.jpg"></p>
+<p>花一百块钱为知识付费，值不值？<br>
+当然不值了，给他讲解，花费的时间总共大概一个小时左右，一个小时一百块钱，反正我是赚翻了，以前在群里当义工未别人讲解，有的时候一个晚上搞下来，一句谢谢都得不到，这次只花了一个小时就赚了一百块钱。</p>
+<p>但是反过来想一想，现在我们可以免费向网友提问，有问题会有热心网友帮忙解决，但是真的有回报过热心网友吗？金钱上的回报我是没有过，仅有的一点回报就是自己也成为了一个热心网友吧。</p>
+<p>在获取他人帮助的时候，有没有回报过其他人呢？我的博客反正是没收到过捐赠，不知道其他人怎么样。至于那些帮助过我的文章，多多少少我应该有过一点捐赠吧，毕业半年了，捐赠打赏话的钱，加起来应该也有两三百了吧（吐槽一下，都是我在捐赠别人，为啥没人打赏我一点呢）。</p>
+<p>虽然说钱很俗，但是为知识付费，才是更多人愿意分享知识的动力。</p>
 
       
 
@@ -308,7 +254,7 @@
             </li>
             <li>
               <strong>本文链接：</strong>
-              <a href="https://www.xxwhite.com/2018/unity-vs-debug.html" title="叉叉白">https://www.xxwhite.com/2018/unity-vs-debug.html</a>
+              <a href="https://www.xxwhite.com/2019/pay-for-knowledge.html" title="叉叉白">https://www.xxwhite.com/2019/pay-for-knowledge.html</a>
             </li>
             <li>
               <strong>版权声明： </strong>
@@ -327,7 +273,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Unity</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">随便水水</a>
         		</li>
       		
 		</ul>
@@ -346,18 +292,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/pay-for-knowledge.html" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          为知识付费
-        
-      </div>
-    </a>
   
-  
-    <a href="/2018/9x9.html" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">九九乘法表？</div>
+    <a href="/2018/unity-vs-debug.html" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Unity包管理和调试</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -366,7 +303,7 @@
     <a onclick="mdpage()" target="_blank" style="cursor:pointer">获取文章MarkDown文件</a>
   
    
-  <span style="float:right;color:#0094d5" id="/2018/unity-vs-debug.html" class="leancloud_visitors" data-flag-title="Unity包管理和调试">
+  <span style="float:right;color:#0094d5" id="/2019/pay-for-knowledge.html" class="leancloud_visitors" data-flag-title="为知识付费">
       <span class="post-meta-item-text">本文阅读量 </span>
       <span class="leancloud-visitors-count">8848</span>
     </span>
@@ -374,7 +311,7 @@
 </nav>
 <script>
   var mdhost = 'https://raw.githubusercontent.com/MonoLogueChi/www.xxwhite.com/master/source/_posts';
-  var mdurl = '2018/unity-vs-debug.html'.replace('.html', '.md');
+  var mdurl = '2019/pay-for-knowledge.html'.replace('.html', '.md');
   function mdpage() {
     window.open(mdhost + "/" + mdurl);
   }
@@ -401,7 +338,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#nuget包管理"><span class="toc-number">1.</span> <span class="toc-text"> Nuget包管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#cli"><span class="toc-number">1.1.</span> <span class="toc-text"> cli</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#nugetforunity"><span class="toc-number">1.2.</span> <span class="toc-text"> NuGetForUnity</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#调试"><span class="toc-number">2.</span> <span class="toc-text"> 调试</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#debuglog"><span class="toc-number">2.1.</span> <span class="toc-text"> Debug.Log()</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#打断点"><span class="toc-number">2.2.</span> <span class="toc-text"> 打断点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#比较两种方法"><span class="toc-number">2.3.</span> <span class="toc-text"> 比较两种方法</span></a></li></ol></li></ol>
+                    目录，不存在的…
                     </div>
                 </span>
             </div>
@@ -446,7 +383,7 @@
             avatar: '',
             avatar_cdn: 'https://sdn.geekzu.org/avatar/',
             pageSize: 12,
-            path: '/2018/unity-vs-debug.html',
+            path: '/2019/pay-for-knowledge.html',
             visitor: visitor
         });
     });
