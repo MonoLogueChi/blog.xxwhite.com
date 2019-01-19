@@ -20,11 +20,11 @@ reward: false
 
 ## 关于本站
 
-本站使用[Hexo](http://hexo.io/)博客搭建，主题为[Yilia](https://github.com/litten/hexo-theme-yilia)，博客使用服务有：[又拍云](https://console.upyun.com/register/?invite=B1Tr4zsVf)，[七牛云](https://portal.qiniu.com/signup?code=3lor2t6uys85u)，[网易云](https://www.163yun.com/)。
+本站使用[Hexo](http://hexo.io/)博客搭建，主题为[Yilia](https://github.com/litten/hexo-theme-yilia)，博客使用服务有：[GitHub](https://github.com)[又拍云](https://console.upyun.com/register/?invite=B1Tr4zsVf)。
 
 本站发布文章均可随意转载，可用于商业用途，如需转载本站文章，请注意以下几点：
 - 如需复制富文本格式，可以直接复制网页内容（大部分老旧论坛，微信公众号，知乎等待）。
-- 如需MarkDown文件，可以修改文章链接格式为`http://md.xxwhite.com/2017/xxx.html.txt`，或者是点击文章后面的`获取文章MarkDown文件`均可获取原文MarkDown文件。
+- 如需MarkDown文件，可以点击文章后面的`获取文章MarkDown文件`均可获取原文MarkDown文件。
 - 转载请注明文章出处，作者及原文链接，并注明文章为转载。
 - 不可断章取义，不可作引战等用途。
 - 本站文章一般具有很强的实时性，转载和参考时请自行判断“保质期”。
@@ -32,9 +32,9 @@ reward: false
 ## 联系方式
 
 酷安：[炎黄](http://www.coolapk.com/u/561054)  
-花粉俱乐部：[小跃回家]() （已经不玩了）
+花粉俱乐部：[小跃回家]() （已经不玩了）  
 Bilibili：[MonoLogueChi](https://space.bilibili.com/28474682/#/)  
-邮箱：[xxwhite@foxmail.com](mailto:xxwhite@foxmail.com)
+邮箱：[xxwhite@foxmail.com](mailto:xxwhite@foxmail.com)  
 微信：[微信提问](https://xxwhite.nos-eastchina1.126.net/wechat.png)
 
 想要联系我，最快捷方便的方法是发邮件给我，关于本站事情或者是关于文章的问题，可以直接在留言板或者是文章后面留言给我。如果留言后需要回复提醒，请留下真实邮箱。
