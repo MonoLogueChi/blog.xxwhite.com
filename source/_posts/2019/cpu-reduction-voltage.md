@@ -26,9 +26,9 @@ comments: true
 
 ## 降温
 
-由于经常跑x264，所有不想办法降点温度是真没法用，比起开盖什么的，个人感觉降压更方便，更实用一点。
+由于经常跑x264，所以不想办法降点温度是真没法用，比起开盖什么的，个人感觉降压更方便，更实用一点。
 
-但是笔记本H370主板，根本不能再BIOS里控制电压啊，只能祭出杀器，[Inter XTU (Extreme Tuning Utility)](https://downloadcenter.intel.com/download/24075/Intel-Extreme-Tuning-Utility-Intel-XTU)
+但是笔记本H370主板，根本不能在BIOS里控制电压啊，只能祭出杀器，[Inter XTU (Extreme Tuning Utility)](https://downloadcenter.intel.com/download/24075/Intel-Extreme-Tuning-Utility-Intel-XTU)
 
 打开这个东西，8700唯一能做的也就是拉低一点电压了，其他的嘛，基本都是锁死的，而且意义不大。
 
