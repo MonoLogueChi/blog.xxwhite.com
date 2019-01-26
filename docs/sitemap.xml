@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.xxwhite.com/2019/your-own-yilia-1.html</loc>
+    
+    <lastmod>2019-01-26T08:44:56.737Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.xxwhite.com/2017/Valine.html</loc>
     
     <lastmod>2019-01-21T14:56:27.808Z</lastmod>
@@ -37,14 +44,14 @@
   </url>
   
   <url>
-    <loc>https://www.xxwhite.com/HelloWorld.html</loc>
+    <loc>https://www.xxwhite.com/2018/wsl.html</loc>
     
     <lastmod>2018-12-21T14:20:14.115Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.xxwhite.com/2018/wsl.html</loc>
+    <loc>https://www.xxwhite.com/HelloWorld.html</loc>
     
     <lastmod>2018-12-21T14:20:14.115Z</lastmod>
     
@@ -254,13 +261,6 @@
   </url>
   
   <url>
-    <loc>https://www.xxwhite.com/2017/ZhJi.html</loc>
-    
-    <lastmod>2018-12-21T14:20:14.096Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.xxwhite.com/2017/YCSJ.html</loc>
     
     <lastmod>2018-12-21T14:20:14.096Z</lastmod>
@@ -268,14 +268,21 @@
   </url>
   
   <url>
-    <loc>https://www.xxwhite.com/2017/XposedInstall.html</loc>
+    <loc>https://www.xxwhite.com/2017/ZhJi.html</loc>
+    
+    <lastmod>2018-12-21T14:20:14.096Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.xxwhite.com/2017/VideoTest.html</loc>
     
     <lastmod>2018-12-21T14:20:14.095Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.xxwhite.com/2017/VideoTest.html</loc>
+    <loc>https://www.xxwhite.com/2017/XposedInstall.html</loc>
     
     <lastmod>2018-12-21T14:20:14.095Z</lastmod>
     
@@ -310,14 +317,14 @@
   </url>
   
   <url>
-    <loc>https://www.xxwhite.com/2017/AdbUsing.html</loc>
+    <loc>https://www.xxwhite.com/2017/AZL.html</loc>
     
     <lastmod>2018-12-21T14:20:14.090Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.xxwhite.com/2017/AZL.html</loc>
+    <loc>https://www.xxwhite.com/2017/AdbUsing.html</loc>
     
     <lastmod>2018-12-21T14:20:14.090Z</lastmod>
     

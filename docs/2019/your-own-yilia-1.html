@@ -6,24 +6,22 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://www.xxwhite.com">
-  <title>WSL调试体验 | 叉叉白</title>
+  <title>自己动手修改完善yilia主题 | 叉叉白</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="最近想要开发一个新项目，想顺便体验一下WSL，然后百度看了一下相关的东西，结合自己的实践，简单总结了一下。">
-<meta name="keywords" content="WSL Linux Win SSL 自签证书 Nginx 本地调试">
+  <meta name="description" content="自己动手修改Yilia主题，这有什么难的，简单修修模板，改改CSS？">
+<meta name="keywords" content="Yilia Hexo主题 自定义">
 <meta property="og:type" content="article">
-<meta property="og:title" content="WSL调试体验">
-<meta property="og:url" content="https://www.xxwhite.com/2018/wsl.html">
+<meta property="og:title" content="自己动手修改完善yilia主题">
+<meta property="og:url" content="https://www.xxwhite.com/2019/your-own-yilia-1.html">
 <meta property="og:site_name" content="叉叉白">
-<meta property="og:description" content="最近想要开发一个新项目，想顺便体验一下WSL，然后百度看了一下相关的东西，结合自己的实践，简单总结了一下。">
+<meta property="og:description" content="自己动手修改Yilia主题，这有什么难的，简单修修模板，改改CSS？">
 <meta property="og:locale" content="Zh-cn">
-<meta property="og:image" content="https://s1.ax2x.com/2018/07/22/whWAR.png">
-<meta property="og:image" content="https://s1.ax2x.com/2018/07/22/whGGY.png">
-<meta property="og:image" content="https://s1.ax2x.com/2018/07/22/whu8J.png">
-<meta property="og:updated_time" content="2018-12-21T14:20:14.115Z">
+<meta property="og:image" content="https://s2.ax1x.com/2019/01/26/knhmUP.png">
+<meta property="og:updated_time" content="2019-01-26T08:44:56.737Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="WSL调试体验">
-<meta name="twitter:description" content="最近想要开发一个新项目，想顺便体验一下WSL，然后百度看了一下相关的东西，结合自己的实践，简单总结了一下。">
-<meta name="twitter:image" content="https://s1.ax2x.com/2018/07/22/whWAR.png">
+<meta name="twitter:title" content="自己动手修改完善yilia主题">
+<meta name="twitter:description" content="自己动手修改Yilia主题，这有什么难的，简单修修模板，改改CSS？">
+<meta name="twitter:image" content="https://s2.ax1x.com/2019/01/26/knhmUP.png">
   
     <link rel="alternative" href="/atom.xml" title="叉叉白" type="application/atom+xml">
   
@@ -177,78 +175,71 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-2018/wsl" class="article article-type-post " itemscope="" itemprop="blogPost">
+            <article id="post-2019/your-own-yilia-1" class="article article-type-post " itemscope="" itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      WSL调试体验
+      自己动手修改完善yilia主题
     </h1>
   
 
         
-        <a href="/2018/wsl.html" class="archive-article-date">
-  	<time datetime="2018-07-22T06:05:42.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-22</time>
+        <a href="/2019/your-own-yilia-1.html" class="archive-article-date">
+  	<time datetime="2019-01-26T05:49:23.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-01-26</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>最近想要开发一个新项目，想顺便体验一下WSL，然后百度看了一下相关的东西，结合自己的实践，简单总结了一下。</p>
+        <p>自己动手修改Yilia主题，这有什么难的，简单修修模板，改改CSS？</p>
 <a id="more"></a>
-<h2 id="开启wsl"><a class="markdownIt-Anchor" href="#开启wsl"></a> 开启WSL</h2>
-<p>首先需要Win10 1709级以上版本，电脑配置不能太差，最起码也要比我这个强吧（配置太差了跑起来体验也不咋样）<br>
-i5-3320M，12G ddr3内存（ddr3+ddr3l混装，这电脑兼容性真特么强），480G固态+500G机械。WSL跑在固态盘里。</p>
-<p><img src="https://s1.ax2x.com/2018/07/22/whWAR.png" alt=""></p>
-<p>开启WSL需要首先在<code>程序和功能</code>里开启<code>适用于Linux的Windows子系统</code>。<br>
-<img src="https://s1.ax2x.com/2018/07/22/whGGY.png" alt=""></p>
-<p>然后再去应用商店<code>Microsoft Store</code>里下载Linux子系统，就直接搜<code>Linux</code>就可以找到了。建议安装乌班图（Ubuntu）。<br>
-记住，安装一定要装在C盘上，别搞啥幺蛾子，自己忙活一通还挺累，体验还不咋样。</p>
-<h2 id="基础配置"><a class="markdownIt-Anchor" href="#基础配置"></a> 基础配置</h2>
-<h3 id="修改root密码"><a class="markdownIt-Anchor" href="#修改root密码"></a> 修改root密码</h3>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">sudo passwd root</span></span><br></pre></td></tr></table></figure>
-<h3 id="开启ssh服务"><a class="markdownIt-Anchor" href="#开启ssh服务"></a> 开启SSH服务</h3>
-<p>修改配置文件</p>
-<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim <span class="regexp">/etc/</span>ssh<span class="regexp">/sshd_config</span></span><br></pre></td></tr></table></figure>
-<p>允许root用户登陆和允许密码登陆</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">PermitRootLogin</span> <span class="literal">yes</span></span><br><span class="line"><span class="string">PasswordAuthentication</span> <span class="literal">yes</span></span><br></pre></td></tr></table></figure>
-<p>重启ssh服务</p>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">service ssh restart</span></span><br></pre></td></tr></table></figure>
-<p>如果遇到</p>
-<figure class="highlight gauss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Could <span class="keyword">not</span> <span class="keyword">load</span> host <span class="built_in">key</span>: /etc/ssh/ssh_host_rsa_key</span><br><span class="line">Could <span class="keyword">not</span> <span class="keyword">load</span> host <span class="built_in">key</span>: /etc/ssh/ssh_host_ecdsa_key</span><br><span class="line">Could <span class="keyword">not</span> <span class="keyword">load</span> host <span class="built_in">key</span>: /etc/ssh/ssh_host_ed25519_key</span><br><span class="line"> * Restarting OpenBSD Secure <span class="built_in">Shell</span> server sshd</span><br><span class="line">Could <span class="keyword">not</span> <span class="keyword">load</span> host <span class="built_in">key</span>: /etc/ssh/ssh_host_rsa_key</span><br><span class="line">Could <span class="keyword">not</span> <span class="keyword">load</span> host <span class="built_in">key</span>: /etc/ssh/ssh_host_ecdsa_key</span><br><span class="line">Could <span class="keyword">not</span> <span class="keyword">load</span> host <span class="built_in">key</span>: /etc/ssh/ssh_host_ed25519_key</span><br></pre></td></tr></table></figure>
-<p>就</p>
-<figure class="highlight properties"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">sudo</span> <span class="string">rm -r /etc/ssh/ssh*key</span></span><br><span class="line"><span class="attr">sudo</span> <span class="string">dpkg-reconfigure openssh-server</span></span><br></pre></td></tr></table></figure>
-<p>配置好SSH之后用<a href="https://www.xxwhite.com/2018/FreeXshell6.html">XShell6</a>连接。</p>
-<p><img src="https://s1.ax2x.com/2018/07/22/whu8J.png" alt=""></p>
-<h3 id="更新系统"><a class="markdownIt-Anchor" href="#更新系统"></a> 更新系统</h3>
-<p>搞完这些，先升级一下系统</p>
-<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">apt-<span class="builtin-name">get</span> update</span><br><span class="line">apt-<span class="builtin-name">get</span> dist-upgrade</span><br></pre></td></tr></table></figure>
-<h3 id="域名解析"><a class="markdownIt-Anchor" href="#域名解析"></a> 域名解析</h3>
-<p>测试的时候，我们可能会使用到域名，这个时候可以直接修改<code>Hosts</code>。</p>
-<p>也可以使用<code>Acrylic DNS Proxy</code>，我用的就是Acrylic DNS Proxy，具体怎么用可以百度，很简单的。</p>
-<p>如果使用真域名的话。可以自己解析到127.0.01。</p>
-<p>搞完了再给域名弄个自签证书。如果是闲置域名的话，完全可以搞一个真证书上去。</p>
-<blockquote>
-<p>PS: 我的做法是把一个真域名解析过去，然后还申请了一个真证书。</p>
-</blockquote>
-<h3 id="宝塔面板"><a class="markdownIt-Anchor" href="#宝塔面板"></a> 宝塔面板</h3>
-<p>自用嘛，搞个宝塔面板还是挺舒服的，比自己配简单多了。</p>
-<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O <span class="keyword">install</span>.sh http://download.bt.cn/<span class="keyword">install</span>/<span class="keyword">install</span>-ubuntu.sh &amp;&amp; sudo bash <span class="keyword">install</span>.sh</span><br></pre></td></tr></table></figure>
-<h3 id="nginx"><a class="markdownIt-Anchor" href="#nginx"></a> Nginx</h3>
-<p>直接在宝塔面板里解决就可以了，鼠标点两下就可以了。</p>
-<h3 id="php和pm2"><a class="markdownIt-Anchor" href="#php和pm2"></a> PHP和PM2</h3>
-<p>虽然不常用，但是偶尔会跑两个小程序，顺手装上。</p>
-<h3 id="mysql"><a class="markdownIt-Anchor" href="#mysql"></a> MySQL</h3>
-<p>这个就有点蛋疼了，竟然和Win里的MySQL冲突，貌似是只能选一个，只能先写在Win里的MySQL了。</p>
-<p>以后Win用MySQL的时候还要开启WSL。</p>
-<h2 id="写在后面的"><a class="markdownIt-Anchor" href="#写在后面的"></a> 写在后面的</h2>
-<p>到这里基本上就可以正常用了，下一篇文章会介绍怎么跑一个<code>.net core</code>程序。</p>
-<blockquote>
-<p>PS 最后放弃了，还是用Hyper-v装了一个虚拟机，WSL这东西还是有点不太习惯。而且这东西性能是真的差，还是虚拟机比较爽。</p>
-</blockquote>
+<p>自从本站建站以来，一直在用Yilia主题，所以对Yilia主题或多或少有一些自己的理解，现在想分享一下怎么修改Ylila主题。</p>
+<p>这篇文章都是我自己一路踩坑踩过来的，遇到不明白的问题欢迎在评论区留言讨论（但请一定要准确说明问题，含含糊糊什么都说不清的话，我也不可能知道你遇到了什么问题），想要参考的话，请在我的<a href="https://github.com/MonoLogueChi/hexo-theme-yilia" target="_blank" rel="noopener">GitHub</a>上查看我的修改。</p>
+<h2 id="clone"><a class="markdownIt-Anchor" href="#clone"></a> Clone</h2>
+<p>修改的第一步，我们需要先Fork一份Yilia主题，这一步可以在<a href="https://github.com" target="_blank" rel="noopener">GitHub</a>上完成。</p>
+<p>Fork之后Clone到本地，然后就可以开始了。</p>
+<h2 id="从源码构建yilia"><a class="markdownIt-Anchor" href="#从源码构建yilia"></a> 从源码构建Yilia</h2>
+<p>Yilia需要使用webpack构建生成，所以在此之前，需要有一定的webpack基础，如果没有也不要紧，马上百度去了解一下还来得及。</p>
+<p>从源码构建，可以参考 <a href="https://github.com/litten/hexo-theme-yilia/wiki/Yilia%E6%BA%90%E7%A0%81%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E5%8F%8A%E6%9E%84%E5%BB%BA%E9%A1%BB%E7%9F%A5" target="_blank" rel="noopener">Yilia源码目录结构及构建须知</a></p>
+<p>首先需要搞定开发环境，安装好<code>node</code>和<code>npm</code></p>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span></span><br></pre></td></tr></table></figure>
+<p>但是直接这样做你可能会遇到非常大的一个坑，因为作者的开发环境已经很老了，webpack这一套东西的更新速度实在是太快了，而且淘汰也非常的快，即使你跟着百度一步一步搞完了，后面打包的时候也会遇到很多的坑，所以我建议你直接从我的<a href="https://github.com/MonoLogueChi/hexo-theme-yilia/tree/4def8e882d4ae84930021a11dd3ab9dee3cb92c7" target="_blank" rel="noopener">仓库</a>里拷贝<code>package.json</code> <code>postcss.config.js</code> <code>webpack.config.js</code>三个文件到你的项目里，然后再执行</p>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span></span><br></pre></td></tr></table></figure>
+<p>如果长时间卡死，建议使用淘宝源</p>
+<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">npm</span> install --registry=https:<span class="regexp">//</span>registry.<span class="built_in">npm</span>.taobao.org</span><br></pre></td></tr></table></figure>
+<p>搞好之后，尝试构建一下</p>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">run</span><span class="bash"> dist</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://s2.ax1x.com/2019/01/26/knhmUP.png" alt="从源码构建"></p>
+<h2 id="目录解析"><a class="markdownIt-Anchor" href="#目录解析"></a> 目录解析</h2>
+<p>前面讲了从源码构建，勉勉强强算是把开发环境搞好了，咱们接着来研究一下Yilia主题</p>
+<figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">./</span><br><span class="line">|<span class="string">-- languages</span></span><br><span class="line">|<span class="string">-- layout</span></span><br><span class="line">|<span class="string">                   `-- _partial</span></span><br><span class="line">|<span class="string">                   `-- post</span></span><br><span class="line">|<span class="string">-- source</span></span><br><span class="line">|<span class="string">   </span>|<span class="string">-- fonts</span></span><br><span class="line">|<span class="string">   `-- img</span></span><br><span class="line"><span class="string">`-- source-src</span></span><br><span class="line"><span class="string">    </span>|<span class="string">-- css</span></span><br><span class="line"><span class="string">    </span>|<span class="string">   </span>|<span class="string">           `-- core</span></span><br><span class="line"><span class="string">    </span>|<span class="string">   </span>|<span class="string">           `-- fonts</span></span><br><span class="line"><span class="string">    </span>|<span class="string">               `-- img</span></span><br><span class="line"><span class="string">    `-- js</span></span><br></pre></td></tr></table></figure>
+<p>首先看几个文件夹，</p>
+<ul>
+<li><code>language</code>文件夹是语言文件，一般不需要修改，除非你增加了什么新布局，可能需要适配多语言；</li>
+<li><code>layout</code>模板文件夹，修改和增加新功能，大部分都需要改动模板；</li>
+<li><code>source</code>打包后的资源就放在这里；</li>
+<li><code>source-src</code>js和css源码文件都在这里，需要修改js和css就要从这里修改。</li>
+</ul>
+<h2 id="简单修改"><a class="markdownIt-Anchor" href="#简单修改"></a> 简单修改</h2>
+<p>我们举两个简单的例子，来说明一下怎么从源码修改</p>
+<h3 id="取消统计代码"><a class="markdownIt-Anchor" href="#取消统计代码"></a> 取消统计代码</h3>
+<p>用过Yilia主题的都知道，一段统计代码总是拉低你的加载速度，不得已，需要自己去注释掉，我们现在说一下怎么从源码上删掉这段统计代码，首先看目录结构</p>
+<figure class="highlight moonscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">.\source-src\js\</span><br><span class="line">|<span class="comment">-- Q.js</span></span><br><span class="line">|<span class="comment">-- anm.js</span></span><br><span class="line">|<span class="comment">-- aside.js</span></span><br><span class="line">|<span class="comment">-- browser.js</span></span><br><span class="line">|<span class="comment">-- fix.js</span></span><br><span class="line">|<span class="comment">-- main.js</span></span><br><span class="line">|<span class="comment">-- mobile.js</span></span><br><span class="line">|<span class="comment">-- report.js</span></span><br><span class="line">|<span class="comment">-- share.js</span></span><br><span class="line">|<span class="comment">-- slider.js</span></span><br><span class="line">|<span class="comment">-- util.js</span></span><br><span class="line">`<span class="comment">-- viewer.js</span></span><br></pre></td></tr></table></figure>
+<p>一眼扫过去，再简单分析一下，就知道，统计上报的代码写在了<code>report.js</code>里</p>
+<p>修改<code>main.js</code>，将其注释掉，然后使用webpack打包<code>npm run dist</code></p>
+<figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 样式</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">'../css/main.scss'</span></span><br><span class="line"><span class="comment">// 上报</span></span><br><span class="line"><span class="comment">//import './report'</span></span><br><span class="line"><span class="comment">// 图片查看器</span></span><br><span class="line"><span class="keyword">import</span> Viewer <span class="keyword">from</span> <span class="string">'./viewer'</span></span><br></pre></td></tr></table></figure>
+<p>完成，新生成的main.xxxxxx.js里已经没有了统计代码了。</p>
+<h3 id="增加valine评论"><a class="markdownIt-Anchor" href="#增加valine评论"></a> 增加Valine评论</h3>
+<p>目前我的博客引入Valine评论的方式稍有复制，先来介绍一下最简单的引入方式</p>
+<p>修改<code>layout/_partial/article.ejs</code></p>
+<figure class="highlight erb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> <span class="keyword">if</span> (theme.valine &amp;&amp; theme.valine.appid &amp;&amp; theme.valine.appkey)&#123; </span><span class="xml"><span class="tag">%&gt;</span></span></span><br><span class="line"><span class="xml">  <span class="tag">&lt;<span class="name">section</span> <span class="attr">id</span>=<span class="string">"comments"</span> <span class="attr">class</span>=<span class="string">"comments"</span>&gt;</span></span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span></span></span><br><span class="line"><span class="xml">      .comments&#123;margin:30px;padding:10px;background:#fff&#125;</span></span><br><span class="line"><span class="xml">      @media screen and (max-width:800px)&#123;.comments&#123;margin:auto;padding:10px;background:#fff&#125;&#125;</span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;/<span class="name">style</span>&gt;</span></span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;<span class="name">%-</span></span></span><span class="ruby"> partial(<span class="string">'post/valine'</span>, &#123;</span></span><br><span class="line"><span class="ruby">      <span class="symbol">key:</span> post.slug,</span></span><br><span class="line"><span class="ruby">      <span class="symbol">title:</span> post.title,</span></span><br><span class="line"><span class="ruby">      <span class="symbol">url:</span> config.url+url_for(post.path)</span></span><br><span class="line"><span class="ruby">      &#125;) </span><span class="xml">%&gt;</span></span><br><span class="line"><span class="xml">  <span class="tag">&lt;/<span class="name">section</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">%</span></span></span><span class="ruby"> &#125; </span><span class="xml"><span class="tag">%&gt;</span></span></span><br></pre></td></tr></table></figure>
+<p>添加<code>layout/_partial/post/valine.ejs</code></p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"vcomment"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"//cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">'//cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="actionscript">   <span class="keyword">var</span> notify = <span class="string">'&lt;%= theme.valine.notify %&gt;'</span> == <span class="literal">true</span> ? <span class="literal">true</span> : <span class="literal">false</span>;</span></span><br><span class="line"><span class="actionscript">   <span class="keyword">var</span> verify = <span class="string">'&lt;%= theme.valine.verify %&gt;'</span> == <span class="literal">true</span> ? <span class="literal">true</span> : <span class="literal">false</span>;</span></span><br><span class="line"><span class="actionscript">   <span class="keyword">new</span> Valine(&#123;</span></span><br><span class="line"><span class="undefined">            av: AV,</span></span><br><span class="line"><span class="actionscript">            el: <span class="string">'#vcomment'</span>,</span></span><br><span class="line"><span class="undefined">            notify: notify,</span></span><br><span class="line"><span class="undefined">            verify: verify,</span></span><br><span class="line"><span class="actionscript">            app_id: <span class="string">"&lt;%= theme.valine.appid %&gt;"</span>,</span></span><br><span class="line"><span class="actionscript">            app_key: <span class="string">"&lt;%= theme.valine.appkey %&gt;"</span>,</span></span><br><span class="line"><span class="actionscript">            placeholder: <span class="string">"&lt;%= theme.valine.placeholder %&gt;"</span>,</span></span><br><span class="line"><span class="actionscript">            avatar: <span class="string">"&lt;%= theme.valine.avatar %&gt;"</span>,</span></span><br><span class="line"><span class="actionscript">            avatar_cdn: <span class="string">"&lt;%= theme.valine.avatar_cdn %&gt;"</span>,</span></span><br><span class="line"><span class="javascript">            pageSize: <span class="xml"><span class="tag">&lt;<span class="name">%=</span> <span class="attr">theme.valine.pageSize</span> %&gt;</span></span></span></span><br><span class="line"><span class="undefined">    &#125;);</span></span><br><span class="line"><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>简单的部分就讲完了，剩下的内容稍微有点复制，而且属于魔改系类，算是个人的一些见解，所以就分到了另一节里，下篇文章会稍微讲解一下webpack的配置，还有js后加载和DOM阻塞的一下问题。</p>
 
       
 
@@ -294,7 +285,7 @@ i5-3320M，12G ddr3内存（ddr3+ddr3l混装，这电脑兼容性真特么强）
             </li>
             <li>
               <strong>本文链接：</strong>
-              <a href="https://www.xxwhite.com/2018/wsl.html" title="叉叉白">https://www.xxwhite.com/2018/wsl.html</a>
+              <a href="https://www.xxwhite.com/2019/your-own-yilia-1.html" title="叉叉白">https://www.xxwhite.com/2019/your-own-yilia-1.html</a>
             </li>
             <li>
               <strong>版权声明： </strong>
@@ -315,10 +306,6 @@ i5-3320M，12G ddr3内存（ddr3+ddr3l混装，这电脑兼容性真特么强）
         		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">建站笔记</a>
         		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">炎黄幼儿园</a>
-        		</li>
       		
 		</ul>
 	</div>
@@ -336,18 +323,9 @@ i5-3320M，12G ddr3内存（ddr3+ddr3l混装，这电脑兼容性真特么强）
   
 <nav id="article-nav">
   
-    <a href="/2018/run-dotnetcore.html" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          .net core程序示例
-        
-      </div>
-    </a>
   
-  
-    <a href="/2018/image-format.html" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">聊聊几种常见的图片格式</div>
+    <a href="/2019/cpu-reduction-voltage.html" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">CPU降压降温方案</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -356,7 +334,7 @@ i5-3320M，12G ddr3内存（ddr3+ddr3l混装，这电脑兼容性真特么强）
     <a onclick="mdpage()" target="_blank" style="cursor:pointer">获取文章MarkDown文件</a>
   
    
-  <span style="float:right;color:#0094d5" id="/2018/wsl.html" class="leancloud_visitors" data-flag-title="WSL调试体验">
+  <span style="float:right;color:#0094d5" id="/2019/your-own-yilia-1.html" class="leancloud_visitors" data-flag-title="自己动手修改完善yilia主题">
       <span class="post-meta-item-text">本文阅读量 </span>
       <span class="leancloud-visitors-count">8848</span>
     </span>
@@ -364,7 +342,7 @@ i5-3320M，12G ddr3内存（ddr3+ddr3l混装，这电脑兼容性真特么强）
 </nav>
 <script>
   var mdhost = 'https://raw.githubusercontent.com/MonoLogueChi/www.xxwhite.com/master/source/_posts';
-  var mdurl = '2018/wsl.html'.replace('.html', '.md');
+  var mdurl = '2019/your-own-yilia-1.html'.replace('.html', '.md');
   function mdpage() {
     window.open(mdhost + "/" + mdurl);
   }
@@ -391,7 +369,7 @@ i5-3320M，12G ddr3内存（ddr3+ddr3l混装，这电脑兼容性真特么强）
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#开启wsl"><span class="toc-number">1.</span> <span class="toc-text"> 开启WSL</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#基础配置"><span class="toc-number">2.</span> <span class="toc-text"> 基础配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#修改root密码"><span class="toc-number">2.1.</span> <span class="toc-text"> 修改root密码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#开启ssh服务"><span class="toc-number">2.2.</span> <span class="toc-text"> 开启SSH服务</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#更新系统"><span class="toc-number">2.3.</span> <span class="toc-text"> 更新系统</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#域名解析"><span class="toc-number">2.4.</span> <span class="toc-text"> 域名解析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#宝塔面板"><span class="toc-number">2.5.</span> <span class="toc-text"> 宝塔面板</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#nginx"><span class="toc-number">2.6.</span> <span class="toc-text"> Nginx</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#php和pm2"><span class="toc-number">2.7.</span> <span class="toc-text"> PHP和PM2</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#mysql"><span class="toc-number">2.8.</span> <span class="toc-text"> MySQL</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#写在后面的"><span class="toc-number">3.</span> <span class="toc-text"> 写在后面的</span></a></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#clone"><span class="toc-number">1.</span> <span class="toc-text"> Clone</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#从源码构建yilia"><span class="toc-number">2.</span> <span class="toc-text"> 从源码构建Yilia</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#目录解析"><span class="toc-number">3.</span> <span class="toc-text"> 目录解析</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#简单修改"><span class="toc-number">4.</span> <span class="toc-text"> 简单修改</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#取消统计代码"><span class="toc-number">4.1.</span> <span class="toc-text"> 取消统计代码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#增加valine评论"><span class="toc-number">4.2.</span> <span class="toc-text"> 增加Valine评论</span></a></li></ol></li></ol>
                     </div>
                 </span>
             </div>
@@ -432,7 +410,7 @@ i5-3320M，12G ddr3内存（ddr3+ddr3l混装，这电脑兼容性真特么强）
             avatar: '',
             avatar_cdn: 'https://sdn.geekzu.org/avatar/',
             pageSize: 12,
-            path: '/2018/wsl.html',
+            path: '/2019/your-own-yilia-1.html',
             visitor: visitor
         });
     });
