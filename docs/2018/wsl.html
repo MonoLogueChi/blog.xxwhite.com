@@ -441,6 +441,14 @@ i5-3320M，12G ddr3内存（ddr3+ddr3l混装，这电脑兼容性真特么强）
             path: '/2018/wsl.html',
             visitor: visitor
         });
+        if(window.location.hash){
+          var checkExist = setInterval(function() {
+            if (document.getElementById(window.location.hash.replace("#",""))) {
+              location.href = window.location.hash;
+              clearInterval(checkExist);
+            }
+          }, 250);
+        }
     });
     });
 </script>

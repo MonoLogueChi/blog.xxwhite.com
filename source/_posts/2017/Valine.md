@@ -106,13 +106,13 @@ avatar参数详见[https://valine.js.org/avatar](https://valine.js.org/avatar)
             pageSize: <%= theme.valine.pageSize %>
     });
     if(window.location.hash){
-        var checkExist = setInterval(function() {
-           if ($(window.location.hash).length) {
-              $('html, body').animate({scrollTop: $(window.location.hash).offset().top-90}, 1000);
+          var checkExist = setInterval(function() {
+            if (document.getElementById(window.location.hash.replace("#",""))) {
+              location.href = window.location.hash;
               clearInterval(checkExist);
-           }
-        }, 100);
-    }
+            }
+          }, 250);
+        }
 </script>
 ```
 这里要注意一下el参数，我就是被这个坑爹的参数给坑了半个多小时，el参数要和上面的`id`一致。  

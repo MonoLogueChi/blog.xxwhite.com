@@ -470,6 +470,14 @@
             path: '/2018/run-dotnetcore.html',
             visitor: visitor
         });
+        if(window.location.hash){
+          var checkExist = setInterval(function() {
+            if (document.getElementById(window.location.hash.replace("#",""))) {
+              location.href = window.location.hash;
+              clearInterval(checkExist);
+            }
+          }, 250);
+        }
     });
     });
 </script>
