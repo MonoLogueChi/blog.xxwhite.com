@@ -3,6 +3,7 @@
 menu:
   主页: '/'
   搞机: '/tags/搞机/'
+  笔记: '/tags/建站笔记/'
   留言: '/MessageBoard/'
   关于: '/aboutme/'
 
@@ -137,8 +138,7 @@ slider:
 # MarkDown文件下载地址,如：http://md.xxwhite.com
 mdhost: 'https://raw.githubusercontent.com/MonoLogueChi/www.xxwhite.com/master/source/_posts'
 
-#pangu.js
-
+#pangu.js，中英文混排优化
 pangu: true
 
 # 智能菜单

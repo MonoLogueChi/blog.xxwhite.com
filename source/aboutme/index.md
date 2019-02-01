@@ -4,9 +4,6 @@ comments: false
 reward: false
 ---
 
-# About
-
-
 ## 关于作者
 本站作者是小白一个，本站笔名MonoLogueChi。
 
