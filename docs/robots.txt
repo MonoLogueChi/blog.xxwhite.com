@@ -1,13 +1,15 @@
 User-agent: *
-Allow: /
 Allow: /2017/
 Allow: /2018/
 Allow: /2019/
-Allow: /aboutme
-Allow: /archives/
-Allow: /tags/ 
+Allow: /2020/
+Disallow: /
+Disallow: /page/
+Disallow: /aboutme
+Disallow: /archives/
+Disallow: /tags/ 
 Disallow: /assets/
-Disallow: /fonts/
+Disallow: /MessageBoard/
 
 Sitemap: https://www.xxwhite.com/sitemap.xml
 Sitemap: https://www.xxwhite.com/baidusitemap.xml

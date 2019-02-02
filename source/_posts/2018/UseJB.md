@@ -3,6 +3,7 @@ title: 使用JetBrains Rider作为Unity的IDE
 date: 2018-01-11 00:10:27
 tags: Unity
 
+keywords: Unity IDE UnityIDE JetBrains Rider
 comments: true
 ---
 
