@@ -13,4 +13,3 @@ Disallow: /assets/
 Disallow: /MessageBoard/
 
 Sitemap: https://www.xxwhite.com/sitemap.xml
-Sitemap: https://www.xxwhite.com/baidusitemap.xml
