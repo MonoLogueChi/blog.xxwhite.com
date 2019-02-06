@@ -117,7 +117,7 @@ fastboot flash boot patched_boot.img
 ```
 fastboot boot patched_boot.img
 ```
-可以先输入`fastboot boot `然后再将你修补后的boot文件拖进去
+> 可以先输入`fastboot boot `然后再将你修补后的boot文件拖进去
 
 这样启动之后，打开`Magisk Manager`应该就可以显示设备已经root，但是此时的root权限是临时的，重启就会消失，我们需要获取永久的root权限，使用`Magisk 安装`-`直接安装`步骤，等提示成功之后，重启手机验证一下是否获取了永久root权限就可以了。
 

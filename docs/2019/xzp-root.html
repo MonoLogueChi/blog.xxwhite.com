@@ -21,7 +21,7 @@
 <meta property="og:image" content="https://s2.ax1x.com/2019/02/06/kYgD54.png">
 <meta property="og:image" content="https://s2.ax1x.com/2019/02/06/kY21L6.png">
 <meta property="og:image" content="https://s2.ax1x.com/2019/02/06/kY24O0.png">
-<meta property="og:updated_time" content="2019-02-06T04:51:09.831Z">
+<meta property="og:updated_time" content="2019-02-06T04:58:50.318Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SONY XZP Root">
 <meta name="twitter:description" content="没有root和xp的生活已经有一个多月了，也顺利升级到了9.0，临近春节，打算把root和xp都给搞回来，在这记录一下过程，算是给其他朋友一点参考吧。">
@@ -266,7 +266,9 @@
 <p>相比上一种方法，我更喜欢这种方法，但是操作会稍微多几步。</p>
 <p>首先是使用修补后的boot启动，重启到fastboot后使用命令行</p>
 <figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">fastboot</span> <span class="keyword">boot </span>patched_boot.img</span><br></pre></td></tr></table></figure>
+<blockquote>
 <p>可以先输入<code>fastboot boot</code>然后再将你修补后的boot文件拖进去</p>
+</blockquote>
 <p>这样启动之后，打开<code>Magisk Manager</code>应该就可以显示设备已经root，但是此时的root权限是临时的，重启就会消失，我们需要获取永久的root权限，使用<code>Magisk 安装</code>-<code>直接安装</code>步骤，等提示成功之后，重启手机验证一下是否获取了永久root权限就可以了。</p>
 <h2 id="xposed"><a class="markdownIt-Anchor" href="#xposed"></a> Xposed</h2>
 <p>安卓9.0使用Xposed，推荐使用<code>太极</code>，关注微信公众号<code>虚拟框架</code>就可以获取了。</p>
