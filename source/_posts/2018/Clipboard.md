@@ -21,9 +21,9 @@ comments: true
 发现剪切板被强奸之后，我就去下载了一个剪切板监控插件[https://www.coolapk.com/apk/com.chili.ClipboardManager ](https://www.coolapk.com/apk/com.chili.ClipboardManager )
 
 然后找到了一点线索
-![](https://s1.ax2x.com/2018/01/27/4unqR.md.png)
+![](/assets/img/2018/11.png)
 
-![](https://s1.ax2x.com/2018/01/27/44IHl.md.png)
+![](/assets/img/2018/2.png)
 
 这里说明一下，显示的操作应用时系统web内核，其实时via调用了系统web内核，而这个复制操作又是在via浏览器中执行的，所以会提示web内核访问了剪切板。
 
@@ -34,13 +34,13 @@ comments: true
 首先打开网页，然后打开调试工具，然后重新刷新一下网页看看。
 
 看看我找到了什么，果然是通过JS实现的  
-![](https://s1.ax2x.com/2018/01/27/4432i.png)  
+![](/assets/img/2018/3.png)  
 这个clipboard.min.js就是用于实现复制文本到剪切板的，而且兼容性非常好。
 
 好了，既然知道是怎么作案的，那就再往深了查一点，咱们看看index.html里都写了什么。
 
 先把网页复制出来，然后搜索`clipboard`，找到相关的线索。  
-![](https://s1.ax2x.com/2018/01/27/44DyX.png)  
+![](/assets/img/2018/4.png)  
 简单解释一下，他先通过[https://m.runoob.com/api/codexx.php](https://m.runoob.com/api/codexx.php)这个接口获取数据，你们有兴趣的可以自己去看一下，这个时候我得到的是
 ```json
 {"flag":true,"ins_data":"\uffe5Sh7p0Osu3GO\uffe5"}
@@ -53,10 +53,10 @@ comments: true
 
 看到别人剧本写的挺好的，难免想要验证一下，所以自己改了一个剧本
 
-![](https://s1.ax2x.com/2018/01/27/44J7N.png)
+![](/assets/img/2018/5.png)
 
 结果：  
-![](https://s1.ax2x.com/2018/01/27/44WVn.md.png)
+![](/assets/img/2018/6.png)
 
 好了我已经可以成功强奸剪切板了。
 
@@ -77,8 +77,8 @@ comments: true
         结束</p>
 </div>
 
-<script src="https://cdnjs.cat.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cat.net/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
 <script>
      $("body").onclick = copycode();
 
@@ -86,7 +86,7 @@ comments: true
     {
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
         {
-            var clipboard = new Clipboard('#copy');
+            var clipboard = new ClipboardJS('#copy');
 
             clipboard.on('success', function (e)
             {
@@ -115,8 +115,8 @@ comments: true
 想用直接拿去用，我也不搞什么加密收费的，连我这个对JS一窍不通的都能捣鼓出来一个，原本很简单的一个东西，却要拿去收费，真TMZZ。
 
 ```html
-<script src="https://cdnjs.cat.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cat.net/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
 <script>
     $("body").onclick = copycode();
     $("body").attr("id" ,"copy");
@@ -125,7 +125,7 @@ comments: true
     {
         //if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
         {
-            var clipboard = new Clipboard('#copy');
+            var clipboard = new ClipboardJS('#copy');
             clipboard.on('success', function (e)
             {
                 //alert("我强奸了你的剪切板");
@@ -139,9 +139,14 @@ comments: true
 </script>
 ```
 
+## 后续
 
-<script src="https://cdnjs.cat.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cat.net/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+菜鸟教程已道歉，并关闭剪切板推广
+
+![](/assets/img/2018/Snipaste_2020-05-09_15-36-13.png)
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
 <script>
     $(".article-entry").onclick = copycode();
     $(".article-entry").attr("id" ,"copy");
@@ -150,7 +155,7 @@ comments: true
     {
         //if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
         {
-            var clipboard = new Clipboard('#copy');
+            var clipboard = new ClipboardJS('#copy');
             clipboard.on('success', function (e)
             {
                 //alert("复制成功");

@@ -38,7 +38,7 @@ FusionApp的UI模板的组件可自由装卸与定制，这使它可以与网页
 
 大概的意思就是这个东西可以把网页转成应用，并且可以做一些自定义的设置，下载的话请自行到酷安搜索下载。
 
-{% dplayer "url=https://dl.sm9.top/Video/2018/FusionApp.mp4" " screenshot" "loop=yes" "api=https://api.prprpr.me/dplayer/" "addition=https://api.prprpr.me/dplayer/v3/bilibili?aid=21014286"%} 
+{% dplayer "url:https://dl.sm9.top/Video/2018/FusionApp.mp4" "screenshot" "loop" %} 
 
 视频链接：[https://www.bilibili.com/video/av21014286/](https://www.bilibili.com/video/av21014286/)
 

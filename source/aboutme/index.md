@@ -5,7 +5,7 @@ reward: false
 ---
 
 ## 关于作者
-本站作者是小白一个，本站笔名MonoLogueChi。
+本站作者是小白一个，笔名MonoLogueChi。
 
 对于很多东西，都略懂一点，后来就想自己写博客，然后就有了这个小站。
 
@@ -20,7 +20,7 @@ reward: false
 本站使用[Hexo](http://hexo.io/)博客搭建，主题为[Yilia](https://github.com/litten/hexo-theme-yilia)，博客使用服务有：[GitHub](https://github.com)[又拍云](https://console.upyun.com/register/?invite=B1Tr4zsVf)。
 
 本站发布文章均可随意转载，可用于商业用途，如需转载本站文章，请注意以下几点：
-- 如需复制富文本格式，可以直接复制网页内容（大部分老旧论坛，微信公众号，知乎等待）。
+- 如需复制富文本格式，可以直接复制网页内容（大部分老旧论坛，微信公众号，知乎等）。
 - 如需MarkDown文件，可以点击文章后面的`获取文章MarkDown文件`均可获取原文MarkDown文件。
 - 转载请注明文章出处，作者及原文链接，并注明文章为转载。
 - 不可断章取义，不可作引战等用途。
@@ -31,9 +31,16 @@ reward: false
 酷安：[炎黄](http://www.coolapk.com/u/561054)  
 花粉俱乐部：[小跃回家]() （已经不玩了）  
 Bilibili：[MonoLogueChi](https://space.bilibili.com/28474682/#/)  
-邮箱：[xxwhite@foxmail.com](mailto:xxwhite@foxmail.com)  
+**[推荐]** 邮箱：[xxwhite@foxmail.com](mailto:xxwhite@foxmail.com)  
 微信：[微信提问](https://xxwhite.nos-eastchina1.126.net/wechat.png)
 
 想要联系我，最快捷方便的方法是发邮件给我，关于本站事情或者是关于文章的问题，可以直接在留言板或者是文章后面留言给我。如果留言后需要回复提醒，请留下真实邮箱。
 
 想要搞个人博客，或者是想托管静态页面的，再或者是想要搞那啥服务的，都可以联系我。
+
+
+## 2019.10.21更新
+
+博客的主题已经渐渐偏离了原本的设定，也许是因为工作的缘故，也许是搞机已经没有动力了。
+
+现在花在博客维护和内容更新上的时间越来越少了，算下来每个月不会超过十个小时，时间再少，也会挤出时间来更新文章，至少这个博客还活着。

@@ -71,7 +71,7 @@ CPU是双路E5645，2011年的一款老U，TDP 80W，两颗U就是160W，再加�
 
 由于后来买的PWM调速器还在路上，所以暂时就先拿个变压电源充当调速器吧，如果水冷效果好的话，后面再买个高级点的调速器，直接用CPU温度控制。
 
-{% dplayer "url=https://dl.sm9.top/Video/2018/%E5%86%B7%E6%8E%92%E8%B0%83%E9%80%9F.mp4" "loop=yes" "id=F933308B39E58A8B894625BA29D6E962" "api=https://api.prprpr.me/dplayer/" %} 
+{% dplayer "url:https://dl.sm9.top/Video/2018/%E5%86%B7%E6%8E%92%E8%B0%83%E9%80%9F.mp4" "loop" "id:F933308B39E58A8B894625BA29D6E962" %} 
 
 这煤气灶火有点旺，压不住了。
 

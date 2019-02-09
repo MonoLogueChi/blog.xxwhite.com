@@ -5,6 +5,7 @@ tags:
 
 reward: false
 comments: true
+copyright: true
 ---
 
 &nbsp;

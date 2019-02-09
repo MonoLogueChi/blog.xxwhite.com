@@ -150,17 +150,17 @@ stdout_logfile=/www/dotnet/log/qr.out.log
 
 一句一句解释
 ```
-[program:qr]        #项目名称
-command=dotnet QR.dll       #需要执行的命令
-directory=/www/dotnet/qr        #目录
-environment=ASPNETCORE_URLS='http://*:5001'     #环境变量，用于设置端口
-user=www        #执行命令的用户
-stopsignal=INT      #
-autostart=true      #会随着supervisor自动启动
-autorestart=true        #程序exit的时候会自动重启
-startsecs=3     #程序启动前等待时间
-stderr_logfile=/www/dotnet/log/qr.log       #错误日志
-stdout_logfile=/www/dotnet/log/qr.out.log       #输出日志
+[program:qr]        ;项目名称
+command=dotnet QR.dll       ;需要执行的命令
+directory=/www/dotnet/qr        ;目录
+environment=ASPNETCORE_URLS='http://*:5001'     ;环境变量，用于设置端口
+user=www        ;执行命令的用户
+stopsignal=INT      
+autostart=true      ;会随着supervisor自动启动
+autorestart=true        ;程序exit的时候会自动重启
+startsecs=3     ;程序启动前等待时间
+stderr_logfile=/www/dotnet/log/qr.log       ;错误日志
+stdout_logfile=/www/dotnet/log/qr.out.log       ;输出日志
 ```
 
 当然还有其他可选的配置项，具体怎么用可以去百度，我这里就不详细讲解了。

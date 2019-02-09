@@ -10,12 +10,6 @@ comments: true
 
 <!-- more -->
 
-- - - - -
-
-{% aplayer "大漠英雄" "成龙" "https://t1.aixinxi.net/o_1c4ckoamk6pt19d01bpi28r1rh0a.ogg" "lrc:https://t1.aixinxi.net/o_1c4ckse89kial1s18ue13051p8qa.txt" "autoplay" %}
-
-- - - - -
-
 
 ## 园规
 1. 文明上网，不搞事情

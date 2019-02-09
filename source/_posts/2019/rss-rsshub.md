@@ -1,0 +1,197 @@
+---
+title: RSS+RSSHub连接世界
+date: 2019-08-08 23:23:46
+tags: 随便水水
+
+keywords: RSS, RSSHub, MiniFlux, Tiny RSS, 订阅
+comments: true
+---
+
+都说现在是一个信息爆炸的时代，我需要一个信息聚合入口。
+
+一说到信息聚合，第一个想到的就是RSS。这都9102年了，还在用RSS的人不多了，而我就算是一个。
+
+<!-- more -->
+
+以前一直用 InoReader ，但是这货是越用越慢，最后终于忍不了那速度了，然后就是有一段时间彻底放弃了RSS。而让我捡回来的原因，可能是那改版之后辣鸡的微信公众号阅读模式吧。
+
+我选择的RSS服务器是 [Miniflux](https://miniflux.app/) ，至于为什么没有选择比较热门的 Tiny ，是因为我被那货坑了之后才换的 Miniflux。
+
+## Miniflux 安装过程
+
+首先是要安装 [PostgreSQL](https://www.postgresql.org/)，可以参考 [https://dandoc.u2sb.top/other/pgsql.html](https://dandoc.u2sb.top/other/pgsql.html)。记得同时安装一下`contrib`下的工具。
+
+```
+cd contrib
+make
+sudo make install
+```
+
+下载已经编译好的[二进制文件](https://github.com/miniflux/miniflux/releases)，选择Linux amd64 版本就可以，至于自动启动，进程守护和配置文件打算自己管理。
+
+下载完成之后解压上传，然后授权可执行权限
+
+```
+chmod +x miniflux-linux-amd64
+```
+
+创建配置文件，并且写入配置
+
+```
+vim miniflux.conf
+```
+
+写入内容
+
+```toml miniflux.conf
+LOG_DATE_TIME=yes
+ARCHIVE_READ_DAYS=360
+LISTEN_ADDR=127.0.0.1:11200
+DATABASE_URL=user=user password=password dbname=miniflux sslmode=disable
+```
+
+更多配置可以看这里：[https://miniflux.app/docs/configuration.html](https://miniflux.app/docs/configuration.html)。
+
+数据库
+
+```
+su - postgres
+createuser -P miniflux
+createdb -O miniflux miniflux
+psql miniflux
+CREATE EXTENSION hstore
+```
+
+返回普通用户模式
+
+```
+./miniflux-linux-amd64 -migrate
+./miniflux-linux-amd64 -create-admin
+```
+
+然后用命令行测试一下
+
+```
+./miniflux-linux-amd64 -c ./miniflux.conf
+```
+
+如果能正常启动的话，那就进行下一步吧，如果不能正常启动，反回去排查问题。
+
+如果方便的话，这里可以测试一下能不能正常登录。
+
+启动管理和进程守护，统一使用 `pm2` ，在已经安装node和npm的情况下，安装pm2
+
+```
+npm install pm2 -g
+```
+
+创建配置文件
+
+```
+vim miniflux.yml
+```
+
+```yaml miniflux.yml
+apps:
+- name: miniflux
+  script: miniflux-linux-amd64
+  cwd: /www/go/miniflux
+  autorestart: true
+  args: 
+    - '-c'
+    - '/www/go/miniflux/miniflux.conf'
+  env: {}
+  error_file: /www/go/miniflux/log/error.log
+  out_file: /www/go/miniflux/log/out.log
+  merge_logs: true
+```
+
+记得把里面的路径换成你自己的路径，然后启动就可以了
+
+```
+pm2 start miniflux.yml
+pm2 save
+```
+
+反向代理服务器我用的是caddy，当然nginx或者apache也是没问题的。
+
+```caddyfile rss.caddyfile
+https://x.y.com {
+    gzip
+    root /www/wwwroot/rss
+    tls {
+        load    /www/caddy/ssl/star.xxwhite.com
+    }
+    proxy / http://localhost:11200
+}
+```
+
+完成这些之后再测试一下能不能用就可以了，上面涉及到的知识不难，有不懂的直接百度就行，基本都能找到答案，反正这一整套东西我很快就上手了。
+
+
+## RSSHub 安装过程
+
+[RSSHub](https://docs.rsshub.app/)安装那就更简单了，直接clone仓库下来
+
+```
+git clone https://github.com/DIYgod/RSSHub.git -b master --depth 1
+```
+
+创建环境变量，并且写入
+
+```
+vim .env
+```
+
+```toml .env
+CACHE_TYPE=redis
+CACHE_EXPIRE=600
+CACHE_CONTENT_EXPIRE=3600
+PORT=1200
+```
+
+然后再从caddy创建一个反向代理（可选项）
+
+```caddyfile rsshub.caddyfile
+https://x.y.com {
+    gzip
+    root /www/wwwroot/rss
+    tls {
+        load    /www/caddy/ssl/star.xxwhite.com
+    }
+    proxy / http://localhost:1120
+}
+```
+
+直接用pm2命令启动
+
+```
+pm2 start lib/index.js --name rsshub
+pm2 save
+```
+
+然后就可以直接订阅啦。
+
+
+## 示例
+
+同一服务器上可以直接使用内网
+
+```
+http://127.0.0.1:1200/bilibili/user/dynamic/257851644
+http://127.0.0.1:1200/bilibili/user/dynamic/280793434
+```
+
+更多订阅选项可以看 [https://docs.rsshub.app/](https://docs.rsshub.app/)
+
+
+## 移动端
+
+上面做了这么多，都是为了信息聚合，要说方便阅读多话，一定是在手机上
+
+推荐两个安卓客户端
+
+[Readably - RSS](https://play.google.com/store/apps/details?id=com.isaiasmatewos.readably)
+[FeedMe](https://play.google.com/store/apps/details?id=com.seazon.feedme)
+
+这两款软件都可以使用 Fever API 连接 Miniflux ，我现在就是 Readably-RSS <------> Miniflux <------> RSSHub <------> 互联网

@@ -34,7 +34,7 @@ comments: true
 
 翻译是Google翻译最好用，fooView可以用来取词和OCR，放个视频简单介绍一下
 
-{% dplayer "url=https://dl.sm9.top/Video/2018/%E6%8E%A8%E8%8D%90%E5%B0%8F%E5%B7%A5%E5%85%B7.mp4" " screenshot" "loop=yes" "id=3794E7DE856BF55BD6EA05A8A0694B86" "api=https://api.prprpr.me/dplayer/" %} 
+{% dplayer "url:https://dl.sm9.top/Video/2018/%E6%8E%A8%E8%8D%90%E5%B0%8F%E5%B7%A5%E5%85%B7.mp4" "screenshot" "loop" "id:3794E7DE856BF55BD6EA05A8A0694B86" %}
 
 ## 截屏软件
 

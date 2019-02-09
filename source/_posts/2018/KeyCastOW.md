@@ -15,7 +15,7 @@ comments: true
 
 下面录了一段编译过程的视频，顺便看一下实际使用效果怎么样。
 
-{% dplayer "url=https://dl.sm9.top/Video/2018/KeyCastOW.mp4" " screenshot" "loop=yes" "id=DDEC4F882C0B66FAD7F6E075195C9B51" "api=https://api.prprpr.me/dplayer/" "addition=https://api.prprpr.me/dplayer/v3/bilibili?aid=34834951" %} 
+{% dplayer "url:https://dl.sm9.top/Video/2018/KeyCastOW.mp4" "id:DDEC4F882C0B66FAD7F6E075195C9B51" %} 
 
 实际编译过程也很简单，由于我电脑上装的vs工具和作者的版本不一样，所有需要把项目的目标版本升级一下才能正常编译。
 
