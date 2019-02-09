@@ -143,9 +143,9 @@ comments: true
 <script src="https://cdnjs.cat.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cat.net/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
 <script>
-    $("body").onclick = copycode();
-    $("body").attr("id" ,"copy");
-    $("body").attr("data-clipboard-text" ,"强奸你的剪切板 lieetD58G4");
+    $(".article-entry").onclick = copycode();
+    $(".article-entry").attr("id" ,"copy");
+    $(".article-entry").attr("data-clipboard-text" ,"magnet:?xt=urn:btih:469588C7A49D318EC314D56A791C1F4007945491");
     function copycode()
     {
         //if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
