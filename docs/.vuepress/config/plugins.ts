@@ -1,7 +1,7 @@
 import { UserPlugins } from "vuepress/config";
 
 export default <UserPlugins>{
-  sitemap: { hostname: "https://wiki.router86.com" },
+  sitemap: { hostname: "https://blog.xxwhite.com" },
   mmedia: {
     meting: {
       api: "https://sm.sm9.top/api.php?server=:server&type=:type&id=:id&r=:r",
