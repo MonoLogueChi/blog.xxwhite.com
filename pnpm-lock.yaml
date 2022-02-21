@@ -11,14 +11,14 @@ specifiers:
   vuepress: ^1.9.7
   vuepress-plugin-comment: ^0.7.3
   vuepress-plugin-fulltext-search: ^2.2.1
-  vuepress-plugin-mmedia: ^1.1.1
+  vuepress-plugin-mmedia: ^1.2.1
   vuepress-plugin-one-click-copy: ^1.0.6
   vuepress-plugin-pangu: ^1.0.1
   vuepress-plugin-sitemap: ^2.3.1
   vuepress-plugin-thirdparty-search: ^1.0.2
   vuepress-plugin-typescript: ^0.3.1
   vuepress-plugin-zooming: ^1.1.8
-  vuepress-theme-vdoing: ^1.9.4
+  vuepress-theme-vdoing: github:monologuechi/vuepress-theme-vdoing
 
 devDependencies:
   markdown-it-attrs: 4.1.3
@@ -31,14 +31,14 @@ devDependencies:
   vuepress: 1.9.7
   vuepress-plugin-comment: 0.7.3
   vuepress-plugin-fulltext-search: 2.2.1_vuepress@1.9.7
-  vuepress-plugin-mmedia: 1.1.1
+  vuepress-plugin-mmedia: 1.2.1
   vuepress-plugin-one-click-copy: 1.0.6
   vuepress-plugin-pangu: 1.0.1
   vuepress-plugin-sitemap: 2.3.1
   vuepress-plugin-thirdparty-search: 1.0.2
   vuepress-plugin-typescript: 0.3.1
   vuepress-plugin-zooming: 1.1.8
-  vuepress-theme-vdoing: 1.9.4
+  vuepress-theme-vdoing: github.com/monologuechi/vuepress-theme-vdoing/ad48d782a4fd0b453ece7d47698159dd0699b0f8
 
 packages:
 
@@ -1714,15 +1714,6 @@ packages:
       prismjs: 1.23.0
     dev: true
 
-  /@vuepress/plugin-active-header-links/1.9.5:
-    resolution: {integrity: sha512-Pi6cu5Ed4m6Ri8QatigapdXqhEcZXd/s+lyhdKWIwjJQaMSYlyAN2pX8Pqm4vqAvW6c0Dw2wEXrd989BcI7T4g==}
-    dependencies:
-      '@vuepress/types': 1.9.5
-      lodash.debounce: 4.0.8
-    transitivePeerDependencies:
-      - debug
-    dev: true
-
   /@vuepress/plugin-active-header-links/1.9.7:
     resolution: {integrity: sha512-G1M8zuV9Og3z8WBiKkWrofG44NEXsHttc1MYreDXfeWh/NLjr9q1GPCEXtiCjrjnHZHB3cSQTKnTqAHDq35PGA==}
     dependencies:
@@ -1741,15 +1732,6 @@ packages:
       - debug
     dev: true
 
-  /@vuepress/plugin-nprogress/1.9.5:
-    resolution: {integrity: sha512-XEtyCt/R/qNcQM62/F6srqOZ6V6mmxSqfQktPMYfOdQqeRW0aCXvG6N2/cy55S4xH8LeEVL4Nxg5m9Cew9AEgA==}
-    dependencies:
-      '@vuepress/types': 1.9.5
-      nprogress: 0.2.0
-    transitivePeerDependencies:
-      - debug
-    dev: true
-
   /@vuepress/plugin-nprogress/1.9.7:
     resolution: {integrity: sha512-sI148igbdRfLgyzB8PdhbF51hNyCDYXsBn8bBWiHdzcHBx974sVNFKtfwdIZcSFsNrEcg6zo8YIrQ+CO5vlUhQ==}
     dependencies:
@@ -1764,14 +1746,6 @@ packages:
     dependencies:
       '@vuepress/shared-utils': 1.9.7
       '@vuepress/types': 1.9.7
-    transitivePeerDependencies:
-      - debug
-    dev: true
-
-  /@vuepress/plugin-search/1.9.5:
-    resolution: {integrity: sha512-SDK/1UnJ44OAktgZQWiw6S8Yq8F6WkJsGp4k/e3x1gHg5fB96JJlKK4VBsGk/PUsPpYRwr5554dtEVFjFG7oWw==}
-    dependencies:
-      '@vuepress/types': 1.9.5
     transitivePeerDependencies:
       - debug
     dev: true
@@ -1825,16 +1799,6 @@ packages:
       stylus-loader: 3.0.2_stylus@0.54.8
       vuepress-plugin-container: 2.1.5
       vuepress-plugin-smooth-scroll: 0.0.3
-    transitivePeerDependencies:
-      - debug
-    dev: true
-
-  /@vuepress/types/1.9.5:
-    resolution: {integrity: sha512-fu1Wyi+cPFyn7nfxNH4MVvU5glYvRB0RMI7besq9kiI/KkZJPb2G1hITopECJOGk+6G/cOU/iSdUDUHH4GQLgA==}
-    dependencies:
-      '@types/markdown-it': 10.0.3
-      '@types/webpack-dev-server': 3.11.6
-      webpack-chain: 6.5.1
     transitivePeerDependencies:
       - debug
     dev: true
@@ -3023,8 +2987,8 @@ packages:
       supports-color: 7.2.0
     dev: true
 
-  /chalk/4.1.0:
-    resolution: {integrity: sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A==}
+  /chalk/4.1.2:
+    resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
     dependencies:
       ansi-styles: 4.3.0
@@ -3790,7 +3754,7 @@ packages:
   /debug/3.2.7:
     resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==}
     dependencies:
-      ms: 2.1.2
+      ms: 2.1.3
     dev: true
 
   /debug/4.3.3:
@@ -4821,18 +4785,6 @@ packages:
         optional: true
     dev: true
 
-  /follow-redirects/1.14.7_debug@4.3.3:
-    resolution: {integrity: sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==}
-    engines: {node: '>=4.0'}
-    peerDependencies:
-      debug: '*'
-    peerDependenciesMeta:
-      debug:
-        optional: true
-    dependencies:
-      debug: 4.3.3_supports-color@6.1.0
-    dev: true
-
   /follow-redirects/1.5.10:
     resolution: {integrity: sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==}
     engines: {node: '>=4.0'}
@@ -5515,7 +5467,7 @@ packages:
     engines: {node: '>=8.0.0'}
     dependencies:
       eventemitter3: 4.0.7
-      follow-redirects: 1.14.7_debug@4.3.3
+      follow-redirects: 1.14.7
       requires-port: 1.0.0
     transitivePeerDependencies:
       - debug
@@ -10214,8 +10166,8 @@ packages:
       vuepress: 1.9.7
     dev: true
 
-  /vuepress-plugin-mmedia/1.1.1:
-    resolution: {integrity: sha512-OFQ57mmVZ7uOMO0R4ikPvl23wNbMsYmY7vrMgTALbGOuPWpPH1hCY7ciiQ3kI3umGG6m6n5GNEImeZ2uiH7iqw==}
+  /vuepress-plugin-mmedia/1.2.1:
+    resolution: {integrity: sha512-KJOpVG80VG5MbUXloItuxMrIC4bnblFBWM81p04TQQA6nmrqnVlJo/Br3vGUWRGPD7JeHoj6fFljh8Dsy1mgTQ==}
     dependencies:
       aplayer: 1.10.1
       artplayer: 4.2.6
@@ -10277,28 +10229,6 @@ packages:
     resolution: {integrity: sha512-QAspMEqzerd0n8z/oOL5a67V/QaFZyjSwfo86y6PWhDdVAeOLR7umJ7syQqJpMdN9EVxmAstuzbKHkRxWzL0NQ==}
     dependencies:
       zooming: 2.1.1
-    dev: true
-
-  /vuepress-theme-vdoing/1.9.4:
-    resolution: {integrity: sha512-vq7aqZibTUjKeHI49Zt2VKtzjopCzSKjw+XMLpXIPPDf+KijEwI5nKLnJXMpzNFkMZwp+CRDGupctPRUu9+3Hw==}
-    dependencies:
-      '@better-scroll/core': 2.4.2
-      '@better-scroll/slide': 2.4.2
-      '@vuepress/plugin-active-header-links': 1.9.5
-      '@vuepress/plugin-nprogress': 1.9.5
-      '@vuepress/plugin-search': 1.9.5
-      chalk: 4.1.0
-      docsearch.js: 2.6.3
-      good-storage: 1.1.1
-      js-yaml: 3.14.1
-      json2yaml: 1.1.0
-      lodash: 4.17.21
-      stylus: 0.54.8
-      stylus-loader: 3.0.2_stylus@0.54.8
-      vuepress-plugin-container: 2.1.5
-      vuepress-plugin-smooth-scroll: 0.0.3
-    transitivePeerDependencies:
-      - debug
     dev: true
 
   /vuepress/1.9.7:
@@ -10796,4 +10726,28 @@ packages:
 
   /zooming/2.1.1:
     resolution: {integrity: sha512-Z38dkZRQsFNBE67+xDBQLNKMs5J1Gc+s3/zO6iezTrC24VYLJV7YPBdBDJmiLhff5qa6Awxv4wsjqx3oYz2MYA==}
+    dev: true
+
+  github.com/monologuechi/vuepress-theme-vdoing/ad48d782a4fd0b453ece7d47698159dd0699b0f8:
+    resolution: {tarball: https://codeload.github.com/monologuechi/vuepress-theme-vdoing/tar.gz/ad48d782a4fd0b453ece7d47698159dd0699b0f8}
+    name: vuepress-theme-vdoing
+    version: 1.9.4
+    dependencies:
+      '@better-scroll/core': 2.4.2
+      '@better-scroll/slide': 2.4.2
+      '@vuepress/plugin-active-header-links': 1.9.7
+      '@vuepress/plugin-nprogress': 1.9.7
+      '@vuepress/plugin-search': 1.9.7
+      chalk: 4.1.2
+      docsearch.js: 2.6.3
+      good-storage: 1.1.1
+      js-yaml: 3.14.1
+      json2yaml: 1.1.0
+      lodash: 4.17.21
+      stylus: 0.54.8
+      stylus-loader: 3.0.2_stylus@0.54.8
+      vuepress-plugin-container: 2.1.5
+      vuepress-plugin-smooth-scroll: 0.0.3
+    transitivePeerDependencies:
+      - debug
     dev: true
