@@ -2,9 +2,9 @@ import { UserPlugins } from "vuepress/config";
 
 export default <UserPlugins>{
   sitemap: { hostname: "https://blog.xxwhite.com" },
-  mmedia: {
+  smplayer: {
     meting: {
-      api: "https://sm.sm9.top/api.php?server=:server&type=:type&id=:id&r=:r",
+      api: "https://sm.sm9.top/api/meting?server=:server&type=:type&id=:id&r=:r",
     },
   },
   pangu: {},
