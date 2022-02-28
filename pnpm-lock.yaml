@@ -14,7 +14,7 @@ specifiers:
   vuepress-plugin-one-click-copy: ^1.0.6
   vuepress-plugin-pangu: ^1.0.1
   vuepress-plugin-sitemap: ^2.3.1
-  vuepress-plugin-smplayer: ^1.3.5
+  vuepress-plugin-smplayer: ^1.3.8
   vuepress-plugin-thirdparty-search: ^1.0.2
   vuepress-plugin-typescript: ^0.3.1
   vuepress-plugin-zooming: ^1.1.8
@@ -34,7 +34,7 @@ devDependencies:
   vuepress-plugin-one-click-copy: 1.0.6
   vuepress-plugin-pangu: 1.0.1
   vuepress-plugin-sitemap: 2.3.1
-  vuepress-plugin-smplayer: 1.3.5
+  vuepress-plugin-smplayer: 1.3.8
   vuepress-plugin-thirdparty-search: 1.0.2
   vuepress-plugin-typescript: 0.3.1
   vuepress-plugin-zooming: 1.1.8
@@ -3259,7 +3259,7 @@ packages:
   /compact2string/1.4.1:
     resolution: {integrity: sha512-3D+EY5nsRhqnOwDxveBv5T8wGo4DEvYxjDtPGmdOX+gfr5gE92c2RC0w2wa+xEefm07QuVqqcF3nZJUZ92l/og==}
     dependencies:
-      ipaddr.js: 1.9.1
+      ipaddr.js: 2.0.1
     dev: true
 
   /component-emitter/1.3.0:
@@ -10352,8 +10352,8 @@ packages:
       smoothscroll-polyfill: 0.4.4
     dev: true
 
-  /vuepress-plugin-smplayer/1.3.5:
-    resolution: {integrity: sha512-OVzzR69uWEr5RRqBfvyle/5nUHlCg2v6yoVsOoByRpvvI+2xgoIh7vtaXCpQYX/T2vNttsRO2c4vjCQVofgXaA==}
+  /vuepress-plugin-smplayer/1.3.8:
+    resolution: {integrity: sha512-e2K6rUwHA297ZWFCdqbp49OUalue2e7k/o8RRm1QN7llyL87VzLIUHVLZZPEt/cCUG5LDTxuuk05RuD21/kxFg==}
     dependencies:
       aplayer: 1.10.1
       artplayer: 4.3.1
