@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Setup Pnpm
-        uses: pnpm/action-setup@v2        
+        uses: pnpm/action-setup@v2
         with:
           version: latest
           run_install: true
@@ -26,20 +26,22 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
-          node-version: '16.x'
-          cache: 'pnpm'
+          node-version: "16.x"
+          cache: "pnpm"
 
-      - run: pnpm run build
+      - name: Build
+        run: pnpm run build
 
-      - run: wget -O upx.tar.gz http://collection.b0.upaiyun.com/softwares/upx/upx_0.3.6_linux_x86_64.tar.gz
-      - run: tar -zxf upx.tar.gz
-      - run: chmod +x upx
-      - run: ./upx login ${{ secrets.UP_BUCKET }} ${{ secrets.UP_OPERATOR }} ${{ secrets.UP_OPERATOR_PASSWORD }}
-      - run: ./upx sync dist/ / --delete
-      - run: ./upx logout
+      - name: Deploy upyun
+        run: |
+          wget -O upx.tar.gz http://collection.b0.upaiyun.com/softwares/upx/upx_0.3.6_linux_x86_64.tar.gz
+          tar -zxf upx.tar.gz
+          chmod +x upx
+          ./upx login ${{ secrets.UP_BUCKET }} ${{ secrets.UP_OPERATOR }} ${{ secrets.UP_OPERATOR_PASSWORD }}
+          ./upx sync dist/ / --delete
+          ./upx logout
 
-
-      - name: Deploy
+      - name: Deploy github
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./dist
