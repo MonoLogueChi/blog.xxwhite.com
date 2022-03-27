@@ -37,7 +37,7 @@ export default <VdoingThemeConfig>{
   },
   pageButton: true, // 是否显示快捷翻页按钮，默认true
 
-  sidebar: { mode: "structuring", collapsable: false, reverse: true }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义
+  sidebar: { mode: "structuring", collapsable: false }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义
   author: {
     // 文章默认的作者信息，可在.md文件front matter中单独配置此信息 String | {name: String, link: String}
     name: "MonologueChi", // 必需

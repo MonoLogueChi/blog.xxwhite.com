@@ -24,9 +24,6 @@ export default <UserPlugins>[
   ],
   ["pangu"],
 
-  //TypeScript
-  ["typescript"],
-
   [
     "one-click-copy",
     {
