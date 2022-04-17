@@ -19,6 +19,11 @@ tags:
   avatar: /assets/img/avatar.jpg
   link: /
 
+- name: U2SB
+  desc: 我们一起做很帅的事
+  avatar: https://www.u2sb.com/assets/img/avatar.png
+  link: https://www.u2sb.com/
+
 - name: 大姐姐的博客Minemine
   desc: Write something for my love.
   avatar: https://user-images.githubusercontent.com/12069729/125564018-6a79d6dd-cd55-4050-ba18-c0b62cd46cf7.jpg

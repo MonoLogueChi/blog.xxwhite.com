@@ -1057,13 +1057,6 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@types/bittorrent-protocol@*":
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/@types/bittorrent-protocol/-/bittorrent-protocol-3.1.2.tgz#884cf1589fa8b1f7a6cc39bd516922a96ce08221"
-  integrity sha512-7k9nivNeG7Sc8wVuBs+XjBp2u7pH8tqW3BB93/SAg3xht/cZEK+Rqkj79xSyJqyj86eA0F6n85EKkkyGki8afg==
-  dependencies:
-    "@types/node" "*"
-
 "@types/body-parser@*":
   version "1.19.2"
   resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.19.2.tgz#aea2059e28b7658639081347ac4fab3de166e6f0"
@@ -1091,11 +1084,6 @@
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@types/cookiejar/-/cookiejar-2.1.2.tgz#66ad9331f63fe8a3d3d9d8c6e3906dd10f6446e8"
   integrity sha512-t73xJJrvdTjXrn4jLS9VSGRbz0nUY3cl2DMGDU48lKl+HR9dbbjW2A9r3g40VA++mQpy6uuHg33gy7du2BKpog==
-
-"@types/dplayer@^1.25.2":
-  version "1.25.2"
-  resolved "https://registry.yarnpkg.com/@types/dplayer/-/dplayer-1.25.2.tgz#2155a9ca4daf419deaa6bba8d10d29bad6a10cb8"
-  integrity sha512-bkTVZkK3Vi7N7eX2FUBnqKhCjTaeRLkhvY8H6zolatbSTtjPPdxyUzhE3C29sIBYRRq1kQHSduFgCHKg5VF3Jw==
 
 "@types/express-serve-static-core@*", "@types/express-serve-static-core@^4.17.18":
   version "4.17.28"
@@ -1146,13 +1134,6 @@
   resolved "https://registry.yarnpkg.com/@types/linkify-it/-/linkify-it-3.0.2.tgz#fd2cd2edbaa7eaac7e7f3c1748b52a19143846c9"
   integrity sha512-HZQYqbiFVWufzCwexrvh694SOim8z2d+xJl5UNamcvQFejLY/2YUtzXHYi3cHdI7PMlS8ejH2slRAOJQ32aNbA==
 
-"@types/magnet-uri@*":
-  version "5.1.3"
-  resolved "https://registry.yarnpkg.com/@types/magnet-uri/-/magnet-uri-5.1.3.tgz#cdf974721012bd758c0f559cabcad7bab87f9008"
-  integrity sha512-FvJN1yYdLhvU6zWJ2YnWQ2GnpFLsA8bt+85WY0tLh6ehzGNrvBorjlcc53/zY43r/IKn+ctFs1nt7andwGnQCQ==
-  dependencies:
-    "@types/node" "*"
-
 "@types/markdown-it@^10.0.0":
   version "10.0.3"
   resolved "https://registry.yarnpkg.com/@types/markdown-it/-/markdown-it-10.0.3.tgz#a9800d14b112c17f1de76ec33eff864a4815eec7"
@@ -1183,22 +1164,6 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.23.tgz#3b41a6e643589ac6442bdbd7a4a3ded62f33f7da"
   integrity sha512-UxDxWn7dl97rKVeVS61vErvw086aCYhDLyvRQZ5Rk65rZKepaFdm53GeqXaKBuOhED4e9uWq34IC3TdSdJJ2Gw==
 
-"@types/parse-torrent-file@*":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@types/parse-torrent-file/-/parse-torrent-file-4.0.3.tgz#045b023426d168e0253c932cb782b231b1ee2d62"
-  integrity sha512-dFkPnJPKiFWiGX+HXmyTVt2js3k0d9dThmUxX8nfGC22hbyZ5BTmetsEl45sQhHLcFo43njVrIKMXM3F1ahXRw==
-  dependencies:
-    "@types/node" "*"
-
-"@types/parse-torrent@*":
-  version "5.8.4"
-  resolved "https://registry.yarnpkg.com/@types/parse-torrent/-/parse-torrent-5.8.4.tgz#c095834a9a815507c59014a79517ad403e4329d0"
-  integrity sha512-FdKs5yN5iYO5Cu9gVz1Zl30CbZe6HTsqloWmCf+LfbImgSzlsUkov2+npQWCQSQ3zi/a2G5C824K0UpZ2sRufA==
-  dependencies:
-    "@types/magnet-uri" "*"
-    "@types/node" "*"
-    "@types/parse-torrent-file" "*"
-
 "@types/q@^1.5.1":
   version "1.5.5"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.5.tgz#75a2a8e7d8ab4b230414505d92335d1dcb53a6df"
@@ -1220,13 +1185,6 @@
   integrity sha512-nCkHGI4w7ZgAdNkrEu0bv+4xNV/XDqW+DydknebMOQwkpDGx8G+HTlj7R7ABI8i8nKxVw0wtKPi1D+lPOkh4YQ==
   dependencies:
     "@types/mime" "^1"
-    "@types/node" "*"
-
-"@types/simple-peer@*":
-  version "9.11.4"
-  resolved "https://registry.yarnpkg.com/@types/simple-peer/-/simple-peer-9.11.4.tgz#1c358fcd9cb58318e27928ee90289fb0e3f50070"
-  integrity sha512-Elje14YvM47k+XEaoyRAeUSvZN7TOLWYL233QCckUaXjT4lRESHnYs0iOK2JoosO5DnCvWu/0Vpl9qnw4KCLWw==
-  dependencies:
     "@types/node" "*"
 
 "@types/source-list-map@*":
@@ -1285,16 +1243,6 @@
     "@types/webpack-sources" "*"
     anymatch "^3.0.0"
     source-map "^0.6.0"
-
-"@types/webtorrent@^0.109.3":
-  version "0.109.3"
-  resolved "https://registry.yarnpkg.com/@types/webtorrent/-/webtorrent-0.109.3.tgz#95df708d98bcea235b37f49a9a348b11f3511670"
-  integrity sha512-EJLsxMEcEjPXHcBqL6TRAbUwIpxAul5ULrXHJ0zwig7Oe70FS6dAzCWLq4MBafX3QrQG1DzGAS0fS8iJEOjD0g==
-  dependencies:
-    "@types/bittorrent-protocol" "*"
-    "@types/node" "*"
-    "@types/parse-torrent" "*"
-    "@types/simple-peer" "*"
 
 "@types/ws@^7.2.2":
   version "7.4.7"
@@ -2383,14 +2331,14 @@ bittorrent-peerid@^1.3.3:
   resolved "https://registry.yarnpkg.com/bittorrent-peerid/-/bittorrent-peerid-1.3.4.tgz#81c1597a06a1d424a6ddd1bb196eead98c250d01"
   integrity sha512-Xzk1FJFHmsc9H8IKFtDUkfAZIT1HW8r6UqajfZBBxWmpA1v7FsPO8xPFtnFzCqcXlPN3yi8dDmlqZCemyB7P8w==
 
-bittorrent-protocol@^3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/bittorrent-protocol/-/bittorrent-protocol-3.5.1.tgz#795131c236010f91371b6e2a2e6beb4b108eeb3b"
-  integrity sha512-euVSavQL0jBqRcbsNs5zUP9Ygm+OW5vCDDaatC6vrONtXp+eVe4sO1wA58Gig3IYOdRSBKl53auniWEAJ9quxg==
+bittorrent-protocol@^3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/bittorrent-protocol/-/bittorrent-protocol-3.5.2.tgz#73791b7cc5ce07f6f25cad7a5847728c6b8acb08"
+  integrity sha512-IoUKeNg5aIoUfL7iYLM3L6CsuV14iEByyqdT3f2uFK4zlJiQr+kb86ERlrobYBBIj6qW6GJ9eyAU8GhL3IhFrA==
   dependencies:
     bencode "^2.0.2"
     bitfield "^4.0.0"
-    debug "^4.3.3"
+    debug "^4.3.4"
     randombytes "^2.1.0"
     rc4 "^0.1.5"
     readable-stream "^3.6.0"
@@ -5129,10 +5077,10 @@ from2@^2.1.0:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
 
-fs-chunk-store@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/fs-chunk-store/-/fs-chunk-store-2.0.4.tgz#ca797b7032a3752d1e7553cb9cec8970395cc34a"
-  integrity sha512-JfeKRPPWkLaUoNKZdi+eLPKzZkZK1pdj2Y5lidEw9fUCkglvK/muLe6ONjdvn8yAGrDsk4tkjNp52GS658yy0g==
+fs-chunk-store@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/fs-chunk-store/-/fs-chunk-store-2.0.5.tgz#1dd4bdbb371239ac6f7234af6cd4386c72315059"
+  integrity sha512-z3c2BmyaHdQTtIVXJDQOvwZVWN2gNU//0IYKK2LuPr+cZyGoIrgDwI4iDASaTUyQbOBtyg/k6GuDZepB6jQIPw==
   dependencies:
     queue-microtask "^1.2.2"
     random-access-file "^2.0.1"
@@ -11228,6 +11176,11 @@ tr46@~0.0.3:
   resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
   integrity sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
 
+ts-deepmerge@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/ts-deepmerge/-/ts-deepmerge-2.0.1.tgz#cd24f52b17e34baeac7867477cc0cefe5d0d291b"
+  integrity sha512-2RpGIE0YVW6blKY756MP74czemC9x4XThhNCxq0A14Owm3ac8tZvigPbpZyZZQSyfOc7Qba5kG5xKBq74ihZfA==
+
 tslib@^2.2.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
@@ -11738,11 +11691,6 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-vue-class-component@^7.2.6:
-  version "7.2.6"
-  resolved "https://registry.yarnpkg.com/vue-class-component/-/vue-class-component-7.2.6.tgz#8471e037b8e4762f5a464686e19e5afc708502e4"
-  integrity sha512-+eaQXVrAm/LldalI272PpDe3+i4mPis0ORiMYxF6Ae4hyuCh15W8Idet7wPUEs4N4YptgFHGys4UrgNQOMyO6w==
-
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
@@ -11758,11 +11706,6 @@ vue-loader@^15.7.1:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
-
-vue-property-decorator@^9.1.2:
-  version "9.1.2"
-  resolved "https://registry.yarnpkg.com/vue-property-decorator/-/vue-property-decorator-9.1.2.tgz#266a2eac61ba6527e2e68a6933cfb98fddab5457"
-  integrity sha512-xYA8MkZynPBGd/w5QFJ2d/NM0z/YeegMqYTphy7NJQXbZcuU6FC6AOdUAcy4SXP+YnkerC6AfH+ldg7PDk9ESQ==
 
 vue-router@^3.4.5:
   version "3.5.3"
@@ -11877,25 +11820,21 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   dependencies:
     smoothscroll-polyfill "^0.4.3"
 
-vuepress-plugin-smplayer@^1.4.6:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-smplayer/-/vuepress-plugin-smplayer-1.5.1.tgz#8a290a632c2587d2fe7e290acf94d862248a97f2"
-  integrity sha512-jVmF2Ksk8L9Dtep3bUBDI/wBC37v5gQTtp5tnMBGkh5/t/RCDJmNqZAoPWLiMoOXGbHgV99hQCkAvPPma3l7NQ==
+vuepress-plugin-smplayer@^1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-smplayer/-/vuepress-plugin-smplayer-1.5.2.tgz#ad4396bb3698bcce0a67b1f163c61df6b827a49d"
+  integrity sha512-5bNpwSIiD4zO4gPv53dIx6EoZuXWvEkTc3l/aoJCxitlRnOPynxLmPJBgwmOIfQ4S3CMgeGF7x0cdVUPFU24YQ==
   dependencies:
-    "@types/dplayer" "^1.25.2"
-    "@types/webtorrent" "^0.109.3"
     aplayer "^1.10.1"
     artplayer "^4.3.4"
     artplayer-plugin-danmuku "^4.3.0"
     dashjs "^4.3.0"
-    deepmerge "^4.2.2"
     dplayer "^1.26.0"
     hls.js "^1.1.5"
     mpegts.js "^1.6.10"
     shaka-player "^3.3.1"
-    vue-class-component "^7.2.6"
-    vue-property-decorator "^9.1.2"
-    webtorrent "^1.8.8"
+    ts-deepmerge "^2.0.1"
+    webtorrent "^1.8.12"
     xgplayer "^2.31.4"
     xgplayer-dash "^1.1.8"
     xgplayer-flv.js "^2.3.0"
@@ -11911,10 +11850,10 @@ vuepress-plugin-zooming@^1.1.8:
   dependencies:
     zooming "^2.1.1"
 
-vuepress-theme-vdoing@^1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-vdoing/-/vuepress-theme-vdoing-1.10.0.tgz#b6af7bc8005d7a73cfc36df1aaf21041cf2356dc"
-  integrity sha512-Hf7aRt28Dy9sKBUnb5g7+URyGeSnZSYk9TcfGL/5nh0r9VpAWdhWAyakCt8chZu7/pjbJor3gcXkWsdgJ9Tx9A==
+vuepress-theme-vdoing@^1.11.1:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-vdoing/-/vuepress-theme-vdoing-1.11.1.tgz#2f547066c3bf0b0cff3ee09378b2e8c57844324d"
+  integrity sha512-rBYdQcYStfl7MAdQ+ga9O6Rv849pk6pf7m6hTBMC06M7v61BPiQt85Ai8CyL5l5BUM5GTTlEwPJqUa9iwoNbgg==
   dependencies:
     "@better-scroll/core" "^2.0.0-beta.6"
     "@better-scroll/slide" "^2.0.0-beta.6"
@@ -12152,16 +12091,16 @@ websocket-extensions@>=0.1.1:
   resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
   integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
-webtorrent@^1.8.8:
-  version "1.8.9"
-  resolved "https://registry.yarnpkg.com/webtorrent/-/webtorrent-1.8.9.tgz#9cd8274f4113e3941269484ab59ee3ca442b0b0d"
-  integrity sha512-BOl48YYqGMQpzIgd+I8ds7yhge4iR5+CXQ18Uu15ZLGciO1nz9cNYJgg88SFooZXHM/oqYV+g2jPTQtuHG4QLg==
+webtorrent@^1.8.12:
+  version "1.8.13"
+  resolved "https://registry.yarnpkg.com/webtorrent/-/webtorrent-1.8.13.tgz#b9108767ee2e9e92512e864f3b1c3ed9b9ec8139"
+  integrity sha512-CrNeCA2ZRSvG7YRVpmjyT8sr7QOa7E70k0nAAqIEIvXsYgDexwrwMe4TxH9sXbwaJCA9URSX9UBEGNZ/bjhwMg==
   dependencies:
     "@webtorrent/http-node" "^1.3.0"
     addr-to-ip-port "^1.5.4"
     bitfield "^4.0.0"
     bittorrent-dht "^10.0.2"
-    bittorrent-protocol "^3.5.1"
+    bittorrent-protocol "^3.5.2"
     cache-chunk-store "^3.2.2"
     chrome-net "^3.3.4"
     chunk-store-stream "^4.3.0"
@@ -12170,7 +12109,7 @@ webtorrent@^1.8.8:
     debug "^4.3.4"
     end-of-stream "^1.4.4"
     escape-html "^1.0.3"
-    fs-chunk-store "^2.0.4"
+    fs-chunk-store "^2.0.5"
     immediate-chunk-store "^2.2.0"
     load-ip-set "^2.2.1"
     lt_donthave "^1.0.1"

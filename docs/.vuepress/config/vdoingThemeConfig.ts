@@ -47,7 +47,7 @@ export default <VdoingThemeConfig>{
     // 博主信息，显示在首页侧边栏
     avatar: "/assets/img/avatar.jpg",
     name: "MonoLogueChi",
-    slogan: "菜鸡实习生",
+    slogan: "菜鸡程序员",
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏

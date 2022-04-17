@@ -1,6 +1,7 @@
 import { UserPlugins } from "vuepress/config";
 import fs from "fs";
 import { resolve } from "path";
+import type { SmPlayerPluginOption } from "vuepress-plugin-smplayer/types";
 
 const hostname = `https://${fs.readFileSync(
   resolve(__dirname, "../public", "CNAME")
@@ -20,10 +21,9 @@ export default <UserPlugins>[
           whitelist: ["*"],
         },
       },
-    },
+    } as SmPlayerPluginOption,
   ],
   ["pangu"],
-
   [
     "one-click-copy",
     {
