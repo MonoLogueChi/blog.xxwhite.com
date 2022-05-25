@@ -64,4 +64,5 @@ export default <UserPlugins>[
       },
     },
   ],
+  ["img-lazy"],
 ];

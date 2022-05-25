@@ -10,6 +10,7 @@ export default <MarkdownConfig>{
     "markdown-it-attrs",
     "markdown-it-imsize",
     "markdown-it-mathjax3",
+    "markdown-it-multimd-table",
   ],
   extendMarkdown: (md) => {
     md.set({ breaks: true });
