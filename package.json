@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
-    "dev": "vuepress dev docs",
+    "dev": "vuepress dev docs --debug",
     "build": "vuepress build docs"
   },
   "author": "",
@@ -26,7 +27,8 @@
     "vuepress-plugin-one-click-copy": "^1.0.6",
     "vuepress-plugin-pangu": "^1.0.1",
     "vuepress-plugin-sitemap": "^2.3.1",
-    "vuepress-plugin-smplayer": "^1.5.2",
+    "vuepress-plugin-smplayer": "^1.5.3",
+    "vuepress-plugin-vssue-global": "^0.0.1",
     "vuepress-plugin-zooming": "^1.1.8",
     "vuepress-theme-vdoing": "^1.12.3"
   }
