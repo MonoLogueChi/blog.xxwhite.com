@@ -50,8 +50,8 @@ export default <UserPlugins>[
   [
     "vuepress-plugin-vssue-global",
     {
-      platform: "github",
-      title: "「Comment」<%- frontmatter.title %>",
+      platform: "github-v4",
+      title: "[Comment]<%- frontmatter.title %>",
       // 其他的 Vssue 配置
       clientId: "d6fec584614c7a17f640",
       clientSecret: "33dfab3f8f9f5df67ef478f96f172fd902637de8",

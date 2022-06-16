@@ -13040,10 +13040,10 @@ vuepress-plugin-smplayer@^1.5.3:
     xgplayer-music "^2.3.2"
     xgplayer-shaka "^1.1.5"
 
-vuepress-plugin-vssue-global@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-vssue-global/-/vuepress-plugin-vssue-global-0.0.1.tgz#b0beda26edc04c95e7324a063eb5a19c54c25881"
-  integrity sha512-MfInGQzYfYMunRp7ZsmOlve01hUgSKpropUPh63t1qCxgY9lpERo3zNjWDljLPmm+GAiFYw2RPrS/mlQ4B3NlQ==
+vuepress-plugin-vssue-global@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-vssue-global/-/vuepress-plugin-vssue-global-0.0.2.tgz#49c5ac013b2e2d131f375c7a64381de04c3a48b9"
+  integrity sha512-mRuOkOvP9vmS1Te+xZ3GXrhd2Ch+qJVcFesDpn/1cGj+3drBKrlZNHjAtJi2pJB/lBTI4/bom14fGFcQQniViQ==
   dependencies:
     "@vssue/api-bitbucket-v2" "^1.4.7"
     "@vssue/api-gitea-v1" "^1.4.7"
