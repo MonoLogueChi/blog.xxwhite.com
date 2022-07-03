@@ -59,22 +59,5 @@ export default <UserPlugins>[
       repo: "blog-comment",
     },
   ],
-  // [
-  //   "vuepress-plugin-comment",
-  //   {
-  //     choosen: "gitalk",
-  //     options: {
-  //       id: "<%- frontmatter.commentid || frontmatter.permalink %>",
-  //       title: "「Comment」<%- frontmatter.title %>",
-  //       body: "<%- frontmatter.title %>：<%-window.location.origin %><%- frontmatter.to.path || window.location.pathname %>",
-  //       clientID: "d6fec584614c7a17f640",
-  //       clientSecret: "33dfab3f8f9f5df67ef478f96f172fd902637de8",
-  //       owner: "MonoLogueChi",
-  //       repo: "blog-comment",
-  //       admin: ["MonoLogueChi"],
-  //       distractionFreeMode: false,
-  //     },
-  //   },
-  // ],
   ["img-lazy"],
 ];

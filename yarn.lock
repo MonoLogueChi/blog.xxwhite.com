@@ -13040,10 +13040,10 @@ vuepress-plugin-smplayer@^1.5.3:
     xgplayer-music "^2.3.2"
     xgplayer-shaka "^1.1.5"
 
-vuepress-plugin-vssue-global@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-vssue-global/-/vuepress-plugin-vssue-global-0.0.2.tgz#49c5ac013b2e2d131f375c7a64381de04c3a48b9"
-  integrity sha512-mRuOkOvP9vmS1Te+xZ3GXrhd2Ch+qJVcFesDpn/1cGj+3drBKrlZNHjAtJi2pJB/lBTI4/bom14fGFcQQniViQ==
+vuepress-plugin-vssue-global@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-vssue-global/-/vuepress-plugin-vssue-global-0.0.3.tgz#f671927be41617c447eaa88dff6bcc1c7d5f25e6"
+  integrity sha512-V+i+ENGZOP5BmAo6RzkdKHIcuevhKFsYLGo5yjLQiY0pSr1vThaGZ39DquEhMFEfJUfFKG90ZAX6Te8KUENajw==
   dependencies:
     "@vssue/api-bitbucket-v2" "^1.4.7"
     "@vssue/api-gitea-v1" "^1.4.7"
@@ -13061,10 +13061,10 @@ vuepress-plugin-zooming@^1.1.8:
   dependencies:
     zooming "^2.1.1"
 
-vuepress-theme-vdoing@^1.12.3:
-  version "1.12.3"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-vdoing/-/vuepress-theme-vdoing-1.12.3.tgz#2d6a623653854385d12ddc763454a84feffa4533"
-  integrity sha512-LVyyTDrK0e+Fr5MAGMhaeci0Y3N/hczKG4rzxtuvQq71w4HcnCm+CXTLnHczxQ4aroqqR96caJmwxzfWjVqRbw==
+vuepress-theme-vdoing@^1.12.4:
+  version "1.12.4"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-vdoing/-/vuepress-theme-vdoing-1.12.4.tgz#2e2aee3cc983d8e72fe54ddc607396bfe67a271b"
+  integrity sha512-cvMBpcHyrPyZXaEhckbptlCm2W5DTjNRe0WdFtFfB4X1u5/MNJeU1NIlu3ieImAv2Sded3o3JRN1q1xFEZHFjw==
   dependencies:
     "@better-scroll/core" "^2.0.0-beta.6"
     "@better-scroll/slide" "^2.0.0-beta.6"
