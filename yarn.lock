@@ -8175,10 +8175,10 @@ markdown-it-mathjax3@^4.3.1:
     juice "^8.0.0"
     mathjax-full "^3.2.0"
 
-markdown-it-multimd-table@^4.1.3:
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/markdown-it-multimd-table/-/markdown-it-multimd-table-4.1.3.tgz#acbd2061aa5a0eb8a41c76a6049b21caea6b0efd"
-  integrity sha512-cXvJ+l8dMRmUZLrn34W/8tfLYjC40R7S0wRwcb95emuvQ3uiWNf9vB/IyeRh6XqEq95eXh70+UDNZ29qcOI+Dg==
+markdown-it-multimd-table@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-multimd-table/-/markdown-it-multimd-table-4.2.0.tgz#4b74c352a422dc5b2dad5c6b1f8c54443e53a692"
+  integrity sha512-wFpb8TSQ9josQrAlOg1toEAHHSGYQZ4krBKfpejPQ+lq3oudnxCNW4S6gYMcRbkrtrfX/ND2njr4belnKt3fBg==
 
 markdown-it-pangu@^1.0.2:
   version "1.0.2"
@@ -13061,10 +13061,10 @@ vuepress-plugin-zooming@^1.1.8:
   dependencies:
     zooming "^2.1.1"
 
-vuepress-theme-vdoing@^1.12.4:
-  version "1.12.4"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-vdoing/-/vuepress-theme-vdoing-1.12.4.tgz#2e2aee3cc983d8e72fe54ddc607396bfe67a271b"
-  integrity sha512-cvMBpcHyrPyZXaEhckbptlCm2W5DTjNRe0WdFtFfB4X1u5/MNJeU1NIlu3ieImAv2Sded3o3JRN1q1xFEZHFjw==
+vuepress-theme-vdoing@^1.12.8:
+  version "1.12.8"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-vdoing/-/vuepress-theme-vdoing-1.12.8.tgz#15bd601b5d5939ef574dd76fb17220925984cac1"
+  integrity sha512-CNrNBUhCaG1hjkeEl/sqzu5OauushjnrPyMrvysJFAwVua2FzdvI3i9WTT4ccFvJ9A6gzbn0ct4p6xYWsp82VA==
   dependencies:
     "@better-scroll/core" "^2.0.0-beta.6"
     "@better-scroll/slide" "^2.0.0-beta.6"
