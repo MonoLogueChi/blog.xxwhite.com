@@ -11,7 +11,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   dest: "dist",
   shouldPrefetch: () => false,
   theme: "vdoing",
-  head,
+  // head,
   themeConfig,
   markdown,
   plugins,
