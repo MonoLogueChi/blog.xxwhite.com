@@ -6,7 +6,7 @@ sidebar: false
 editLink: false
 categories:
   -
-tags:
+tag:
 
 article: false
 ---
