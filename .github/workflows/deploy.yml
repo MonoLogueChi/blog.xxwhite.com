@@ -14,23 +14,24 @@ jobs:
     runs-on: ubuntu-latest # 运行在虚拟机环境ubuntu-latest
 
     steps:
-      # 检出
       - name: Checkout
-        uses: actions/checkout@v2
-
-        # 安装 node
+        uses: actions/checkout@v3
+      - name: Setup Pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: latest
+          run_install: false
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 16
-          registry-url: "https://registry.npmjs.org"
-          cache: "yarn"
-
-        # 构建
+          node-version: 18
+          cache: "pnpm"
       - name: Build
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
         run: |
-          yarn install
-          yarn build
+          pnpm install
+          pnpm run build
 
       - name: Deploy upyun
         run: |

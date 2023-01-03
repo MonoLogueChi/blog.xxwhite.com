@@ -1,6 +1,7 @@
 ---
 categoriesPage: true
 title: 分类
-permalink: /categories/
+redirectFrom:
+  - /categories/
 article: false
 ---

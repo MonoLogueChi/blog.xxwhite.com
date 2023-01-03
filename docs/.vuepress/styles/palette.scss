@@ -1,0 +1,12 @@
+// 布局
+$navbarHeight: 3.6rem;
+$sidebarWidth: 18rem;
+$contentWidth: 860px;
+$homePageWidth: 1280px;
+
+.blog .blog-hero {
+  height: 0px !important;
+  .mask {
+    background: transparent !important;
+  }
+}

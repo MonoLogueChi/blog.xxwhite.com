@@ -1,6 +1,7 @@
 ---
 archivesPage: true
 title: 归档
-permalink: /archives/
+redirectFrom:
+  - /archives/
 article: false
 ---

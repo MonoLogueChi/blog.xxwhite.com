@@ -1,6 +1,5 @@
-/node_modules
-/db.json
-.Archive
-/public
-/*.log
+node_modules/
 /dist
+/*.log
+/docs/.vuepress/.cache
+/docs/.vuepress/.temp
