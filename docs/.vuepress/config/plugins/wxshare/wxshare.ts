@@ -13,7 +13,7 @@ export default defineComponent({
     const frontmatter = usePageFrontmatter();
     const clickedWxShareButton = () => {
       let url = wspo.redirectApi;
-      url += `?url=${wspo.host + route.fullPath}`;
+      url += `?url=${wspo.host + route.path}`;
       url += `&title=${
         frontmatter.value.title || route.meta.title || document.title
       }`;
