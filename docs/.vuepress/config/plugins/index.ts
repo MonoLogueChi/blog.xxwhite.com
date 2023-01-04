@@ -19,8 +19,8 @@ export default <PluginConfig>[
     },
   }),
   wxshare({
-    host: "https://www.u2sb.com",
+    host: "https://blog.xxwhite.com",
     redirectApi: "https://wx.xxwhite.com/wxshare",
-    imgUrl: "https://www.u2sb.com/assets/img/avatar.png",
+    imgUrl: "https://blog.xxwhite.com/assets/img/avatar.jpg",
   }),
 ];
