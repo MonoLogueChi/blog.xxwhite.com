@@ -1,4 +1,4 @@
-import { defineComponent, h, onMounted } from "vue";
+import { defineComponent, h, onMounted, onUpdated } from "vue";
 import { useRoute } from "vue-router";
 import { usePageFrontmatter } from "@vuepress/client";
 
@@ -14,7 +14,7 @@ export default defineComponent({
     const frontmatter = usePageFrontmatter();
 
     const clickedWxShareButton = () => {
-      const url = wspo.host + route.path;
+      const url = decodeURI(wspo.host + route.path);
       const title =
         frontmatter.value.title || route.meta.title || document.title;
       const desc =
@@ -39,7 +39,7 @@ export default defineComponent({
             .then((res) => res.json())
             .then((res) => {
               if (res["code"] === 0) {
-                const url = wspo.host + route.path;
+                const url = decodeURI(wspo.host + route.path);
                 const title =
                   frontmatter.value.title || route.meta.title || document.title;
                 const desc =
@@ -65,13 +65,13 @@ export default defineComponent({
                     w.callWechatApi("updateAppMessageShareData", {
                       title: title,
                       desc: desc,
-                      link: wspo.wxRedirectApi + url,
+                      link: url,
                       imgUrl: imgUrl,
                     });
                     w.callWechatApi("updateTimelineShareData", {
                       title: title,
                       desc: desc,
-                      link: wspo.wxRedirectApi + url,
+                      link: url,
                       imgUrl: imgUrl,
                     });
                   });

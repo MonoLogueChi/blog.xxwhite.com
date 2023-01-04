@@ -8,7 +8,6 @@ export interface WxSharePluginOptions {
   redirectApi?: string;
   imgUrl?: string;
   desc?: string;
-  wxRedirectApi?: string;
   signatureApi?: string;
   directConnection?: boolean;
 }

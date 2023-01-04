@@ -24,6 +24,5 @@ export default <PluginConfig>[
     imgUrl: "https://blog.xxwhite.com/assets/img/avatar.jpg",
     directConnection: true,
     signatureApi: "https://wx.xxwhite.com/api/wx/share/signature?url=",
-    wxRedirectApi: "https://wx.xxwhite.com/api/wx/share/redirect?url="
   }),
 ];
