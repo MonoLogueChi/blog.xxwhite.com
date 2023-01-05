@@ -23,11 +23,10 @@ export default defineComponent({
 
     const needIcon = ref(false);
     const updateMobile = (): void => {
-      needIcon.value = !(
-        checkIsMobile(navigator.userAgent) ||
+      needIcon.value =
+        !checkIsMobile(navigator.userAgent) ||
         (/MicroMessenger/i.test(navigator.userAgent.toLowerCase()) &&
-          !wspo.directConnection)
-      );
+          !wspo.directConnection);
     };
 
     const url = ref(""),
