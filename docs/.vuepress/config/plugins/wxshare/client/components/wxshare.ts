@@ -36,7 +36,6 @@ export default defineComponent({
       imgUrl = wspo.imgUrl;
 
     const setData = () => {
-      console.log(pageData.value);
       url.value = wspo.host + pageData.value.path;
       title.value =
         frontmatter.value.title || pageHeadTitle.value || siteData.value.title;

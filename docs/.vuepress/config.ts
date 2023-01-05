@@ -7,6 +7,7 @@ export default defineUserConfig({
   title: "叉叉白",
   description: "一个小白的技术博客",
   dest: "dist",
+  lang: "zh-CN",
   head,
   theme,
   shouldPrefetch: false,
