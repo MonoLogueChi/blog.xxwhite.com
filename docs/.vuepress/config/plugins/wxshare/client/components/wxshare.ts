@@ -1,6 +1,10 @@
 import { defineComponent, h, onMounted, ref, watch } from "vue";
-import { useRoute } from "vue-router";
-import { usePageFrontmatter } from "@vuepress/client";
+import {
+  usePageFrontmatter,
+  usePageData,
+  useSiteData,
+  usePageHeadTitle,
+} from "@vuepress/client";
 // @ts-ignore
 import { checkIsMobile } from "vuepress-shared/client";
 
@@ -12,8 +16,11 @@ const wspo = WSPO as WxSharePluginOptions;
 
 export default defineComponent({
   setup() {
-    const route = useRoute();
+    const pageData = usePageData();
+    const siteData = useSiteData();
     const frontmatter = usePageFrontmatter();
+    const pageHeadTitle = usePageHeadTitle();
+    
     const needIcon = ref(false);
     const updateMobile = (): void => {
       needIcon.value = !(
@@ -28,20 +35,22 @@ export default defineComponent({
       desc = ref(),
       imgUrl = wspo.imgUrl;
 
-    const setData = (path: string) => {
-      url.value = wspo.host + path;
+    const setData = () => {
+      console.log(pageData.value);
+      url.value = wspo.host + pageData.value.path;
       title.value =
-        frontmatter.value.title || route.meta.title || document.title;
+        frontmatter.value.title || pageHeadTitle.value || siteData.value.title;
       desc.value =
         frontmatter.value.wxdescription ||
         wspo.desc ||
-        frontmatter.value.description?.substring(0, 60);
+        frontmatter.value.description?.substring(0, 60) ||
+        siteData.value.description;
     };
 
     watch(
-      () => route.path,
-      async (path) => {
-        setData(path);
+      () => pageData.value.path,
+      async () => {
+        setData();
       }
     );
 
@@ -56,7 +65,7 @@ export default defineComponent({
 
     onMounted(() => {
       updateMobile();
-      setData(route.path);
+      setData();
       if (wspo.directConnection === true) {
         if (/MicroMessenger/i.test(navigator.userAgent.toLowerCase())) {
           fetch(
