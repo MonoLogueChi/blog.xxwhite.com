@@ -20,7 +20,7 @@ export default defineComponent({
     const siteData = useSiteData();
     const frontmatter = usePageFrontmatter();
     const pageHeadTitle = usePageHeadTitle();
-    
+
     const needIcon = ref(false);
     const updateMobile = (): void => {
       needIcon.value = !(
@@ -46,13 +46,6 @@ export default defineComponent({
         siteData.value.description;
     };
 
-    watch(
-      () => pageData.value.path,
-      async () => {
-        setData();
-      }
-    );
-
     const clickedWxShareButton = () => {
       let href = wspo.redirectApi || "";
       href += `?url=${url.value}`;
@@ -62,9 +55,7 @@ export default defineComponent({
       window.location.href = href;
     };
 
-    onMounted(() => {
-      updateMobile();
-      setData();
+    const shareWx = () => {
       if (wspo.directConnection === true) {
         if (/MicroMessenger/i.test(navigator.userAgent.toLowerCase())) {
           fetch(
@@ -106,6 +97,20 @@ export default defineComponent({
             });
         }
       }
+    };
+
+    watch(
+      () => pageData.value.path,
+      async () => {
+        setData();
+        shareWx();
+      }
+    );
+
+    onMounted(() => {
+      updateMobile();
+      setData();
+      shareWx();
     });
 
     return (): VNode[] => [
