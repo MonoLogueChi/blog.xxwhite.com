@@ -20,7 +20,7 @@ export default <PluginConfig>[
   }),
   wxshare({
     host: "https://blog.xxwhite.com",
-    redirectApi: "https://wx.xxwhite.com/wxshare",
+    redirectApi: "https://wx.xxwhite.com/wxshare/",
     imgUrl: "https://blog.xxwhite.com/assets/img/avatar.jpg",
     directConnection: true,
     signatureApi: "https://wx.xxwhite.com/api/wx/share/signature?url=",
