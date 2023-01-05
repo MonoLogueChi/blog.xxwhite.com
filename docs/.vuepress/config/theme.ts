@@ -68,7 +68,7 @@ export default hopeTheme({
       repo: "MonoLogueChi/blog-giscus",
       repoId: "R_kgDOIuTINg",
       category: "Giscus",
-      categoryId: "DIC_kwDOIuTINs4CTagM",
+      categoryId: "DIC_kwDOIuTINs4CTahU",
       mapping: "pathname",
     },
 
@@ -91,10 +91,10 @@ export default hopeTheme({
       echarts: true,
       flowchart: true,
       gfm: true,
-      imageSize: true,
+      imgSize: true,
       include: true,
       katex: true,
-      imageLazyload: true,
+      imgLazyload: true,
       mark: true,
       mermaid: true,
       playground: {
