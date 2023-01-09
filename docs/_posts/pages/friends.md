@@ -50,6 +50,16 @@ article: false
   avatar: https://wx2.sinaimg.cn/large/4d6e3e3bjw1e8qgp5bmzyj2050050aa8.jpg
   link: https://blogs.kainy.cn/
 
+- name: 墨七
+  desc: 资料不可见
+  avatar: https://file.mo7.cc/static/lxh_gif/lxh_71.gif
+  link: https://blog.mo7.cc/
+
+- name: Bing🐣
+  desc: 基于VuePress的个人博客，记录日常开发问题。
+  avatar: https://liubing.me/logo.png
+  link: https://liubing.me/
+
 ```
 
 :::
