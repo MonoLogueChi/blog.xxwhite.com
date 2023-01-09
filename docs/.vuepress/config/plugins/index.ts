@@ -4,6 +4,9 @@ import smplayer from "./smplayer";
 import wxshare from "./wxshare/node/";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { redirectPlugin } from "vuepress-plugin-redirect";
+import { containerPlugin } from "@vuepress/plugin-container";
+
+import * as card from "./card";
 
 export default <PluginConfig>[
   redirectPlugin({
@@ -11,6 +14,18 @@ export default <PluginConfig>[
   }),
   searchProPlugin({
     indexContent: true,
+  }),
+  containerPlugin({
+    type: card.CARD_LIST,
+    render: (tokens, idx) => {
+      return card.renderCardList(tokens, idx, card.CARD_LIST);
+    },
+  }),
+  containerPlugin({
+    type: card.CARD_IMG_LIST,
+    render: (tokens, idx) => {
+      return card.renderCardList(tokens, idx, card.CARD_IMG_LIST);
+    },
   }),
   copyjs,
   smplayer({
