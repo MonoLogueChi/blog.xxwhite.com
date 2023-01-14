@@ -19,7 +19,7 @@ export default hopeTheme({
       QQ: "/assets/html/qq-groups.html",
       BiliBili: "https://space.bilibili.com/28474682",
       GitHub: "https://github.com/MonoLogueChi",
-      Rss: "/rss.xml",
+      Rss: "/atom.xml",
       Gmail: "mailto:xxwhite@foxmail.com",
     },
   },
@@ -60,17 +60,17 @@ export default hopeTheme({
     // If you don't need comment feature, you can remove following option
     // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
     // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
-    // comment: {
-    //   /**
-    //    * Using Giscus
-    //    */
-    //   provider: "Giscus",
-    //   repo: "MonoLogueChi/blog-giscus",
-    //   repoId: "R_kgDOIuTINg",
-    //   category: "Giscus",
-    //   categoryId: "DIC_kwDOIuTINs4CTahU",
-    //   mapping: "pathname",
-    // },
+    comment: {
+      /**
+       * Using Giscus
+       */
+      provider: "Giscus",
+      repo: "MonoLogueChi/blog-giscus",
+      repoId: "R_kgDOIuTINg",
+      category: "Giscus",
+      categoryId: "DIC_kwDOIuTINs4CTahU",
+      mapping: "pathname",
+    },
 
     blog: true,
 

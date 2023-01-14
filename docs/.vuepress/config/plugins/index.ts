@@ -35,9 +35,9 @@ export default <PluginConfig>[
   }),
   wxshare({
     host: "https://blog.xxwhite.com",
-    redirectApi: "https://wx.xxwhite.com/wxshare/",
+    redirectApi: "https://sbapi.s3.sm9.top/api/wx/share/",
     imgUrl: "https://blog.xxwhite.com/assets/img/avatar.jpg",
     directConnection: true,
-    signatureApi: "https://wx.xxwhite.com/api/wx/share/signature?url=",
+    signatureApi: "https://sbapi.s3.sm9.top/api/wx/share/signature?url=",
   }),
 ];
