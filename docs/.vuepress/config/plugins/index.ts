@@ -37,7 +37,7 @@ export default <PluginConfig>[
     host: "https://blog.xxwhite.com",
     redirectApi: "https://sbapi.s3.sm9.top/api/wx/share/",
     imgUrl: "https://blog.xxwhite.com/assets/img/avatar.jpg",
-    directConnection: false,
+    directConnection: true,
     signatureApi: "https://sbapi.s3.sm9.top/api/wx/share/signature?url=",
   }),
 ];
