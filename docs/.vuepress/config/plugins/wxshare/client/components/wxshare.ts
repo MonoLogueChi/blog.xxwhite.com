@@ -34,8 +34,8 @@ export default defineComponent({
       desc = ref(),
       imgUrl = wspo.imgUrl;
 
-    const setData = () => {
-      url.value = wspo.host + pageData.value.path;
+    const setData = (path: string) => {
+      url.value = decodeURIComponent(wspo.host + path);
       title.value =
         frontmatter.value.title || pageHeadTitle.value || siteData.value.title;
       desc.value =
@@ -56,7 +56,7 @@ export default defineComponent({
 
     const shareWx = () => {
       if (wspo.directConnection === true) {
-        if (/MicroMessenger/i.test(navigator.userAgent.toLowerCase())) {
+        if (/micromessenger/i.test(navigator.userAgent.toLowerCase())) {
           fetch(
             wspo.signatureApi + encodeURIComponent(location.href.split("#")[0])
           )
@@ -65,7 +65,7 @@ export default defineComponent({
               if (res["code"] === 0) {
                 const data = res["data"];
                 const config = {
-                  debug: false,
+                  debug: true,
                   appId: data.appId,
                   timestamp: data.timestamp,
                   nonceStr: data.nonceStr,
@@ -100,15 +100,15 @@ export default defineComponent({
 
     watch(
       () => pageData.value.path,
-      async () => {
-        setData();
+      async (path) => {
+        setData(path);
         shareWx();
       }
     );
 
     onMounted(() => {
       updateMobile();
-      setData();
+      setData(pageData.value.path);
       shareWx();
     });
 
