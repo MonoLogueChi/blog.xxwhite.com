@@ -122,5 +122,8 @@ export default hopeTheme({
       vPre: true,
       vuePlayground: true,
     },
+    components: {
+      components: ["Badge", "BiliBili"],
+    },
   },
 });

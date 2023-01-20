@@ -8,7 +8,6 @@ import Meting from "./components/Meting/meting";
 
 export default defineClientConfig({
   async enhance({ app }) {
-    app.component("Bilibili", Bilibili);
     app.component("Xigua", Xigua);
     app.component("APlayer", APlayer);
     app.component("Meting", Meting);
