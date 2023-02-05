@@ -49,7 +49,6 @@ export default hopeTheme({
   <a href="http://beian.miit.gov.cn/" target="_blank">蒙ICP备17004911号-1</a>
   `,
   copyright: false,
-
   displayFooter: true,
 
   metaLocales: {
@@ -72,7 +71,9 @@ export default hopeTheme({
       mapping: "pathname",
     },
 
-    blog: true,
+    blog: {
+      excerpt: true,
+    },
 
     feed: {
       atom: true,
@@ -125,5 +126,6 @@ export default hopeTheme({
     components: {
       components: ["Badge", "BiliBili"],
     },
+    prismjs: false,
   },
 });

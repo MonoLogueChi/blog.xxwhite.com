@@ -4,10 +4,6 @@ date: 2017-01-12 14:52:55
 permalink: /pages/MessageBoard.html
 sidebar: false
 editLink: false
-categories:
-  -
-tag:
-
 article: false
 ---
 

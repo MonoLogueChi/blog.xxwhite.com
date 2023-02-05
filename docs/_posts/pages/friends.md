@@ -5,10 +5,6 @@ comments: false
 permalink: /pages/friends.html
 sidebar: false
 editLink: false
-categories:
-  - 随笔
-tag:
-
 article: false
 ---
 

@@ -2,7 +2,8 @@
 home: true
 layout: BlogHome
 heroFullScreen: false
-heroText: 叉叉白
-tagline: 一个小白的技术博客
-titlr: 叉叉白
+bgImage: false
+heroText: false
+tagline: false
+title: 叉叉白
 ---
