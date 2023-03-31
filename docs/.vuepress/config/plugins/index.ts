@@ -43,6 +43,6 @@ export default <PluginConfig>[
   }),
   shikiPlugin({
     // 你的选项
-    theme: "one-dark-pro",
+    theme: "vitesse-light",
   }),
 ];
