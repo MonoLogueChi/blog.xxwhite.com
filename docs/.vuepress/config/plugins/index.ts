@@ -5,6 +5,7 @@ import wxshare from "./wxshare/node/";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { redirectPlugin } from "vuepress-plugin-redirect";
 import { containerPlugin } from "@vuepress/plugin-container";
+import { shikiPlugin } from "@vuepress/plugin-shiki";
 
 import * as card from "./card";
 
@@ -39,5 +40,9 @@ export default <PluginConfig>[
     imgUrl: "https://blog.xxwhite.com/assets/img/avatar.jpg",
     directConnection: true,
     signatureApi: "https://sbapi.s3.sm9.top/api/wx/share/signature?url=",
+  }),
+  shikiPlugin({
+    // 你的选项
+    theme: "one-dark-pro",
   }),
 ];
