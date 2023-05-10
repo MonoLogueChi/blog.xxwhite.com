@@ -124,7 +124,17 @@ export default hopeTheme({
       vuePlayground: true,
     },
     components: {
-      components: ["Badge", "BiliBili"],
+      components: [
+        "ArtPlayer",
+        "AudioPlayer",
+        "Badge",
+        "BiliBili",
+        "CodePen",
+        "FontIcon",
+        "VideoPlayer",
+        "XiGua",
+        "YouTube",
+      ],
     },
     prismjs: false,
   },

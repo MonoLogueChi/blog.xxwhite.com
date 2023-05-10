@@ -34,32 +34,54 @@ export default defineComponent({
       desc = ref(),
       imgUrl = wspo.imgUrl;
 
-    const setData = (path: string) => {
-      url.value = decodeURIComponent(wspo.host + path);
+    const setData = () => {
+      url.value = wspo.host + pageData.value.path;
       title.value =
         frontmatter.value.title || pageHeadTitle.value || siteData.value.title;
       desc.value =
         frontmatter.value.wxdescription ||
-        wspo.desc ||
         frontmatter.value.description?.substring(0, 60) ||
+        wspo.desc ||
         siteData.value.description;
     };
 
     const clickedWxShareButton = () => {
-      let href = wspo.redirectApi || "";
-      href += `?url=${url.value}`;
-      href += `&title=${title.value}`;
-      href += `&desc=${desc.value}`;
-      href += `&imgUrl=${imgUrl}`;
-      window.location.href = href;
+      if (wspo.server) {
+        let page = {
+          Title: title.value,
+          Url: location.href,
+          Desc: desc.value,
+          ImgUrl: imgUrl,
+        };
+        fetch(wspo.server + "/api/wx/page/add", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json;charset=UTF-8",
+          },
+          body: JSON.stringify(page),
+        })
+          .then((res) => res.json())
+          .then((res) => {
+            if (res["code"] === 0) {
+              let id = res["data"];
+              location.href = wspo.server + "/api/wx/share/" + id;
+            }
+          });
+      }
     };
 
     const shareWx = () => {
       if (wspo.directConnection === true) {
-        if (/micromessenger/i.test(navigator.userAgent.toLowerCase())) {
-          fetch(
-            wspo.signatureApi + encodeURIComponent(location.href.split("#")[0])
-          )
+        if (/MicroMessenger/i.test(navigator.userAgent.toLowerCase())) {
+          fetch(wspo.server + "/api/wx/signature", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json;charset=UTF-8",
+            },
+            body: JSON.stringify({
+              url: location.href.split("#")[0],
+            }),
+          })
             .then((res) => res.json())
             .then((res) => {
               if (res["code"] === 0) {
@@ -100,26 +122,25 @@ export default defineComponent({
 
     watch(
       () => pageData.value.path,
-      async (path) => {
-        setData(path);
+      async () => {
+        setData();
         shareWx();
       }
     );
 
     onMounted(() => {
       updateMobile();
-      setData(pageData.value.path);
+      setData();
       shareWx();
     });
 
-    return (): VNode[] => [
+    return (): VNode =>
       needIcon.value
         ? h("button", {
             class: "icon iconfont icon-wechat back-to-top",
             style: "bottom: 10px; font-size: 26px;",
             onClick: clickedWxShareButton,
           })
-        : h("div"),
-    ];
+        : h("div");
   },
 });
