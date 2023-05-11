@@ -44,7 +44,7 @@ export default <PluginConfig>[
     host: "https://blog.xxwhite.com",
     server: "https://sbapi.s3.sm9.top",
     imgUrl: "https://blog.xxwhite.com/assets/img/avatar.jpg",
-    desc: "帅比网",
+    desc: "叉叉白",
     directConnection: true,
   }),
   shikiPlugin({
