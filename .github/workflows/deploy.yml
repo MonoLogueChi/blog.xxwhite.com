@@ -35,7 +35,7 @@ jobs:
 
       - name: Deploy upyun
         run: |
-          wget -O upx.tar.gz http://collection.b0.upaiyun.com/softwares/upx/upx_0.3.6_linux_x86_64.tar.gz
+          wget -O upx.tar.gz http://collection.b0.upaiyun.com/softwares/upx/upx_0.3.8_linux_x86_64.tar.gz
           tar -zxf upx.tar.gz
           chmod +x upx
           ./upx login ${{ secrets.UP_BUCKET }} ${{ secrets.UP_OPERATOR }} ${{ secrets.UP_OPERATOR_PASSWORD }}
@@ -46,6 +46,6 @@ jobs:
       #   uses: peaceiris/actions-gh-pages@v3
       #   with:
       #     publish_dir: ./dist
-      #     deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
       #     user_name: "github-actions[bot]"
       #     user_email: "github-actions[bot]@users.noreply.github.com"
