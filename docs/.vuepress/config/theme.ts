@@ -142,6 +142,7 @@ export default hopeTheme({
         "VideoPlayer",
         "XiGua",
         "YouTube",
+        "SiteInfo",
       ],
     },
     prismjs: false,

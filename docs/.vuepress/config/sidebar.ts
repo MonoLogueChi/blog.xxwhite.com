@@ -10,4 +10,11 @@ export default sidebar({
     { text: "2018", prefix: "2018", collapsible: true, children: "structure" },
     { text: "2017", prefix: "2017", collapsible: true, children: "structure" },
   ],
+  "/2023/05220.从零开始搭建一个Web服务器/": [
+    {
+      text: "2023",
+      link: "/2023/",
+      children: "structure",
+    },
+  ],
 });
