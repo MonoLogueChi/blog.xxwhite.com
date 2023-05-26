@@ -5,14 +5,18 @@ import {
   useSiteData,
   usePageHeadTitle,
 } from "@vuepress/client";
-// @ts-ignore
-import { checkIsMobile } from "vuepress-shared/client";
 
 import type { VNode } from "vue";
 import { WxSharePluginOptions } from "../../node";
 
 // @ts-ignore
 const wspo = WSPO as WxSharePluginOptions;
+
+const checkIsMobile = function (ua: string) {
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+    ua
+  );
+};
 
 export default defineComponent({
   setup() {
