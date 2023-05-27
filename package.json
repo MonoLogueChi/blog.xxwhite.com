@@ -22,7 +22,7 @@
     "vuepress-plugin-redirect": "2.0.0-beta.215",
     "vuepress-plugin-sbaudio": "2.0.0-beta.7",
     "vuepress-plugin-search-pro": "2.0.0-beta.215",
-    "vuepress-theme-hope": "2.0.0-beta.215",
-    "wechat-jssdk": "^5.1.0"
+    "vuepress-plugin-wxshare": "0.0.3",
+    "vuepress-theme-hope": "2.0.0-beta.215"
   }
 }

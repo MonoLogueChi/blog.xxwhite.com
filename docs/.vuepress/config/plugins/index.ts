@@ -1,6 +1,6 @@
 import type { PluginConfig } from "vuepress";
 import copyjs from "./copyjs";
-import wxshare from "./wxshare/node/";
+import wxshare from "vuepress-plugin-wxshare";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { redirectPlugin } from "vuepress-plugin-redirect";
 import { shikiPlugin } from "@vuepress/plugin-shiki";
