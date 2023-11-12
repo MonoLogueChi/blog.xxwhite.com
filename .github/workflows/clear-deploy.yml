@@ -1,10 +1,7 @@
-name: deploy
+name: clear-deploy
 
 # 在master分支发生push事件时触发。
-on:
-  push:
-    branches:
-      - master
+on: workflow_dispatch
 
 env: # 设置环境变量
   TZ: Asia/Shanghai # 时区（设置时区可使页面中的`最近更新时间`使用时区时间）
@@ -39,7 +36,8 @@ jobs:
           tar -zxf upx.tar.gz
           chmod +x upx
           ./upx login ${{ secrets.UP_BUCKET }} ${{ secrets.UP_OPERATOR }} ${{ secrets.UP_OPERATOR_PASSWORD }}
-          ./upx sync dist/ / --delete
+          ./upx rm / -a
+          ./upx upload dist/* --remote / -all -w 10
           ./upx logout
 
       # - name: Deploy github
