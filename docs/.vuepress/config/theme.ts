@@ -59,25 +59,14 @@ export default hopeTheme({
     // If you don't need comment feature, you can remove following option
     // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
     // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
-    // comment: {
-    //   /**
-    //    * Using Giscus
-    //    */
-    //   provider: "Giscus",
-    //   repo: "MonoLogueChi/blog-giscus",
-    //   repoId: "R_kgDOIuTINg",
-    //   category: "Giscus",
-    //   categoryId: "DIC_kwDOIuTINs4CTahU",
-    //   mapping: "pathname",
-    // },
 
-    comment: {
-      provider: "Waline",
-      serverURL: "https://waline-bx.u2sb.com",
-      login: "force",
-      pageSize: 15,
-      reaction: true,
-    },
+    // comment: {
+    //   provider: "Waline",
+    //   serverURL: "https://waline-bx.u2sb.com",
+    //   login: "force",
+    //   pageSize: 15,
+    //   reaction: true,
+    // },
 
     blog: {
       excerpt: true,
@@ -93,34 +82,32 @@ export default hopeTheme({
     mdEnhance: {
       align: true,
       attrs: true,
-      chart: true,
       codetabs: true,
+      component: true,
       container: true,
       demo: true,
-      echarts: true,
-      flowchart: true,
+      figure: true,
       gfm: true,
+      imgLazyload: true,
+      imgMark: true,
       imgSize: true,
       include: true,
-      katex: true,
-      imgLazyload: true,
       mark: true,
-      mermaid: true,
       playground: {
         presets: ["ts", "vue"],
       },
-      presentation: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
+      mathjax: {
+        output: "svg",
       },
       stylize: [
         {
-          matcher: "Recommanded",
+          matcher: "Recommended",
           replacer: ({ tag }) => {
             if (tag === "em")
               return {
                 tag: "Badge",
                 attrs: { type: "tip" },
-                content: "Recommanded",
+                content: "Recommended",
               };
           },
         },
@@ -129,7 +116,6 @@ export default hopeTheme({
       sup: true,
       tabs: true,
       vPre: true,
-      vuePlayground: true,
     },
     components: {
       components: [
@@ -139,10 +125,11 @@ export default hopeTheme({
         "BiliBili",
         "CodePen",
         "FontIcon",
-        "VideoPlayer",
+        "SiteInfo",
+        "VidStack",
+        "VPCard",
         "XiGua",
         "YouTube",
-        "SiteInfo",
       ],
     },
     prismjs: false,

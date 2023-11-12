@@ -1,6 +1,5 @@
 import type { PluginConfig } from "vuepress";
 import copyjs from "./copyjs";
-import wxshare from "vuepress-plugin-wxshare";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { redirectPlugin } from "vuepress-plugin-redirect";
 import sbaudio from "vuepress-plugin-sbaudio";
@@ -24,13 +23,6 @@ export default <PluginConfig>[
         },
       ],
     },
-  }),
-  wxshare({
-    host: "https://blog.xxwhite.com",
-    server: "https://sbapi.s3.sm9.top",
-    imgUrl: "https://blog.xxwhite.com/assets/img/avatar.jpg",
-    desc: "叉叉白",
-    directConnection: true,
   }),
   copyjs,
   shikiPlugin,
