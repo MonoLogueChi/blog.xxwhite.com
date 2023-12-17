@@ -10,21 +10,21 @@
     "dev": "vuepress dev docs --clean-cache --clean-temp"
   },
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.68",
-    "@vuepress/core": "2.0.0-beta.68",
-    "@vuepress/plugin-shiki": "2.0.0-beta.68",
-    "@vuepress/utils": "2.0.0-beta.68",
+    "@vuepress/client": "2.0.0-rc.0",
+    "@vuepress/core": "2.0.0-rc.0",
+    "@vuepress/plugin-shiki": "2.0.0-rc.0",
+    "@vuepress/utils": "2.0.0-rc.0",
     "aplayer": "^1.10.1",
     "artplayer": "^5.0.9",
     "chokidar": "^3.5.3",
-    "fs-extra": "^11.1.1",
+    "fs-extra": "^11.2.0",
     "mathjax-full": "^3.2.2",
-    "vidstack": "1",
-    "vue": "^3.3.8",
-    "vuepress": "2.0.0-beta.68",
-    "vuepress-plugin-redirect": "2.0.0-beta.250",
+    "vidstack": "^1.9.8",
+    "vue": "^3.3.12",
+    "vuepress": "2.0.0-rc.0",
+    "vuepress-plugin-redirect": "2.0.0-rc.5",
     "vuepress-plugin-sbaudio": "2.0.0-beta.7",
-    "vuepress-plugin-search-pro": "2.0.0-beta.250",
-    "vuepress-theme-hope": "2.0.0-beta.250"
+    "vuepress-plugin-search-pro": "2.0.0-rc.5",
+    "vuepress-theme-hope": "2.0.0-rc.5"
   }
 }
