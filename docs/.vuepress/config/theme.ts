@@ -120,7 +120,6 @@ export default hopeTheme({
     components: {
       components: [
         "ArtPlayer",
-        "AudioPlayer",
         "Badge",
         "BiliBili",
         "CodePen",
@@ -129,7 +128,6 @@ export default hopeTheme({
         "VidStack",
         "VPCard",
         "XiGua",
-        "YouTube",
       ],
     },
     prismjs: false,

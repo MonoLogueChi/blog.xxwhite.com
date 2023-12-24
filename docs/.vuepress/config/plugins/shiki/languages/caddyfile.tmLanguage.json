@@ -1,4 +1,5 @@
 {
+  "copyFrom": "https://github.com/caddyserver/vscode-caddyfile.git",
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 
   "name": "Caddyfile",
@@ -157,7 +158,7 @@
       "patterns": [
         {
           "name": "keyword.control.Caddyfile",
-          "match": "\\{[\\w+.\\$-]+\\}"
+          "match": "\\{[\\[\\]\\w.\\$+-]+\\}"
         }
       ]
     },

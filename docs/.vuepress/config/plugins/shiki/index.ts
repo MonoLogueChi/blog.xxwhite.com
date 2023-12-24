@@ -1,5 +1,7 @@
 import { shikiPlugin } from "@vuepress/plugin-shiki";
-import { langs } from "./langs";
+import { resolve } from "path";
+
+import usedLangs from "./used-langs.json" assert { type: "json" };
 
 import caddyfile from "./languages/caddyfile.tmLanguage.json" assert { type: "json" };
 
@@ -12,7 +14,7 @@ const caddyfileLanguage = {
 
 export default shikiPlugin({
   // 你的选项
-  theme: "vitesse-light",
+  theme: "one-dark-pro",
   //@ts-ignore
-  langs: [...langs, caddyfileLanguage],
+  langs: [...usedLangs, caddyfileLanguage],
 });
