@@ -1,4 +1,4 @@
-import { path } from "@vuepress/utils";
+import { path } from "vuepress/utils";
 import { watch, FSWatcher } from "chokidar";
 import fs from "fs-extra";
 import { App } from "vuepress";

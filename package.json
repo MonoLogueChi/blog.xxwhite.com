@@ -10,14 +10,14 @@
     "dev": "vuepress dev docs --clean-cache --clean-temp"
   },
   "devDependencies": {
-    "@vuepress/client": "2.0.0-rc.0",
-    "@vuepress/core": "2.0.0-rc.0",
-    "@vuepress/plugin-shiki": "2.0.0-rc.0",
-    "@vuepress/utils": "2.0.0-rc.0",
+    "@vuepress/bundler-vite": "2.0.0-rc.8",
+    "@vuepress/plugin-feed": "2.0.0-rc.3",
+    "@vuepress/plugin-redirect": "2.0.0-rc.17",
+    "@vuepress/plugin-shiki": "2.0.0-rc.17",
     "aplayer": "^1.10.1",
-    "artplayer": "^5.0.9",
+    "artplayer": "^5.1.1",
     "artplayer-plugin-danmuku": "^5.0.1",
-    "chokidar": "^3.5.3",
+    "chokidar": "^3.6.0",
     "dashjs-pure": "^1.0.0",
     "dplayer": "^1.27.1",
     "fs-extra": "^11.2.0",
@@ -26,12 +26,11 @@
     "gulp-web-compress": "^0.4.1",
     "mathjax-full": "^3.2.2",
     "mpegts.js": "^1.7.3",
-    "vidstack": "^1.9.8",
-    "vue": "^3.3.12",
-    "vuepress": "2.0.0-rc.0",
-    "vuepress-plugin-redirect": "2.0.0-rc.5",
-    "vuepress-plugin-sbaudio": "2.0.0-beta.7",
-    "vuepress-plugin-search-pro": "2.0.0-rc.5",
-    "vuepress-theme-hope": "2.0.0-rc.5"
+    "vidstack": "^1.10.9",
+    "vue": "^3.4.19",
+    "vuepress": "2.0.0-rc.8",
+    "vuepress-plugin-sbaudio": "2.0.0-bate.8",
+    "vuepress-plugin-search-pro": "2.0.0-rc.26",
+    "vuepress-theme-hope": "2.0.0-rc.26"
   }
 }

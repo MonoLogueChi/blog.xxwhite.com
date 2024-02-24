@@ -2,6 +2,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./config/theme";
 import plugins from "./config/plugins";
 import head from "./config/head";
+import { viteBundler } from "@vuepress/bundler-vite";
 
 export default defineUserConfig({
   title: "叉叉白",
@@ -13,4 +14,8 @@ export default defineUserConfig({
   shouldPrefetch: false,
   shouldPreload: false,
   plugins,
+  bundler: viteBundler({
+    viteOptions: {},
+    vuePluginOptions: {},
+  }),
 });
