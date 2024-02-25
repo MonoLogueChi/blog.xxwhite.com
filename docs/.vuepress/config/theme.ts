@@ -131,5 +131,8 @@ export default hopeTheme({
       ],
     },
     prismjs: false,
+    searchPro: {
+      indexContent: true,
+    },
   },
 });

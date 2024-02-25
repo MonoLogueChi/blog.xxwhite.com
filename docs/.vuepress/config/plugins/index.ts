@@ -1,6 +1,5 @@
 import type { PluginConfig } from "vuepress";
 import copyjs from "./copyjs";
-import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { redirectPlugin } from "@vuepress/plugin-redirect";
 import sbaudio from "vuepress-plugin-sbaudio";
 
@@ -9,9 +8,6 @@ import shikiPlugin from "./shiki";
 export default <PluginConfig>[
   redirectPlugin({
     config: {},
-  }),
-  searchProPlugin({
-    indexContent: true,
   }),
   sbaudio({
     metingOptions: {

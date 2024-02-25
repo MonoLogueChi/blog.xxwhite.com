@@ -63,8 +63,8 @@ devDependencies:
     specifier: 2.0.0-rc.8
     version: 2.0.0-rc.8(@vuepress/bundler-vite@2.0.0-rc.8)(vue@3.4.19)
   vuepress-plugin-sbaudio:
-    specifier: 2.0.0-bate.8
-    version: 2.0.0-bate.8
+    specifier: 2.0.0-bate.9
+    version: 2.0.0-bate.9
   vuepress-plugin-search-pro:
     specifier: 2.0.0-rc.26
     version: 2.0.0-rc.26(vuepress@2.0.0-rc.8)
@@ -5339,8 +5339,8 @@ packages:
       - typescript
     dev: true
 
-  /vuepress-plugin-sbaudio@2.0.0-bate.8:
-    resolution: {integrity: sha512-JWnChKKjXV/zwHdQufzUg147RJZezD+5PD3oWVOagg6P99OjUc6dZHG4Nhxep5IAgyymQs9btJlyTlBypQ1vaQ==}
+  /vuepress-plugin-sbaudio@2.0.0-bate.9:
+    resolution: {integrity: sha512-jTkE9p2LPX2LEAS+k8wGdf5ATbx9rcYecwCa0exMsS/DTDqys6ieRbBq8rxGB6UnE+wVOSjCHX6Yx3FIqykIqw==}
     dependencies:
       aplayer: 1.10.1
       deepmerge-ts: 5.1.0
