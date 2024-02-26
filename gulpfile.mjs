@@ -56,7 +56,7 @@ const getLangsFromMdFiles = () => {
     })
     .on("end", () => {
       var langs = Array.from(values);
-      fs.writeFileSync(usedLangsFile, JSON.stringify(langs));
+      fs.writeFileSync(usedLangsFile, JSON.stringify(langs.sort()));
     });
 };
 

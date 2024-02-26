@@ -1,6 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar";
 import sidebar from "./sidebar";
+import type { Page } from "vuepress";
 
 export default hopeTheme({
   hostname: "https://blog.xxwhite.com",
@@ -76,6 +77,9 @@ export default hopeTheme({
       atom: true,
       json: true,
       rss: true,
+      getter: {
+        content: (page: Page<{ excerpt: string }>) => page.data.excerpt,
+      },
     },
 
     // Disable features you don't want here
