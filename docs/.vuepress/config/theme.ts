@@ -1,7 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import navbar from "./navbar";
-import sidebar from "./sidebar";
-import type { Page } from "vuepress";
+import navbar from "./navbar.js";
+import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   hostname: "https://blog.xxwhite.com",
@@ -78,7 +77,7 @@ export default hopeTheme({
       json: true,
       rss: true,
       getter: {
-        content: (page: Page<{ excerpt: string }>) => page.data.excerpt,
+        content: (page) => page.data.excerpt as string,
       },
     },
 

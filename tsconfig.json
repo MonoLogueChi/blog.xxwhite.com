@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rootDir": "docs/.vuepress",
+    "resolveJsonModule": true,
+  },
+  "include": ["docs/.vuepress/**/*.ts"],
+  "exclude": ["node_modules"]
+}

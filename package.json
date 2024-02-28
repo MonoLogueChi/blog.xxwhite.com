@@ -10,6 +10,7 @@
     "dev": "vuepress dev docs --clean-cache --clean-temp"
   },
   "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
     "@vuepress/bundler-vite": "2.0.0-rc.8",
     "@vuepress/plugin-feed": "2.0.0-rc.3",
     "@vuepress/plugin-redirect": "2.0.0-rc.17",
