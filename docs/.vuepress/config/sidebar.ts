@@ -2,6 +2,7 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
   "/": [
+    { text: "2024", prefix: "2024", collapsible: true, children: "structure" },
     { text: "2023", prefix: "2023", collapsible: true, children: "structure" },
     { text: "2022", prefix: "2022", collapsible: true, children: "structure" },
     { text: "2021", prefix: "2021", collapsible: true, children: "structure" },
