@@ -46,7 +46,7 @@ const getLangsFromMdFiles = () => {
   return src(resolve(sourceDir, "**/*.md"))
     .on("data", (file) => {
       const content = fs.readFileSync(file.path, "utf8");
-      const regex = /```([\w-]+)\s+([\s\S]*?)/g;
+      const regex = /```([\w-]+)\s+([^`\s\n]+)/g;
       let match;
 
       while ((match = regex.exec(content)) !== null) {
