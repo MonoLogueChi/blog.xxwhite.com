@@ -12,8 +12,8 @@ const caddyfileLanguage = {
 export default shikiPlugin({
   // 你的选项
   themes: {
-    light: "vitesse-light",
-    dark: "vitesse-dark",
+    light: "one-light",
+    dark: "one-dark-pro",
   },
   // @ts-ignore
   langs: [caddyfileLanguage, ...usedLangs],

@@ -4,9 +4,6 @@ $sidebarWidth: 18rem;
 $contentWidth: 920px;
 $homePageWidth: 1280px;
 
-.vp-blog .vp-blog-hero {
+.vp-blog-hero {
   height: 0px !important;
-  .mask {
-    background: transparent !important;
-  }
 }
