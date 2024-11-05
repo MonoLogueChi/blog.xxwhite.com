@@ -3,7 +3,7 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "rootDir": "docs/.vuepress",
-    "resolveJsonModule": true,
+    "resolveJsonModule": true
   },
   "include": ["docs/.vuepress/**/*.ts"],
   "exclude": ["node_modules"]
