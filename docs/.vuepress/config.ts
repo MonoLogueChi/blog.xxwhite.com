@@ -3,6 +3,7 @@ import theme from "./config/theme.js";
 import plugins from "./config/plugins/index.js";
 import head from "./config/head.js";
 import { viteBundler } from "@vuepress/bundler-vite";
+import markdown from "./config/markdown.js";
 
 export default defineUserConfig({
   title: "叉叉白",
@@ -14,6 +15,7 @@ export default defineUserConfig({
   shouldPrefetch: false,
   shouldPreload: false,
   plugins,
+  markdown,
   bundler: viteBundler({
     viteOptions: {},
     vuePluginOptions: {},
