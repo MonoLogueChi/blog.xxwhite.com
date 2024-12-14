@@ -1,16 +1,9 @@
 import type { PluginConfig } from "vuepress";
 import copyjs from "./copyjs.js";
 import sbaudio from "vuepress-plugin-sbaudio";
-import { slimsearchPlugin } from "@vuepress/plugin-slimsearch"
-import { shikiPlugin } from "@vuepress/plugin-shiki";
-import shiki from "./shiki/index.js";
 
 
 export default <PluginConfig>[
-  slimsearchPlugin({
-    indexContent: true,
-  }),
-  shikiPlugin(shiki),
   copyjs,
   sbaudio({
     metingOptions: {

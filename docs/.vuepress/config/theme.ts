@@ -1,6 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
+import markdown from "./markdown.js";
 
 export default hopeTheme({
   hostname: "https://blog.xxwhite.com",
@@ -55,19 +56,8 @@ export default hopeTheme({
     editLink: "在 GitHub 上编辑此页",
   },
 
+  markdown,
   plugins: {
-    // If you don't need comment feature, you can remove following option
-    // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
-    // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
-
-    // comment: {
-    //   provider: "Waline",
-    //   serverURL: "https://waline-bx.u2sb.com",
-    //   login: "force",
-    //   pageSize: 15,
-    //   reaction: true,
-    // },
-
     blog: {
       excerpt: true,
     },
@@ -79,6 +69,10 @@ export default hopeTheme({
       getter: {
         content: (page) => page.data.excerpt as string,
       },
+    },
+
+    slimsearch: {
+      indexContent: true,
     },
 
     // Disable features you don't want here
@@ -95,6 +89,6 @@ export default hopeTheme({
         "XiGua",
       ],
     },
-    redirect: {}
+    redirect: {},
   },
 });

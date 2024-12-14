@@ -1,4 +1,5 @@
-import { MarkdownOptions } from "vuepress/markdown";
+import { MarkdownOptions } from "vuepress-theme-hope";
+import shiki from "./plugins/shiki/index.js";
 
 export default <MarkdownOptions>{
   alert: true,
@@ -14,15 +15,15 @@ export default <MarkdownOptions>{
   imgMark: true,
   imgSize: true,
   obsidianImgSize: true,
-  vPre: {
-    block: true,
-    inline: true,
-  },
+  vPre: true,
   sub: true,
   sup: true,
   align: true,
   attrs: true,
   gfm: true,
+  footnote: true,
+  tasklist: true,
+  breaks: true,
   include: true,
   mark: true,
   stylize: [
@@ -38,4 +39,8 @@ export default <MarkdownOptions>{
       },
     },
   ],
+  highlighter: {
+    type: "shiki",
+    ...shiki,
+  },
 };
