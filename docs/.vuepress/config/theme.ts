@@ -25,8 +25,6 @@ export default hopeTheme({
     },
   },
 
-  iconAssets: "fontawesome",
-
   // logo: "/assets/img/logo.png",
 
   repo: "MonoLogueChi/blog.xxwhite.com",
@@ -61,6 +59,9 @@ export default hopeTheme({
     blog: {
       excerpt: true,
     },
+    icon: {
+      assets: "iconify",
+    },
 
     feed: {
       atom: true,
@@ -82,7 +83,6 @@ export default hopeTheme({
         "Badge",
         "BiliBili",
         "CodePen",
-        "FontIcon",
         "SiteInfo",
         "VidStack",
         "VPCard",
