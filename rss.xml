@@ -6,8 +6,8 @@
     <link>https://blog.u2sb.com/</link>
     <description>一个小白的技术博客</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 06 Apr 2025 07:22:37 GMT</pubDate>
-    <lastBuildDate>Sun, 06 Apr 2025 07:22:37 GMT</lastBuildDate>
+    <pubDate>Sun, 06 Apr 2025 11:24:17 GMT</pubDate>
+    <lastBuildDate>Sun, 06 Apr 2025 11:24:17 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <item>
@@ -19,7 +19,7 @@
       <pubDate>Sun, 22 Oct 2017 22:53:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>adb 的全称为 Android Debug Bridge，就是起到调试桥的作用。通过 adb 我们可以在 Eclipse 中方便通过 DDMS 来调试 Android 程序，说白了就是 debug 工具。adb 的工作方式比较特殊，采用监听 Socket TCP 5554 等端口的方式让 IDE 和 Qemu 通讯，默认情况下 adb 会 daemon 相关的网络端口，所以当我们运行 Eclipse 时 adb 进程就会自动运行。</p>
 ]]></content:encoded>
-      <enclosure url="https://i.loli.net/2017/10/02/59d20d4fef964.gif" type="image/gif"/>
+      <enclosure url="https://i.loli.net/2017/10/02/59d20d4fef964.avif" type="image/"/>
     </item>
     <item>
       <title>使用C#产生各种随机数（一）</title>
@@ -44,163 +44,6 @@
 <p>前两天在 v 站无意中看到了关于 valine 的评论，这是什么东东，难道大清亡了？看了一下，是个不错的好东东，正好我对畅言不太满意，即使是用了自定义样式也不方便。好，那就研究一下，看看能不能用上。</p>
 ]]></content:encoded>
       <enclosure url="https://s1.ax2x.com/2017/12/20/zbDDr.png" type="image/png"/>
-    </item>
-    <item>
-      <title>为知识付费</title>
-      <link>https://blog.u2sb.com/2019/01050.pay-for-knowledge.html</link>
-      <guid>https://blog.u2sb.com/2019/01050.pay-for-knowledge.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">为知识付费</source>
-      <description>昨天收了一个一百块钱的红包，感觉有点受之有愧。</description>
-      <pubDate>Sat, 05 Jan 2019 12:08:07 GMT</pubDate>
-      <content:encoded><![CDATA[<p>昨天收了一个一百块钱的红包，感觉有点受之有愧。</p>
-]]></content:encoded>
-      <enclosure url="https://s2.ax1x.com/2019/01/05/F7imHs.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>CPU降压降温方案</title>
-      <link>https://blog.u2sb.com/2019/01190.cpu-reduction-voltage.html</link>
-      <guid>https://blog.u2sb.com/2019/01190.cpu-reduction-voltage.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">CPU降压降温方案</source>
-      <description>最近 zuodie，把一颗 i7-8700 装到了笔记本上，结果两风扇散热根本不够看的，随便跑一跑 x264，温度直接飙到 90+（冬天 90+），风扇嗷嗷的叫，再过一会就开始降频了。</description>
-      <pubDate>Sat, 19 Jan 2019 09:33:46 GMT</pubDate>
-      <content:encoded><![CDATA[<p>最近 zuodie，把一颗 i7-8700 装到了笔记本上，结果两风扇散热根本不够看的，随便跑一跑 x264，温度直接飙到 90+（冬天 90+），风扇嗷嗷的叫，再过一会就开始降频了。</p>
-]]></content:encoded>
-      <enclosure url="https://s2.ax1x.com/2019/01/19/k974u8.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>自己动手修改完善yilia主题（上）</title>
-      <link>https://blog.u2sb.com/2019/01260.your-own-yilia-1.html</link>
-      <guid>https://blog.u2sb.com/2019/01260.your-own-yilia-1.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">自己动手修改完善yilia主题（上）</source>
-      <description>自己动手修改 Yilia 主题，这有什么难的，简单修修模板，改改 CSS？</description>
-      <pubDate>Sat, 26 Jan 2019 13:49:23 GMT</pubDate>
-      <content:encoded><![CDATA[<p>自己动手修改 Yilia 主题，这有什么难的，简单修修模板，改改 CSS？</p>
-]]></content:encoded>
-      <enclosure url="https://s2.ax1x.com/2019/01/26/knhmUP.png" type="image/png"/>
-    </item>
-    <item>
-      <title>自己动手修改完善yilia主题（下）</title>
-      <link>https://blog.u2sb.com/2019/02010.your-own-yilia-2.html</link>
-      <guid>https://blog.u2sb.com/2019/02010.your-own-yilia-2.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">自己动手修改完善yilia主题（下）</source>
-      <description>这一期咱们接着来说自定义 Yilia 主题的事。</description>
-      <pubDate>Fri, 01 Feb 2019 14:40:40 GMT</pubDate>
-      <content:encoded><![CDATA[<p>这一期咱们接着来说自定义 Yilia 主题的事。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>又入手一台小JJ</title>
-      <link>https://blog.u2sb.com/2019/04070.small-jj.html</link>
-      <guid>https://blog.u2sb.com/2019/04070.small-jj.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">又入手一台小JJ</source>
-      <description>上个月花了点钱购置了一台小 jj 用作服务器，简单记录了一下装配过程，正好清明节假干完两天的活，休息一天，就写一点出来。</description>
-      <pubDate>Sun, 07 Apr 2019 16:30:09 GMT</pubDate>
-      <content:encoded><![CDATA[<p>上个月花了点钱购置了一台小 jj 用作服务器，简单记录了一下装配过程，正好清明节假干完两天的活，休息一天，就写一点出来。</p>
-]]></content:encoded>
-      <enclosure url="https://s2.ax1x.com/2019/04/07/AhyDqf.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>在家搭建网站-DDNS</title>
-      <link>https://blog.u2sb.com/2019/04140.ddns.html</link>
-      <guid>https://blog.u2sb.com/2019/04140.ddns.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">在家搭建网站-DDNS</source>
-      <description>上次说了新买了一台小 JJ，并且在上面搭建了个人网站，但是生命不息，折腾不止。</description>
-      <pubDate>Sun, 14 Apr 2019 18:48:35 GMT</pubDate>
-      <content:encoded><![CDATA[<p>上次说了新买了一台小 JJ，并且在上面搭建了个人网站，但是生命不息，折腾不止。</p>
-]]></content:encoded>
-      <enclosure url="https://s2.ax1x.com/2019/04/29/E3bH9x.png" type="image/png"/>
-    </item>
-    <item>
-      <title>Unity WebGL平台开发遇到的坑</title>
-      <link>https://blog.u2sb.com/2019/04290.unity-webgl-keng.html</link>
-      <guid>https://blog.u2sb.com/2019/04290.unity-webgl-keng.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">Unity WebGL平台开发遇到的坑</source>
-      <description>最近在用 Unity 做一个 WebGL 平台的项目，开发过程中遇到了各种各样的坑，这里简单记录一下，以免以后再踩。</description>
-      <pubDate>Mon, 29 Apr 2019 20:48:35 GMT</pubDate>
-      <content:encoded><![CDATA[<p>最近在用 Unity 做一个 WebGL 平台的项目，开发过程中遇到了各种各样的坑，这里简单记录一下，以免以后再踩。</p>
-]]></content:encoded>
-      <enclosure url="https://s2.ax1x.com/2019/04/29/E1c9i9.png" type="image/png"/>
-    </item>
-    <item>
-      <title>域名解析的MX和CNAME记录冲突问题的解决</title>
-      <link>https://blog.u2sb.com/2019/07140.mx-and-cname.html</link>
-      <guid>https://blog.u2sb.com/2019/07140.mx-and-cname.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">域名解析的MX和CNAME记录冲突问题的解决</source>
-      <description>最近又遇到了 MX 记录和 CNAME 记录冲突的问题，简单记录一个解决办法，方便以后参考一下</description>
-      <pubDate>Sun, 14 Jul 2019 14:48:35 GMT</pubDate>
-      <content:encoded><![CDATA[<p>最近又遇到了 MX 记录和 CNAME 记录冲突的问题，简单记录一个解决办法，方便以后参考一下</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>RSS+RSSHub连接世界</title>
-      <link>https://blog.u2sb.com/2019/08080.rss-rsshub.html</link>
-      <guid>https://blog.u2sb.com/2019/08080.rss-rsshub.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">RSS+RSSHub连接世界</source>
-      <description>都说现在是一个信息爆炸的时代，我需要一个信息聚合入口。 一说到信息聚合，第一个想到的就是 RSS。这都 9102 年了，还在用 RSS 的人不多了，而我就算是一个。</description>
-      <pubDate>Thu, 08 Aug 2019 23:23:46 GMT</pubDate>
-      <content:encoded><![CDATA[<p>都说现在是一个信息爆炸的时代，我需要一个信息聚合入口。</p>
-<p>一说到信息聚合，第一个想到的就是 RSS。这都 9102 年了，还在用 RSS 的人不多了，而我就算是一个。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>代理和异地组网</title>
-      <link>https://blog.u2sb.com/2019/09130.proxy1.html</link>
-      <guid>https://blog.u2sb.com/2019/09130.proxy1.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">代理和异地组网</source>
-      <description>关于搭建代理和异地组网的一些想法。</description>
-      <pubDate>Fri, 13 Sep 2019 13:48:35 GMT</pubDate>
-      <content:encoded><![CDATA[<p>关于搭建代理和异地组网的一些想法。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>腾讯云使用自定义镜像</title>
-      <link>https://blog.u2sb.com/2019/10020.custom-mirror.html</link>
-      <guid>https://blog.u2sb.com/2019/10020.custom-mirror.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">腾讯云使用自定义镜像</source>
-      <description>最近发现服务器上一些服务已经没用了，趁着十一假期整理一下，顺便研究一下腾讯云怎么使用自定义的镜像安装系统。</description>
-      <pubDate>Wed, 02 Oct 2019 22:15:35 GMT</pubDate>
-      <content:encoded><![CDATA[<p>最近发现服务器上一些服务已经没用了，趁着十一假期整理一下，顺便研究一下腾讯云怎么使用自定义的镜像安装系统。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Azure DevOps Pipelines</title>
-      <link>https://blog.u2sb.com/2019/10210.azure-ci.html</link>
-      <guid>https://blog.u2sb.com/2019/10210.azure-ci.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">Azure DevOps Pipelines</source>
-      <description>前段时间给我的一个项目上了Azure DevOps 的 Pipelines，顺带着就给那个项目的文档和这个博客一起换上了 Azure 的 CI。</description>
-      <pubDate>Mon, 21 Oct 2019 13:48:35 GMT</pubDate>
-      <content:encoded><![CDATA[<p>前段时间给我的一个项目上了Azure DevOps 的 Pipelines，顺带着就给那个项目的文档和这个博客一起换上了 Azure 的 CI。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Unity2D动画绑定</title>
-      <link>https://blog.u2sb.com/2019/11130.unity-2danimation.html</link>
-      <guid>https://blog.u2sb.com/2019/11130.unity-2danimation.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">Unity2D动画绑定</source>
-      <description>这次做了一个 Unity 的 2D 动画，记录一下，怕下次忘了怎么做。</description>
-      <pubDate>Wed, 13 Nov 2019 15:48:35 GMT</pubDate>
-      <content:encoded><![CDATA[<p>这次做了一个 Unity 的 2D 动画，记录一下，怕下次忘了怎么做。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>关于5G Wi-Fi 想到的一些名词解释</title>
-      <link>https://blog.u2sb.com/2019/11260.5g-wifi.html</link>
-      <guid>https://blog.u2sb.com/2019/11260.5g-wifi.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">关于5G Wi-Fi 想到的一些名词解释</source>
-      <description>昨天帮同事修笔记本，我那里路由器只开了 5G，但是他的老本子不支持。然后我说给路由器开 2.4G 的时候，给他解释，我这里只开了 5G Wi-Fi，他说“现在运营商也不是不让用 4G”，我想他是搞混了，看来有必要科普一下了。</description>
-      <pubDate>Tue, 26 Nov 2019 19:48:35 GMT</pubDate>
-      <content:encoded><![CDATA[<p>昨天帮同事修笔记本，我那里路由器只开了 5G，但是他的老本子不支持。然后我说给路由器开 2.4G 的时候，给他解释，我这里只开了 5G Wi-Fi，他说“现在运营商也不是不让用 4G”，我想他是搞混了，看来有必要科普一下了。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hexo脚本</title>
-      <link>https://blog.u2sb.com/2019/11290.hexo-scripts.html</link>
-      <guid>https://blog.u2sb.com/2019/11290.hexo-scripts.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">Hexo脚本</source>
-      <description>事情的起因是这样的，我博客里用的音乐插件hexo-tag-aplayer太久没更新了，已经不能支持新版的MetingJS，我便决定自己尝试解决一下。</description>
-      <pubDate>Fri, 29 Nov 2019 19:48:35 GMT</pubDate>
-      <content:encoded><![CDATA[<p>事情的起因是这样的，我博客里用的音乐插件<a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener noreferrer">hexo-tag-aplayer</a>太久没更新了，已经不能支持新版的<a href="https://github.com/metowolf/MetingJS" target="_blank" rel="noopener noreferrer">MetingJS</a>，我便决定自己尝试解决一下。</p>
-]]></content:encoded>
     </item>
     <item>
       <title>50年后要看的文章</title>
@@ -307,6 +150,163 @@
       <content:encoded><![CDATA[<p>打印九九乘法表？这么低端的事我会做？</p>
 ]]></content:encoded>
       <enclosure url="https://s1.ax1x.com/2018/11/20/F9USDf.png" type="image/png"/>
+    </item>
+    <item>
+      <title>为知识付费</title>
+      <link>https://blog.u2sb.com/2019/01050.pay-for-knowledge.html</link>
+      <guid>https://blog.u2sb.com/2019/01050.pay-for-knowledge.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">为知识付费</source>
+      <description>昨天收了一个一百块钱的红包，感觉有点受之有愧。</description>
+      <pubDate>Sat, 05 Jan 2019 12:08:07 GMT</pubDate>
+      <content:encoded><![CDATA[<p>昨天收了一个一百块钱的红包，感觉有点受之有愧。</p>
+]]></content:encoded>
+      <enclosure url="https://s2.ax1x.com/2019/01/05/F7imHs.avif" type="image/"/>
+    </item>
+    <item>
+      <title>CPU降压降温方案</title>
+      <link>https://blog.u2sb.com/2019/01190.cpu-reduction-voltage.html</link>
+      <guid>https://blog.u2sb.com/2019/01190.cpu-reduction-voltage.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">CPU降压降温方案</source>
+      <description>最近 zuodie，把一颗 i7-8700 装到了笔记本上，结果两风扇散热根本不够看的，随便跑一跑 x264，温度直接飙到 90+（冬天 90+），风扇嗷嗷的叫，再过一会就开始降频了。</description>
+      <pubDate>Sat, 19 Jan 2019 09:33:46 GMT</pubDate>
+      <content:encoded><![CDATA[<p>最近 zuodie，把一颗 i7-8700 装到了笔记本上，结果两风扇散热根本不够看的，随便跑一跑 x264，温度直接飙到 90+（冬天 90+），风扇嗷嗷的叫，再过一会就开始降频了。</p>
+]]></content:encoded>
+      <enclosure url="https://s2.ax1x.com/2019/01/19/k974u8.avif" type="image/"/>
+    </item>
+    <item>
+      <title>自己动手修改完善yilia主题（上）</title>
+      <link>https://blog.u2sb.com/2019/01260.your-own-yilia-1.html</link>
+      <guid>https://blog.u2sb.com/2019/01260.your-own-yilia-1.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">自己动手修改完善yilia主题（上）</source>
+      <description>自己动手修改 Yilia 主题，这有什么难的，简单修修模板，改改 CSS？</description>
+      <pubDate>Sat, 26 Jan 2019 13:49:23 GMT</pubDate>
+      <content:encoded><![CDATA[<p>自己动手修改 Yilia 主题，这有什么难的，简单修修模板，改改 CSS？</p>
+]]></content:encoded>
+      <enclosure url="https://s2.ax1x.com/2019/01/26/knhmUP.png" type="image/png"/>
+    </item>
+    <item>
+      <title>自己动手修改完善yilia主题（下）</title>
+      <link>https://blog.u2sb.com/2019/02010.your-own-yilia-2.html</link>
+      <guid>https://blog.u2sb.com/2019/02010.your-own-yilia-2.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">自己动手修改完善yilia主题（下）</source>
+      <description>这一期咱们接着来说自定义 Yilia 主题的事。</description>
+      <pubDate>Fri, 01 Feb 2019 14:40:40 GMT</pubDate>
+      <content:encoded><![CDATA[<p>这一期咱们接着来说自定义 Yilia 主题的事。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>又入手一台小JJ</title>
+      <link>https://blog.u2sb.com/2019/04070.small-jj.html</link>
+      <guid>https://blog.u2sb.com/2019/04070.small-jj.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">又入手一台小JJ</source>
+      <description>上个月花了点钱购置了一台小 jj 用作服务器，简单记录了一下装配过程，正好清明节假干完两天的活，休息一天，就写一点出来。</description>
+      <pubDate>Sun, 07 Apr 2019 16:30:09 GMT</pubDate>
+      <content:encoded><![CDATA[<p>上个月花了点钱购置了一台小 jj 用作服务器，简单记录了一下装配过程，正好清明节假干完两天的活，休息一天，就写一点出来。</p>
+]]></content:encoded>
+      <enclosure url="https://s2.ax1x.com/2019/04/07/AhyDqf.avif" type="image/"/>
+    </item>
+    <item>
+      <title>在家搭建网站-DDNS</title>
+      <link>https://blog.u2sb.com/2019/04140.ddns.html</link>
+      <guid>https://blog.u2sb.com/2019/04140.ddns.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">在家搭建网站-DDNS</source>
+      <description>上次说了新买了一台小 JJ，并且在上面搭建了个人网站，但是生命不息，折腾不止。</description>
+      <pubDate>Sun, 14 Apr 2019 18:48:35 GMT</pubDate>
+      <content:encoded><![CDATA[<p>上次说了新买了一台小 JJ，并且在上面搭建了个人网站，但是生命不息，折腾不止。</p>
+]]></content:encoded>
+      <enclosure url="https://s2.ax1x.com/2019/04/29/E3bH9x.png" type="image/png"/>
+    </item>
+    <item>
+      <title>Unity WebGL平台开发遇到的坑</title>
+      <link>https://blog.u2sb.com/2019/04290.unity-webgl-keng.html</link>
+      <guid>https://blog.u2sb.com/2019/04290.unity-webgl-keng.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">Unity WebGL平台开发遇到的坑</source>
+      <description>最近在用 Unity 做一个 WebGL 平台的项目，开发过程中遇到了各种各样的坑，这里简单记录一下，以免以后再踩。</description>
+      <pubDate>Mon, 29 Apr 2019 20:48:35 GMT</pubDate>
+      <content:encoded><![CDATA[<p>最近在用 Unity 做一个 WebGL 平台的项目，开发过程中遇到了各种各样的坑，这里简单记录一下，以免以后再踩。</p>
+]]></content:encoded>
+      <enclosure url="https://s2.ax1x.com/2019/04/29/E1c9i9.png" type="image/png"/>
+    </item>
+    <item>
+      <title>域名解析的MX和CNAME记录冲突问题的解决</title>
+      <link>https://blog.u2sb.com/2019/07140.mx-and-cname.html</link>
+      <guid>https://blog.u2sb.com/2019/07140.mx-and-cname.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">域名解析的MX和CNAME记录冲突问题的解决</source>
+      <description>最近又遇到了 MX 记录和 CNAME 记录冲突的问题，简单记录一个解决办法，方便以后参考一下</description>
+      <pubDate>Sun, 14 Jul 2019 14:48:35 GMT</pubDate>
+      <content:encoded><![CDATA[<p>最近又遇到了 MX 记录和 CNAME 记录冲突的问题，简单记录一个解决办法，方便以后参考一下</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>RSS+RSSHub连接世界</title>
+      <link>https://blog.u2sb.com/2019/08080.rss-rsshub.html</link>
+      <guid>https://blog.u2sb.com/2019/08080.rss-rsshub.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">RSS+RSSHub连接世界</source>
+      <description>都说现在是一个信息爆炸的时代，我需要一个信息聚合入口。 一说到信息聚合，第一个想到的就是 RSS。这都 9102 年了，还在用 RSS 的人不多了，而我就算是一个。</description>
+      <pubDate>Thu, 08 Aug 2019 23:23:46 GMT</pubDate>
+      <content:encoded><![CDATA[<p>都说现在是一个信息爆炸的时代，我需要一个信息聚合入口。</p>
+<p>一说到信息聚合，第一个想到的就是 RSS。这都 9102 年了，还在用 RSS 的人不多了，而我就算是一个。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>代理和异地组网</title>
+      <link>https://blog.u2sb.com/2019/09130.proxy1.html</link>
+      <guid>https://blog.u2sb.com/2019/09130.proxy1.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">代理和异地组网</source>
+      <description>关于搭建代理和异地组网的一些想法。</description>
+      <pubDate>Fri, 13 Sep 2019 13:48:35 GMT</pubDate>
+      <content:encoded><![CDATA[<p>关于搭建代理和异地组网的一些想法。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>腾讯云使用自定义镜像</title>
+      <link>https://blog.u2sb.com/2019/10020.custom-mirror.html</link>
+      <guid>https://blog.u2sb.com/2019/10020.custom-mirror.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">腾讯云使用自定义镜像</source>
+      <description>最近发现服务器上一些服务已经没用了，趁着十一假期整理一下，顺便研究一下腾讯云怎么使用自定义的镜像安装系统。</description>
+      <pubDate>Wed, 02 Oct 2019 22:15:35 GMT</pubDate>
+      <content:encoded><![CDATA[<p>最近发现服务器上一些服务已经没用了，趁着十一假期整理一下，顺便研究一下腾讯云怎么使用自定义的镜像安装系统。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Azure DevOps Pipelines</title>
+      <link>https://blog.u2sb.com/2019/10210.azure-ci.html</link>
+      <guid>https://blog.u2sb.com/2019/10210.azure-ci.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">Azure DevOps Pipelines</source>
+      <description>前段时间给我的一个项目上了Azure DevOps 的 Pipelines，顺带着就给那个项目的文档和这个博客一起换上了 Azure 的 CI。</description>
+      <pubDate>Mon, 21 Oct 2019 13:48:35 GMT</pubDate>
+      <content:encoded><![CDATA[<p>前段时间给我的一个项目上了Azure DevOps 的 Pipelines，顺带着就给那个项目的文档和这个博客一起换上了 Azure 的 CI。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Unity2D动画绑定</title>
+      <link>https://blog.u2sb.com/2019/11130.unity-2danimation.html</link>
+      <guid>https://blog.u2sb.com/2019/11130.unity-2danimation.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">Unity2D动画绑定</source>
+      <description>这次做了一个 Unity 的 2D 动画，记录一下，怕下次忘了怎么做。</description>
+      <pubDate>Wed, 13 Nov 2019 15:48:35 GMT</pubDate>
+      <content:encoded><![CDATA[<p>这次做了一个 Unity 的 2D 动画，记录一下，怕下次忘了怎么做。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>关于5G Wi-Fi 想到的一些名词解释</title>
+      <link>https://blog.u2sb.com/2019/11260.5g-wifi.html</link>
+      <guid>https://blog.u2sb.com/2019/11260.5g-wifi.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">关于5G Wi-Fi 想到的一些名词解释</source>
+      <description>昨天帮同事修笔记本，我那里路由器只开了 5G，但是他的老本子不支持。然后我说给路由器开 2.4G 的时候，给他解释，我这里只开了 5G Wi-Fi，他说“现在运营商也不是不让用 4G”，我想他是搞混了，看来有必要科普一下了。</description>
+      <pubDate>Tue, 26 Nov 2019 19:48:35 GMT</pubDate>
+      <content:encoded><![CDATA[<p>昨天帮同事修笔记本，我那里路由器只开了 5G，但是他的老本子不支持。然后我说给路由器开 2.4G 的时候，给他解释，我这里只开了 5G Wi-Fi，他说“现在运营商也不是不让用 4G”，我想他是搞混了，看来有必要科普一下了。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hexo脚本</title>
+      <link>https://blog.u2sb.com/2019/11290.hexo-scripts.html</link>
+      <guid>https://blog.u2sb.com/2019/11290.hexo-scripts.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">Hexo脚本</source>
+      <description>事情的起因是这样的，我博客里用的音乐插件hexo-tag-aplayer太久没更新了，已经不能支持新版的MetingJS，我便决定自己尝试解决一下。</description>
+      <pubDate>Fri, 29 Nov 2019 19:48:35 GMT</pubDate>
+      <content:encoded><![CDATA[<p>事情的起因是这样的，我博客里用的音乐插件<a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener noreferrer">hexo-tag-aplayer</a>太久没更新了，已经不能支持新版的<a href="https://github.com/metowolf/MetingJS" target="_blank" rel="noopener noreferrer">MetingJS</a>，我便决定自己尝试解决一下。</p>
+]]></content:encoded>
     </item>
     <item>
       <title>迟到的2019年终总结</title>
