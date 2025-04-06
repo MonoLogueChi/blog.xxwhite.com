@@ -13,6 +13,7 @@
     "@types/fs-extra": "^11.0.4",
     "@vuepress/bundler-vite": "2.0.0-rc.20",
     "@vuepress/plugin-feed": "2.0.0-rc.91",
+    "@vuepress/plugin-google-analytics": "2.0.0-rc.80",
     "@vuepress/plugin-markdown-ext": "2.0.0-rc.91",
     "@vuepress/plugin-markdown-hint": "2.0.0-rc.91",
     "@vuepress/plugin-markdown-image": "2.0.0-rc.91",
