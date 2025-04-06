@@ -14,7 +14,7 @@ export default hopeTheme({
   blog: {
     description: "菜鸡程序员",
     intro: "/pages/aboutme.html",
-    avatar: "/assets/img/avatar.jpg",
+    avatar: "/assets/img/avatar.avif",
     articlePerPage: 15,
     medias: {
       QQ: "/assets/html/qq-groups.html",
@@ -25,7 +25,7 @@ export default hopeTheme({
     },
   },
 
-  // logo: "/assets/img/logo.png",
+  // logo: "/assets/img/logo.avif",
 
   repo: "MonoLogueChi/blog.u2sb.com",
 
