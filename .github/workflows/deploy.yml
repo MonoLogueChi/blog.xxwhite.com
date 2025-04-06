@@ -33,19 +33,14 @@ jobs:
           pnpm install
           pnpm run build
 
-      - name: Deploy upyun
+      - name: Deploy gh-page
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./dist
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+      - name: Deploy site
         run: |
-          wget -O upx.tar.gz https://github.com/upyun/upx/releases/download/v0.4.4/upx_0.4.4_Linux_x86_64.tar.gz
-          tar -zxf upx.tar.gz
-          chmod +x upx
-          ./upx login ${{ secrets.UP_BUCKET }} ${{ secrets.UP_OPERATOR }} ${{ secrets.UP_OPERATOR_PASSWORD }}
-          ./upx sync dist/ / --delete
-          ./upx logout
-
-      # - name: Deploy github
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     publish_dir: ./dist
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     user_name: "github-actions[bot]"
-      #     user_email: "github-actions[bot]@users.noreply.github.com"
+          /usr/bin/sleep 5s
+          wget -O- ${{ secrets.ACTIONS_HOOK_URL }} > /dev/null
