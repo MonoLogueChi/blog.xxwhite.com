@@ -4,11 +4,11 @@ import sidebar from "./sidebar.js";
 import markdown from "./markdown.js";
 
 export default hopeTheme({
-  hostname: "https://blog.xxwhite.com",
+  hostname: "https://blog.u2sb.com",
 
   author: {
     name: "MonoLogueChi",
-    url: "https://blog.xxwhite.com",
+    url: "https://blog.u2sb.com",
   },
 
   blog: {
@@ -27,7 +27,7 @@ export default hopeTheme({
 
   // logo: "/assets/img/logo.png",
 
-  repo: "MonoLogueChi/blog.xxwhite.com",
+  repo: "MonoLogueChi/blog.u2sb.com",
 
   docsDir: "docs",
 
@@ -41,7 +41,7 @@ export default hopeTheme({
   sidebarSorter: ["readme", "order", "date-desc", "filename"],
 
   footer: `
-  <a href="https://blog.xxwhite.com" target="_blank">MonoLogueChi</a> | <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a>
+  <a href="https://blog.u2sb.com" target="_blank">MonoLogueChi</a> | <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a>
   <br>
   本站由 <a href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral" target="_blank"><img src="/assets/img/upyun.png" height="20px" style="vertical-align:middle"> </a>提供 CDN 加速 / 云存储服务
   <br>

@@ -1,11 +1,16 @@
 // 布局
 $navbarHeight: 3.6rem;
 $sidebarWidth: 18rem;
-$contentWidth: 920px;
-$homePageWidth: 1280px;
+$content-width: 960px;
+$wide-content-width: 1280px;
+$home-page-width: 960px;
 
 .vp-blog-hero {
   height: 0px !important;
+}
+
+.vp-blog-main {
+  max-width: 960px !important;
 }
 
 .aplayer-lrc {
