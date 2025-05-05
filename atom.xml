@@ -3,7 +3,7 @@
   <id>https://blog.u2sb.com/</id>
   <title>叉叉白</title>
   <subtitle>一个小白的技术博客</subtitle>
-  <updated>2025-04-16T16:29:24.757Z</updated>
+  <updated>2025-05-05T14:38:45.310Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://blog.u2sb.com/atom.xml"/>
   <link rel="alternate" href="https://blog.u2sb.com/"/>
@@ -11,7 +11,7 @@
     <title type="text">ADB配置和ADB刷机</title>
     <id>https://blog.u2sb.com/2017/1023.AdbUsing.html</id>
     <link href="https://blog.u2sb.com/2017/1023.AdbUsing.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>adb 的全称为 Android Debug Bridge，就是起到调试桥的作用。通过 adb 我们可以在 Eclipse 中方便通过 DDMS 来调试 Android 程序，说白了就是 debug 工具。adb 的工作方式比较特殊，采用监听 Socket TCP 5554 等端口的方式让 IDE 和 Qemu 通讯，默认情况下 adb 会 daemon 相关的网络端口，所以当我们运行 Eclipse 时 adb 进程就会自动运行。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>adb 的全称为 Android Debug Bridge，就是起到调试桥的作用。通过 adb 我们可以在 Eclipse 中方便通过 DDMS 来调试 Android 程序，说白了就是 debug 工具。adb 的工作方式比较特殊，采用监听 Socket TCP 5554 等端口的方式让 IDE 和 Qemu 通讯，默认情况下 adb 会 daemon 相关的网络端口，所以当我们运行 Eclipse 时 adb 进程就会自动运行。</p>
@@ -22,7 +22,7 @@
     <title type="text">使用C#产生各种随机数（一）</title>
     <id>https://blog.u2sb.com/2017/1217.RandomNum1.html</id>
     <link href="https://blog.u2sb.com/2017/1217.RandomNum1.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>在很多时候，我们需要用到各种各样的随机数，比如<code>平均分布</code>、<code>正态分布</code>、<code>泊松分布</code>、<code>指数分布</code>等等。</p>
 <p>在网上找了很多资料，终于集齐了一套，这里做一下笔记，希望以后再用的时候能记起来。</p>
 ]]></summary>
@@ -35,7 +35,7 @@
     <title type="text">加个Valine评论系统</title>
     <id>https://blog.u2sb.com/2017/1220.Valine.html</id>
     <link href="https://blog.u2sb.com/2017/1220.Valine.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>现在我在 Hexo 的 yilia 主题上用上了 valine 评论系统。</p>
 <p>前两天在 v 站无意中看到了关于 valine 的评论，这是什么东东，难道大清亡了？看了一下，是个不错的好东东，正好我对畅言不太满意，即使是用了自定义样式也不方便。好，那就研究一下，看看能不能用上。</p>
 ]]></summary>
@@ -45,177 +45,10 @@
     <published>2017-12-20T14:36:07.000Z</published>
   </entry>
   <entry>
-    <title type="text">为知识付费</title>
-    <id>https://blog.u2sb.com/2019/01050.pay-for-knowledge.html</id>
-    <link href="https://blog.u2sb.com/2019/01050.pay-for-knowledge.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
-    <summary type="html"><![CDATA[<p>昨天收了一个一百块钱的红包，感觉有点受之有愧。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>昨天收了一个一百块钱的红包，感觉有点受之有愧。</p>
-]]></content>
-    <published>2019-01-05T12:08:07.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">CPU降压降温方案</title>
-    <id>https://blog.u2sb.com/2019/01190.cpu-reduction-voltage.html</id>
-    <link href="https://blog.u2sb.com/2019/01190.cpu-reduction-voltage.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
-    <summary type="html"><![CDATA[<p>最近 zuodie，把一颗 i7-8700 装到了笔记本上，结果两风扇散热根本不够看的，随便跑一跑 x264，温度直接飙到 90+（冬天 90+），风扇嗷嗷的叫，再过一会就开始降频了。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>最近 zuodie，把一颗 i7-8700 装到了笔记本上，结果两风扇散热根本不够看的，随便跑一跑 x264，温度直接飙到 90+（冬天 90+），风扇嗷嗷的叫，再过一会就开始降频了。</p>
-]]></content>
-    <published>2019-01-19T09:33:46.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">自己动手修改完善yilia主题（上）</title>
-    <id>https://blog.u2sb.com/2019/01260.your-own-yilia-1.html</id>
-    <link href="https://blog.u2sb.com/2019/01260.your-own-yilia-1.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
-    <summary type="html"><![CDATA[<p>自己动手修改 Yilia 主题，这有什么难的，简单修修模板，改改 CSS？</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>自己动手修改 Yilia 主题，这有什么难的，简单修修模板，改改 CSS？</p>
-]]></content>
-    <published>2019-01-26T13:49:23.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">自己动手修改完善yilia主题（下）</title>
-    <id>https://blog.u2sb.com/2019/02010.your-own-yilia-2.html</id>
-    <link href="https://blog.u2sb.com/2019/02010.your-own-yilia-2.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
-    <summary type="html"><![CDATA[<p>这一期咱们接着来说自定义 Yilia 主题的事。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>这一期咱们接着来说自定义 Yilia 主题的事。</p>
-]]></content>
-    <published>2019-02-01T14:40:40.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">又入手一台小JJ</title>
-    <id>https://blog.u2sb.com/2019/04070.small-jj.html</id>
-    <link href="https://blog.u2sb.com/2019/04070.small-jj.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
-    <summary type="html"><![CDATA[<p>上个月花了点钱购置了一台小 jj 用作服务器，简单记录了一下装配过程，正好清明节假干完两天的活，休息一天，就写一点出来。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>上个月花了点钱购置了一台小 jj 用作服务器，简单记录了一下装配过程，正好清明节假干完两天的活，休息一天，就写一点出来。</p>
-]]></content>
-    <published>2019-04-07T16:30:09.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">在家搭建网站-DDNS</title>
-    <id>https://blog.u2sb.com/2019/04140.ddns.html</id>
-    <link href="https://blog.u2sb.com/2019/04140.ddns.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
-    <summary type="html"><![CDATA[<p>上次说了新买了一台小 JJ，并且在上面搭建了个人网站，但是生命不息，折腾不止。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>上次说了新买了一台小 JJ，并且在上面搭建了个人网站，但是生命不息，折腾不止。</p>
-]]></content>
-    <published>2019-04-14T18:48:35.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Unity WebGL平台开发遇到的坑</title>
-    <id>https://blog.u2sb.com/2019/04290.unity-webgl-keng.html</id>
-    <link href="https://blog.u2sb.com/2019/04290.unity-webgl-keng.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
-    <summary type="html"><![CDATA[<p>最近在用 Unity 做一个 WebGL 平台的项目，开发过程中遇到了各种各样的坑，这里简单记录一下，以免以后再踩。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>最近在用 Unity 做一个 WebGL 平台的项目，开发过程中遇到了各种各样的坑，这里简单记录一下，以免以后再踩。</p>
-]]></content>
-    <published>2019-04-29T20:48:35.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">域名解析的MX和CNAME记录冲突问题的解决</title>
-    <id>https://blog.u2sb.com/2019/07140.mx-and-cname.html</id>
-    <link href="https://blog.u2sb.com/2019/07140.mx-and-cname.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
-    <summary type="html"><![CDATA[<p>最近又遇到了 MX 记录和 CNAME 记录冲突的问题，简单记录一个解决办法，方便以后参考一下</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>最近又遇到了 MX 记录和 CNAME 记录冲突的问题，简单记录一个解决办法，方便以后参考一下</p>
-]]></content>
-    <published>2019-07-14T14:48:35.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">RSS+RSSHub连接世界</title>
-    <id>https://blog.u2sb.com/2019/08080.rss-rsshub.html</id>
-    <link href="https://blog.u2sb.com/2019/08080.rss-rsshub.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
-    <summary type="html"><![CDATA[<p>都说现在是一个信息爆炸的时代，我需要一个信息聚合入口。</p>
-<p>一说到信息聚合，第一个想到的就是 RSS。这都 9102 年了，还在用 RSS 的人不多了，而我就算是一个。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>都说现在是一个信息爆炸的时代，我需要一个信息聚合入口。</p>
-<p>一说到信息聚合，第一个想到的就是 RSS。这都 9102 年了，还在用 RSS 的人不多了，而我就算是一个。</p>
-]]></content>
-    <published>2019-08-08T23:23:46.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">代理和异地组网</title>
-    <id>https://blog.u2sb.com/2019/09130.proxy1.html</id>
-    <link href="https://blog.u2sb.com/2019/09130.proxy1.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
-    <summary type="html"><![CDATA[<p>关于搭建代理和异地组网的一些想法。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>关于搭建代理和异地组网的一些想法。</p>
-]]></content>
-    <published>2019-09-13T13:48:35.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">腾讯云使用自定义镜像</title>
-    <id>https://blog.u2sb.com/2019/10020.custom-mirror.html</id>
-    <link href="https://blog.u2sb.com/2019/10020.custom-mirror.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
-    <summary type="html"><![CDATA[<p>最近发现服务器上一些服务已经没用了，趁着十一假期整理一下，顺便研究一下腾讯云怎么使用自定义的镜像安装系统。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>最近发现服务器上一些服务已经没用了，趁着十一假期整理一下，顺便研究一下腾讯云怎么使用自定义的镜像安装系统。</p>
-]]></content>
-    <published>2019-10-02T22:15:35.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Azure DevOps Pipelines</title>
-    <id>https://blog.u2sb.com/2019/10210.azure-ci.html</id>
-    <link href="https://blog.u2sb.com/2019/10210.azure-ci.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
-    <summary type="html"><![CDATA[<p>前段时间给我的一个项目上了Azure DevOps 的 Pipelines，顺带着就给那个项目的文档和这个博客一起换上了 Azure 的 CI。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>前段时间给我的一个项目上了Azure DevOps 的 Pipelines，顺带着就给那个项目的文档和这个博客一起换上了 Azure 的 CI。</p>
-]]></content>
-    <published>2019-10-21T13:48:35.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Unity2D动画绑定</title>
-    <id>https://blog.u2sb.com/2019/11130.unity-2danimation.html</id>
-    <link href="https://blog.u2sb.com/2019/11130.unity-2danimation.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
-    <summary type="html"><![CDATA[<p>这次做了一个 Unity 的 2D 动画，记录一下，怕下次忘了怎么做。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>这次做了一个 Unity 的 2D 动画，记录一下，怕下次忘了怎么做。</p>
-]]></content>
-    <published>2019-11-13T15:48:35.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">关于5G Wi-Fi 想到的一些名词解释</title>
-    <id>https://blog.u2sb.com/2019/11260.5g-wifi.html</id>
-    <link href="https://blog.u2sb.com/2019/11260.5g-wifi.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
-    <summary type="html"><![CDATA[<p>昨天帮同事修笔记本，我那里路由器只开了 5G，但是他的老本子不支持。然后我说给路由器开 2.4G 的时候，给他解释，我这里只开了 5G Wi-Fi，他说“现在运营商也不是不让用 4G”，我想他是搞混了，看来有必要科普一下了。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>昨天帮同事修笔记本，我那里路由器只开了 5G，但是他的老本子不支持。然后我说给路由器开 2.4G 的时候，给他解释，我这里只开了 5G Wi-Fi，他说“现在运营商也不是不让用 4G”，我想他是搞混了，看来有必要科普一下了。</p>
-]]></content>
-    <published>2019-11-26T19:48:35.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Hexo脚本</title>
-    <id>https://blog.u2sb.com/2019/11290.hexo-scripts.html</id>
-    <link href="https://blog.u2sb.com/2019/11290.hexo-scripts.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
-    <summary type="html"><![CDATA[<p>事情的起因是这样的，我博客里用的音乐插件<a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener noreferrer">hexo-tag-aplayer</a>太久没更新了，已经不能支持新版的<a href="https://github.com/metowolf/MetingJS" target="_blank" rel="noopener noreferrer">MetingJS</a>，我便决定自己尝试解决一下。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>事情的起因是这样的，我博客里用的音乐插件<a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener noreferrer">hexo-tag-aplayer</a>太久没更新了，已经不能支持新版的<a href="https://github.com/metowolf/MetingJS" target="_blank" rel="noopener noreferrer">MetingJS</a>，我便决定自己尝试解决一下。</p>
-]]></content>
-    <published>2019-11-29T19:48:35.000Z</published>
-  </entry>
-  <entry>
     <title type="text">50年后要看的文章</title>
     <id>https://blog.u2sb.com/2018/0113.50YearsLater.html</id>
     <link href="https://blog.u2sb.com/2018/0113.50YearsLater.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>刚才在 V 站看到一篇有意思的帖子，说 100 年后的人们会不会看到现在咱们发的东西。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>刚才在 V 站看到一篇有意思的帖子，说 100 年后的人们会不会看到现在咱们发的东西。</p>
@@ -226,7 +59,7 @@
     <title type="text">强奸你的剪切板</title>
     <id>https://blog.u2sb.com/2018/0127.Clipboard.html</id>
     <link href="https://blog.u2sb.com/2018/0127.Clipboard.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>最近因为种种原因，经常有网页强奸你的手机剪切板，今天我们就来探究一下，这些网页究竟是怎么强奸你的剪切板的。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>最近因为种种原因，经常有网页强奸你的手机剪切板，今天我们就来探究一下，这些网页究竟是怎么强奸你的剪切板的。</p>
@@ -237,7 +70,7 @@
     <title type="text">增加一个MarkDown文件下载功能</title>
     <id>https://blog.u2sb.com/2018/0203.add-download-markdown.html</id>
     <link href="https://blog.u2sb.com/2018/0203.add-download-markdown.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>昨天给博客加了一个下载 MarkDown 文件的功能，原本是很简单的一件事，但是中间涉及到了很多麻烦东西，所以就决定简单记录以下。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>昨天给博客加了一个下载 MarkDown 文件的功能，原本是很简单的一件事，但是中间涉及到了很多麻烦东西，所以就决定简单记录以下。</p>
@@ -248,7 +81,7 @@
     <title type="text">中南大学联通校园网络第三方客户端</title>
     <id>https://blog.u2sb.com/2018/0224.Drcom.html</id>
     <link href="https://blog.u2sb.com/2018/0224.Drcom.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>这是中南大学联通校园网络第三方客户端，供 Windows 系统登陆校园网使用。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>这是中南大学联通校园网络第三方客户端，供 Windows 系统登陆校园网使用。</p>
@@ -259,7 +92,7 @@
     <title type="text">写一个Drcom第三方客户端</title>
     <id>https://blog.u2sb.com/2018/0301.drcom-develop.html</id>
     <link href="https://blog.u2sb.com/2018/0301.drcom-develop.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>前一阵子弄了一个 Drcom 登陆客户端，用于登陆校园网，具体可以看<a href="https://www.xxwhite.com/2018/Drcom.html" target="_blank" rel="noopener noreferrer">中南大学联通校园网络第三方客户端</a>，这次简单说一下这个东西是怎么做出来的。</p>
 <p>这也是我第二次写 WPF 程序，很多地方都是一边学习一边瞎搞的。</p>
 ]]></summary>
@@ -272,7 +105,7 @@
     <title type="text">毕业了，顺便立个Flag</title>
     <id>https://blog.u2sb.com/2018/0525.graduation-and-flag.html</id>
     <link href="https://blog.u2sb.com/2018/0525.graduation-and-flag.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>马上就要毕业了，最近经常被毕业论文烦的睡不着觉。思来想去，今天抽出来一点时间更新一下博客吧。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>马上就要毕业了，最近经常被毕业论文烦的睡不着觉。思来想去，今天抽出来一点时间更新一下博客吧。</p>
@@ -283,7 +116,7 @@
     <title type="text">OneIndex下载站搭建</title>
     <id>https://blog.u2sb.com/2018/0707.using-oneindex.html</id>
     <link href="https://blog.u2sb.com/2018/0707.using-oneindex.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>很早之前就有为自己博客搭建一个下载站的想法了，正好这几天不算太忙，就弄个OneIndex实施一下。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>很早之前就有为自己博客搭建一个下载站的想法了，正好这几天不算太忙，就弄个OneIndex实施一下。</p>
@@ -294,7 +127,7 @@
     <title type="text">聊聊几种常见的图片格式</title>
     <id>https://blog.u2sb.com/2018/0713.image-format.html</id>
     <link href="https://blog.u2sb.com/2018/0713.image-format.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>简单的科普一下几种常见的图片格式，探讨一下有损压缩和无损压缩的问题。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>简单的科普一下几种常见的图片格式，探讨一下有损压缩和无损压缩的问题。</p>
@@ -305,7 +138,7 @@
     <title type="text">录制视频时显示按键</title>
     <id>https://blog.u2sb.com/2018/1028.KeyCastOW.html</id>
     <link href="https://blog.u2sb.com/2018/1028.KeyCastOW.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>在录屏的时候，我们可能需要把按键情况准确的显示出来，这样就需要把按键映射到屏幕上。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>在录屏的时候，我们可能需要把按键情况准确的显示出来，这样就需要把按键映射到屏幕上。</p>
@@ -316,7 +149,7 @@
     <title type="text">九九乘法表？</title>
     <id>https://blog.u2sb.com/2018/1120.9x9.html</id>
     <link href="https://blog.u2sb.com/2018/1120.9x9.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>打印九九乘法表？这么低端的事我会做？</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>打印九九乘法表？这么低端的事我会做？</p>
@@ -324,10 +157,177 @@
     <published>2018-11-20T20:54:08.000Z</published>
   </entry>
   <entry>
+    <title type="text">为知识付费</title>
+    <id>https://blog.u2sb.com/2019/01050.pay-for-knowledge.html</id>
+    <link href="https://blog.u2sb.com/2019/01050.pay-for-knowledge.html"/>
+    <updated>2025-05-05T14:37:47.000Z</updated>
+    <summary type="html"><![CDATA[<p>昨天收了一个一百块钱的红包，感觉有点受之有愧。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>昨天收了一个一百块钱的红包，感觉有点受之有愧。</p>
+]]></content>
+    <published>2019-01-05T12:08:07.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">CPU降压降温方案</title>
+    <id>https://blog.u2sb.com/2019/01190.cpu-reduction-voltage.html</id>
+    <link href="https://blog.u2sb.com/2019/01190.cpu-reduction-voltage.html"/>
+    <updated>2025-05-05T14:37:47.000Z</updated>
+    <summary type="html"><![CDATA[<p>最近 zuodie，把一颗 i7-8700 装到了笔记本上，结果两风扇散热根本不够看的，随便跑一跑 x264，温度直接飙到 90+（冬天 90+），风扇嗷嗷的叫，再过一会就开始降频了。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>最近 zuodie，把一颗 i7-8700 装到了笔记本上，结果两风扇散热根本不够看的，随便跑一跑 x264，温度直接飙到 90+（冬天 90+），风扇嗷嗷的叫，再过一会就开始降频了。</p>
+]]></content>
+    <published>2019-01-19T09:33:46.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">自己动手修改完善yilia主题（上）</title>
+    <id>https://blog.u2sb.com/2019/01260.your-own-yilia-1.html</id>
+    <link href="https://blog.u2sb.com/2019/01260.your-own-yilia-1.html"/>
+    <updated>2025-05-05T14:37:47.000Z</updated>
+    <summary type="html"><![CDATA[<p>自己动手修改 Yilia 主题，这有什么难的，简单修修模板，改改 CSS？</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>自己动手修改 Yilia 主题，这有什么难的，简单修修模板，改改 CSS？</p>
+]]></content>
+    <published>2019-01-26T13:49:23.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">自己动手修改完善yilia主题（下）</title>
+    <id>https://blog.u2sb.com/2019/02010.your-own-yilia-2.html</id>
+    <link href="https://blog.u2sb.com/2019/02010.your-own-yilia-2.html"/>
+    <updated>2025-05-05T14:37:47.000Z</updated>
+    <summary type="html"><![CDATA[<p>这一期咱们接着来说自定义 Yilia 主题的事。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>这一期咱们接着来说自定义 Yilia 主题的事。</p>
+]]></content>
+    <published>2019-02-01T14:40:40.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">又入手一台小JJ</title>
+    <id>https://blog.u2sb.com/2019/04070.small-jj.html</id>
+    <link href="https://blog.u2sb.com/2019/04070.small-jj.html"/>
+    <updated>2025-05-05T14:37:47.000Z</updated>
+    <summary type="html"><![CDATA[<p>上个月花了点钱购置了一台小 jj 用作服务器，简单记录了一下装配过程，正好清明节假干完两天的活，休息一天，就写一点出来。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>上个月花了点钱购置了一台小 jj 用作服务器，简单记录了一下装配过程，正好清明节假干完两天的活，休息一天，就写一点出来。</p>
+]]></content>
+    <published>2019-04-07T16:30:09.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">在家搭建网站-DDNS</title>
+    <id>https://blog.u2sb.com/2019/04140.ddns.html</id>
+    <link href="https://blog.u2sb.com/2019/04140.ddns.html"/>
+    <updated>2025-05-05T14:37:47.000Z</updated>
+    <summary type="html"><![CDATA[<p>上次说了新买了一台小 JJ，并且在上面搭建了个人网站，但是生命不息，折腾不止。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>上次说了新买了一台小 JJ，并且在上面搭建了个人网站，但是生命不息，折腾不止。</p>
+]]></content>
+    <published>2019-04-14T18:48:35.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Unity WebGL平台开发遇到的坑</title>
+    <id>https://blog.u2sb.com/2019/04290.unity-webgl-keng.html</id>
+    <link href="https://blog.u2sb.com/2019/04290.unity-webgl-keng.html"/>
+    <updated>2025-05-05T14:37:47.000Z</updated>
+    <summary type="html"><![CDATA[<p>最近在用 Unity 做一个 WebGL 平台的项目，开发过程中遇到了各种各样的坑，这里简单记录一下，以免以后再踩。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>最近在用 Unity 做一个 WebGL 平台的项目，开发过程中遇到了各种各样的坑，这里简单记录一下，以免以后再踩。</p>
+]]></content>
+    <published>2019-04-29T20:48:35.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">域名解析的MX和CNAME记录冲突问题的解决</title>
+    <id>https://blog.u2sb.com/2019/07140.mx-and-cname.html</id>
+    <link href="https://blog.u2sb.com/2019/07140.mx-and-cname.html"/>
+    <updated>2025-05-05T14:37:47.000Z</updated>
+    <summary type="html"><![CDATA[<p>最近又遇到了 MX 记录和 CNAME 记录冲突的问题，简单记录一个解决办法，方便以后参考一下</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>最近又遇到了 MX 记录和 CNAME 记录冲突的问题，简单记录一个解决办法，方便以后参考一下</p>
+]]></content>
+    <published>2019-07-14T14:48:35.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">RSS+RSSHub连接世界</title>
+    <id>https://blog.u2sb.com/2019/08080.rss-rsshub.html</id>
+    <link href="https://blog.u2sb.com/2019/08080.rss-rsshub.html"/>
+    <updated>2025-05-05T14:37:47.000Z</updated>
+    <summary type="html"><![CDATA[<p>都说现在是一个信息爆炸的时代，我需要一个信息聚合入口。</p>
+<p>一说到信息聚合，第一个想到的就是 RSS。这都 9102 年了，还在用 RSS 的人不多了，而我就算是一个。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>都说现在是一个信息爆炸的时代，我需要一个信息聚合入口。</p>
+<p>一说到信息聚合，第一个想到的就是 RSS。这都 9102 年了，还在用 RSS 的人不多了，而我就算是一个。</p>
+]]></content>
+    <published>2019-08-08T23:23:46.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">代理和异地组网</title>
+    <id>https://blog.u2sb.com/2019/09130.proxy1.html</id>
+    <link href="https://blog.u2sb.com/2019/09130.proxy1.html"/>
+    <updated>2025-05-05T14:37:47.000Z</updated>
+    <summary type="html"><![CDATA[<p>关于搭建代理和异地组网的一些想法。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>关于搭建代理和异地组网的一些想法。</p>
+]]></content>
+    <published>2019-09-13T13:48:35.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">腾讯云使用自定义镜像</title>
+    <id>https://blog.u2sb.com/2019/10020.custom-mirror.html</id>
+    <link href="https://blog.u2sb.com/2019/10020.custom-mirror.html"/>
+    <updated>2025-05-05T14:37:47.000Z</updated>
+    <summary type="html"><![CDATA[<p>最近发现服务器上一些服务已经没用了，趁着十一假期整理一下，顺便研究一下腾讯云怎么使用自定义的镜像安装系统。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>最近发现服务器上一些服务已经没用了，趁着十一假期整理一下，顺便研究一下腾讯云怎么使用自定义的镜像安装系统。</p>
+]]></content>
+    <published>2019-10-02T22:15:35.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Azure DevOps Pipelines</title>
+    <id>https://blog.u2sb.com/2019/10210.azure-ci.html</id>
+    <link href="https://blog.u2sb.com/2019/10210.azure-ci.html"/>
+    <updated>2025-05-05T14:37:47.000Z</updated>
+    <summary type="html"><![CDATA[<p>前段时间给我的一个项目上了Azure DevOps 的 Pipelines，顺带着就给那个项目的文档和这个博客一起换上了 Azure 的 CI。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>前段时间给我的一个项目上了Azure DevOps 的 Pipelines，顺带着就给那个项目的文档和这个博客一起换上了 Azure 的 CI。</p>
+]]></content>
+    <published>2019-10-21T13:48:35.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Unity2D动画绑定</title>
+    <id>https://blog.u2sb.com/2019/11130.unity-2danimation.html</id>
+    <link href="https://blog.u2sb.com/2019/11130.unity-2danimation.html"/>
+    <updated>2025-05-05T14:37:47.000Z</updated>
+    <summary type="html"><![CDATA[<p>这次做了一个 Unity 的 2D 动画，记录一下，怕下次忘了怎么做。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>这次做了一个 Unity 的 2D 动画，记录一下，怕下次忘了怎么做。</p>
+]]></content>
+    <published>2019-11-13T15:48:35.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">关于5G Wi-Fi 想到的一些名词解释</title>
+    <id>https://blog.u2sb.com/2019/11260.5g-wifi.html</id>
+    <link href="https://blog.u2sb.com/2019/11260.5g-wifi.html"/>
+    <updated>2025-05-05T14:37:47.000Z</updated>
+    <summary type="html"><![CDATA[<p>昨天帮同事修笔记本，我那里路由器只开了 5G，但是他的老本子不支持。然后我说给路由器开 2.4G 的时候，给他解释，我这里只开了 5G Wi-Fi，他说“现在运营商也不是不让用 4G”，我想他是搞混了，看来有必要科普一下了。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>昨天帮同事修笔记本，我那里路由器只开了 5G，但是他的老本子不支持。然后我说给路由器开 2.4G 的时候，给他解释，我这里只开了 5G Wi-Fi，他说“现在运营商也不是不让用 4G”，我想他是搞混了，看来有必要科普一下了。</p>
+]]></content>
+    <published>2019-11-26T19:48:35.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Hexo脚本</title>
+    <id>https://blog.u2sb.com/2019/11290.hexo-scripts.html</id>
+    <link href="https://blog.u2sb.com/2019/11290.hexo-scripts.html"/>
+    <updated>2025-05-05T14:37:47.000Z</updated>
+    <summary type="html"><![CDATA[<p>事情的起因是这样的，我博客里用的音乐插件<a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener noreferrer">hexo-tag-aplayer</a>太久没更新了，已经不能支持新版的<a href="https://github.com/metowolf/MetingJS" target="_blank" rel="noopener noreferrer">MetingJS</a>，我便决定自己尝试解决一下。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>事情的起因是这样的，我博客里用的音乐插件<a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener noreferrer">hexo-tag-aplayer</a>太久没更新了，已经不能支持新版的<a href="https://github.com/metowolf/MetingJS" target="_blank" rel="noopener noreferrer">MetingJS</a>，我便决定自己尝试解决一下。</p>
+]]></content>
+    <published>2019-11-29T19:48:35.000Z</published>
+  </entry>
+  <entry>
     <title type="text">迟到的2019年终总结</title>
     <id>https://blog.u2sb.com/2020/01110.yearend-summary.html</id>
     <link href="https://blog.u2sb.com/2020/01110.yearend-summary.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>一直没有想好2019的年终总结要写什么，就迟到了。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>一直没有想好2019的年终总结要写什么，就迟到了。</p>
@@ -338,7 +338,7 @@
     <title type="text">ArchLinux安装</title>
     <id>https://blog.u2sb.com/2020/01180.archlinux-install.html</id>
     <link href="https://blog.u2sb.com/2020/01180.archlinux-install.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>以前一直觉得ArchLinux安装很麻烦，不敢尝试，现在自以为Linux已经有一些基础了，就打算试一下。参考<a href="https://wiki.archlinux.org/index.php/Installation_guide" target="_blank" rel="noopener noreferrer">ArchWiki</a>，结合自己了解的一点知识，记录一下安装过程。</p>
 <p>顺便说一下，想要玩转这个东西，看教程的时候一定要明白每一步的命令是在做什么，如果想要使用和教程不一样的方法，命令应该怎么写。比如想要boot单独分区，这个时候应该怎么挂载。</p>
 ]]></summary>
@@ -351,7 +351,7 @@
     <title type="text">在 .NET CORE 项目中使用 VUE</title>
     <id>https://blog.u2sb.com/2020/02220.aspnetcore-vue.html</id>
     <link href="https://blog.u2sb.com/2020/02220.aspnetcore-vue.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>最近在改造一个项目，想要在 .net core 项目中使用 vue 单页面应用。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>最近在改造一个项目，想要在 .net core 项目中使用 vue 单页面应用。</p>
@@ -362,7 +362,7 @@
     <title type="text">BiliBili弹幕解析</title>
     <id>https://blog.u2sb.com/2020/02230.bilibili-danmaku.html</id>
     <link href="https://blog.u2sb.com/2020/02230.bilibili-danmaku.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>简单说一下我开发的<a href="https://github.com/MonoLogueChi/Dplayer.Danmaku" target="_blank" rel="noopener noreferrer">弹幕后端</a>的 BiliBili 弹幕解析过程，总结一下以前犯得新手错误，我的程序不是能用就行，我在能用的情况下还要有效率。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>简单说一下我开发的<a href="https://github.com/MonoLogueChi/Dplayer.Danmaku" target="_blank" rel="noopener noreferrer">弹幕后端</a>的 BiliBili 弹幕解析过程，总结一下以前犯得新手错误，我的程序不是能用就行，我在能用的情况下还要有效率。</p>
@@ -373,7 +373,7 @@
     <title type="text">BiliBili的bvid查询cid</title>
     <id>https://blog.u2sb.com/2020/03230.bilibili-bvid.html</id>
     <link href="https://blog.u2sb.com/2020/03230.bilibili-bvid.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>今天开始，BiliBili 视频使用 bv 号代替以前的 av 号，知乎上已经有大佬给出了 bvid 转换成 aid 的算法。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>今天开始，BiliBili 视频使用 bv 号代替以前的 av 号，知乎上已经有大佬给出了 bvid 转换成 aid 的算法。</p>
@@ -384,7 +384,7 @@
     <title type="text">Hexo博客自动化部署</title>
     <id>https://blog.u2sb.com/2020/05160.blog-ci.html</id>
     <link href="https://blog.u2sb.com/2020/05160.blog-ci.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>使用 ci 自动化构建博客，只需要写文章就可以了。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>使用 ci 自动化构建博客，只需要写文章就可以了。</p>
@@ -395,7 +395,7 @@
     <title type="text">Voicemeeter 界面介绍</title>
     <id>https://blog.u2sb.com/2020/06090.voicemeeter.html</id>
     <link href="https://blog.u2sb.com/2020/06090.voicemeeter.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>最近在帮忙做直播，用到了 Voicemeeter，就来简单的讲一下这个东西应该怎么用，顺便举例子说几个应用场景。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>最近在帮忙做直播，用到了 Voicemeeter，就来简单的讲一下这个东西应该怎么用，顺便举例子说几个应用场景。</p>
@@ -406,7 +406,7 @@
     <title type="text">博客开始支持LaTeX啦</title>
     <id>https://blog.u2sb.com/2020/06210.tm.html</id>
     <link href="https://blog.u2sb.com/2020/06210.tm.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>我的博客恢复  支持啦！！！</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>我的博客恢复  支持啦！！！</p>
@@ -417,7 +417,7 @@
     <title type="text">Arduino 初见</title>
     <id>https://blog.u2sb.com/2020/07090.arduino-first-sight.html</id>
     <link href="https://blog.u2sb.com/2020/07090.arduino-first-sight.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>前段时间在做一个硬件上的项目，用到了 Arduino，学了一些知识，也踩了一些坑，简单总结分享一下。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>前段时间在做一个硬件上的项目，用到了 Arduino，学了一些知识，也踩了一些坑，简单总结分享一下。</p>
@@ -428,7 +428,7 @@
     <title type="text">软路由烧写镜像</title>
     <id>https://blog.u2sb.com/2020/07120.flash-image.html</id>
     <link href="https://blog.u2sb.com/2020/07120.flash-image.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>简单说一下怎么给软路由装系统</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>简单说一下怎么给软路由装系统</p>
@@ -439,7 +439,7 @@
     <title type="text">软路由开启WiFi的正确姿势</title>
     <id>https://blog.u2sb.com/2020/07121.router-ap-wifi.html</id>
     <link href="https://blog.u2sb.com/2020/07121.router-ap-wifi.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>前面做了一款软路由，写一篇关于软路由应该怎么搭配路由器开启 WiFi 的教程。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>前面做了一款软路由，写一篇关于软路由应该怎么搭配路由器开启 WiFi 的教程。</p>
@@ -450,7 +450,7 @@
     <title type="text">旁路由设置</title>
     <id>https://blog.u2sb.com/2020/07122.side-routing.html</id>
     <link href="https://blog.u2sb.com/2020/07122.side-routing.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>学会设置旁路由，发挥单网口设备的余热。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>学会设置旁路由，发挥单网口设备的余热。</p>
@@ -461,7 +461,7 @@
     <title type="text">PVE虚拟机安装软路由</title>
     <id>https://blog.u2sb.com/2020/07200.pve-router.html</id>
     <link href="https://blog.u2sb.com/2020/07200.pve-router.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>在 PVE 虚拟机上安装软路由。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>在 PVE 虚拟机上安装软路由。</p>
@@ -472,7 +472,7 @@
     <title type="text">基于OMV打造的All In One</title>
     <id>https://blog.u2sb.com/2020/08210.omv-oia.html</id>
     <link href="https://blog.u2sb.com/2020/08210.omv-oia.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>在 OMV (Debian) 上安装软路由虚拟机，并且网卡直通给虚拟机。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>在 OMV (Debian) 上安装软路由虚拟机，并且网卡直通给虚拟机。</p>
@@ -483,7 +483,7 @@
     <title type="text">OMV安装</title>
     <id>https://blog.u2sb.com/2020/08260.omv-0.html</id>
     <link href="https://blog.u2sb.com/2020/08260.omv-0.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>前面写了几篇 OMV 的文章，看网上这类中文教程很少，我决定写一系列的 OMV 介绍文章。</p>
 <p>我自己都不是踩坑了，直接从水里趟过来的，希望大家看了我的文章，能少踩一些坑。</p>
 ]]></summary>
@@ -496,7 +496,7 @@
     <title type="text">OMV安装在raid上</title>
     <id>https://blog.u2sb.com/2020/08261.omv-1.html</id>
     <link href="https://blog.u2sb.com/2020/08261.omv-1.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>这一篇文章讲怎么让 OMV 系统拥有冗余功能。也就是在 raid 上安装 OMV 系统，坏掉任意一块硬盘的情况下，系统照样能启动。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>这一篇文章讲怎么让 OMV 系统拥有冗余功能。也就是在 raid 上安装 OMV 系统，坏掉任意一块硬盘的情况下，系统照样能启动。</p>
@@ -507,7 +507,7 @@
     <title type="text">OMV安装拓展插件</title>
     <id>https://blog.u2sb.com/2020/08280.omv-2.html</id>
     <link href="https://blog.u2sb.com/2020/08280.omv-2.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>这一篇文章我们讲 OMV 上安装扩展插件。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>这一篇文章我们讲 OMV 上安装扩展插件。</p>
@@ -518,7 +518,7 @@
     <title type="text">OMV面板介绍</title>
     <id>https://blog.u2sb.com/2020/09030.omv-3.html</id>
     <link href="https://blog.u2sb.com/2020/09030.omv-3.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>占坑，以后更新。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>占坑，以后更新。</p>
@@ -529,7 +529,7 @@
     <title type="text">OMV用户、权限和共享</title>
     <id>https://blog.u2sb.com/2020/09040.omv-4.html</id>
     <link href="https://blog.u2sb.com/2020/09040.omv-4.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>这是 NAS 主要功能的介绍，共享目录。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>这是 NAS 主要功能的介绍，共享目录。</p>
@@ -540,7 +540,7 @@
     <title type="text">记一次大型学术会议直播技术要点</title>
     <id>https://blog.u2sb.com/2020/10290.Academic-conference-live-broadcast.html</id>
     <link href="https://blog.u2sb.com/2020/10290.Academic-conference-live-broadcast.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>一次大型的学术会议直播，简单记录一下技术要点，分享给新入行的朋友们。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>一次大型的学术会议直播，简单记录一下技术要点，分享给新入行的朋友们。</p>
@@ -551,7 +551,7 @@
     <title type="text">腾讯云使用自定义镜像</title>
     <id>https://blog.u2sb.com/2021/08160.custom-mirror.html</id>
     <link href="https://blog.u2sb.com/2021/08160.custom-mirror.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>以前写过一篇关于<a href="/2019/custom-mirror.html" target="_blank">腾讯云使用自定义镜像</a>的文章，但是那片文章真的是使用自定义镜像，如果是使用原版镜像的话，用那种方法有些麻烦，这里就写一种简单一点的方法。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>以前写过一篇关于<a href="/2019/custom-mirror.html" target="_blank">腾讯云使用自定义镜像</a>的文章，但是那片文章真的是使用自定义镜像，如果是使用原版镜像的话，用那种方法有些麻烦，这里就写一种简单一点的方法。</p>
@@ -562,7 +562,7 @@
     <title type="text">自己组建一个多功能导播台</title>
     <id>https://blog.u2sb.com/2022/01190.%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%AF%BC%E6%92%AD%E5%8F%B0.html</id>
     <link href="https://blog.u2sb.com/2022/01190.%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%AF%BC%E6%92%AD%E5%8F%B0.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>最近帮公司组建了一个多功能导播台，公司也没有保密方面的要求，就把整个过程简单记录在博客上。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>最近帮公司组建了一个多功能导播台，公司也没有保密方面的要求，就把整个过程简单记录在博客上。</p>
@@ -573,7 +573,7 @@
     <title type="text">自己开发一个vuepress插件</title>
     <id>https://blog.u2sb.com/2022/02020.%E8%87%AA%E5%B7%B1%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AAvuepress%E6%8F%92%E4%BB%B6.html</id>
     <link href="https://blog.u2sb.com/2022/02020.%E8%87%AA%E5%B7%B1%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AAvuepress%E6%8F%92%E4%BB%B6.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>尝试自己开发一个 vuepress 插件，记录一下过程。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>尝试自己开发一个 vuepress 插件，记录一下过程。</p>
@@ -584,7 +584,7 @@
     <title type="text">用Scoop安装一些实用工具</title>
     <id>https://blog.u2sb.com/2022/02090.%E7%94%A8Scoop%E5%AE%89%E8%A3%85%E4%B8%80%E4%BA%9B%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7.html</id>
     <link href="https://blog.u2sb.com/2022/02090.%E7%94%A8Scoop%E5%AE%89%E8%A3%85%E4%B8%80%E4%BA%9B%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>用了这么久的 <a href="https://scoop.sh/" target="_blank" rel="noopener noreferrer">Scoop</a>，就随手写一点笔记出来。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>用了这么久的 <a href="https://scoop.sh/" target="_blank" rel="noopener noreferrer">Scoop</a>，就随手写一点笔记出来。</p>
@@ -595,7 +595,7 @@
     <title type="text">博客现在的一些情况</title>
     <id>https://blog.u2sb.com/2022/02150.%E5%8D%9A%E5%AE%A2%E7%8E%B0%E5%9C%A8%E7%9A%84%E6%83%85%E5%86%B5.html</id>
     <link href="https://blog.u2sb.com/2022/02150.%E5%8D%9A%E5%AE%A2%E7%8E%B0%E5%9C%A8%E7%9A%84%E6%83%85%E5%86%B5.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>今年 (2022 年) 年初将博客从 Hexo 迁移到了 VuePress，简单介绍一下博客现在的情况，以及 VuePress 配置的一些技巧。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>今年 (2022 年) 年初将博客从 Hexo 迁移到了 VuePress，简单介绍一下博客现在的情况，以及 VuePress 配置的一些技巧。</p>
@@ -606,7 +606,7 @@
     <title type="text">Docker安装Caddy使用自定义插件</title>
     <id>https://blog.u2sb.com/2022/02210.Docker%E5%AE%89%E8%A3%85Caddy%E4%BD%BF%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6.html</id>
     <link href="https://blog.u2sb.com/2022/02210.Docker%E5%AE%89%E8%A3%85Caddy%E4%BD%BF%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>最近在折腾 TrueNAS Scale，在这东西上安装 Caddy 用了 Docker，但是因为 NAS 上需要使用 DNS challenge，这就需要编译带有对应插件的 Caddy，本文简单介绍一种方法，解决上面的问题。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>最近在折腾 TrueNAS Scale，在这东西上安装 Caddy 用了 Docker，但是因为 NAS 上需要使用 DNS challenge，这就需要编译带有对应插件的 Caddy，本文简单介绍一种方法，解决上面的问题。</p>
@@ -617,7 +617,7 @@
     <title type="text">FMP4、HLS和DASH视频生成</title>
     <id>https://blog.u2sb.com/2022/03010.FMP4%E3%80%81HLS%E5%92%8CDASH%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90.html</id>
     <link href="https://blog.u2sb.com/2022/03010.FMP4%E3%80%81HLS%E5%92%8CDASH%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>简单说明一下怎么生成 FMP4、HLS 和 DASH 视频，方便制作 Demo。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>简单说明一下怎么生成 FMP4、HLS 和 DASH 视频，方便制作 Demo。</p>
@@ -628,7 +628,7 @@
     <title type="text">使用 GitHub Actions 将博客部署到 GitHub Page</title>
     <id>https://blog.u2sb.com/2022/03090.%E4%BD%BF%E7%94%A8CI%E5%B0%86%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0GitHub.html</id>
     <link href="https://blog.u2sb.com/2022/03090.%E4%BD%BF%E7%94%A8CI%E5%B0%86%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0GitHub.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>使用 GitHub Actions CI 将博客部署到 GitHub。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>使用 GitHub Actions CI 将博客部署到 GitHub。</p>
@@ -639,7 +639,7 @@
     <title type="text">使用 GitHub Actions 将博客部署到又拍云</title>
     <id>https://blog.u2sb.com/2022/03091.%E4%BD%BF%E7%94%A8CI%E5%B0%86%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0%E5%8F%88%E6%8B%8D%E4%BA%91.html</id>
     <link href="https://blog.u2sb.com/2022/03091.%E4%BD%BF%E7%94%A8CI%E5%B0%86%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0%E5%8F%88%E6%8B%8D%E4%BA%91.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>使用 GitHub Actions CI 将博客部署到又拍云。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>使用 GitHub Actions CI 将博客部署到又拍云。</p>
@@ -650,7 +650,7 @@
     <title type="text">C#解析B站弹幕</title>
     <id>https://blog.u2sb.com/2022/06050.CSharp%E8%A7%A3%E6%9E%90B%E7%AB%99%E5%BC%B9%E5%B9%95.html</id>
     <link href="https://blog.u2sb.com/2022/06050.CSharp%E8%A7%A3%E6%9E%90B%E7%AB%99%E5%BC%B9%E5%B9%95.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>两年前写过写一篇文章，<a href="/2020/02230.bilibili-danmaku.html" target="_blank">BiliBili 弹幕解析</a>，但上次是解析 xml 弹幕，最近打算研究一下 v2 弹幕接口，使用的是 protobuf。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>两年前写过写一篇文章，<a href="/2020/02230.bilibili-danmaku.html" target="_blank">BiliBili 弹幕解析</a>，但上次是解析 xml 弹幕，最近打算研究一下 v2 弹幕接口，使用的是 protobuf。</p>
@@ -661,7 +661,7 @@
     <title type="text">使用NDI双机位直播</title>
     <id>https://blog.u2sb.com/2022/07040.%E4%BD%BF%E7%94%A8NDI%E5%8F%8C%E6%9C%BA%E4%BD%8D%E7%9B%B4%E6%92%AD.html</id>
     <link href="https://blog.u2sb.com/2022/07040.%E4%BD%BF%E7%94%A8NDI%E5%8F%8C%E6%9C%BA%E4%BD%8D%E7%9B%B4%E6%92%AD.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>这篇文章简单说一下使用 NDI 方案做双机位直播。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>这篇文章简单说一下使用 NDI 方案做双机位直播。</p>
@@ -672,7 +672,7 @@
     <title type="text">C#的IPAddress类 Json序列化和反序列化</title>
     <id>https://blog.u2sb.com/2022/10270.CSharp%E7%9A%84IPAddress%E7%B1%BBJson%E5%BA%8F%E5%88%97%E5%8C%96%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.html</id>
     <link href="https://blog.u2sb.com/2022/10270.CSharp%E7%9A%84IPAddress%E7%B1%BBJson%E5%BA%8F%E5%88%97%E5%8C%96%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>最近写 <a href="https://github.com/u2sb/Danmu.Server" target="_blank" rel="noopener noreferrer">DanMu.Server</a> 的时候想到的一个问题，网上答案比较少，就写下来记录一下。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>最近写 <a href="https://github.com/u2sb/Danmu.Server" target="_blank" rel="noopener noreferrer">DanMu.Server</a> 的时候想到的一个问题，网上答案比较少，就写下来记录一下。</p>
@@ -683,7 +683,7 @@
     <title type="text">Arduino上位机通信-使用MessagePack</title>
     <id>https://blog.u2sb.com/2022/10310.Arduino%E4%B8%8A%E4%BD%8D%E6%9C%BA%E9%80%9A%E4%BF%A1.html</id>
     <link href="https://blog.u2sb.com/2022/10310.Arduino%E4%B8%8A%E4%BD%8D%E6%9C%BA%E9%80%9A%E4%BF%A1.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>最近在做一个项目，涉及到到使用 Arduino 和上位机通信的问题，感觉网上的资料都不太合适，就自己撸一点东西出来。</p>
 <p>主要包括 MessagePack，COBS，CRC 校验。</p>
 ]]></summary>
@@ -696,7 +696,7 @@
     <title type="text">nginx-quic 编译和使用</title>
     <id>https://blog.u2sb.com/2023/01030.nginx-quic%E7%BC%96%E8%AF%91%E5%92%8C%E4%BD%BF%E7%94%A8.html</id>
     <link href="https://blog.u2sb.com/2023/01030.nginx-quic%E7%BC%96%E8%AF%91%E5%92%8C%E4%BD%BF%E7%94%A8.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>最近又打算从 caddy 换回 nginx 了，简单记录一下一些操作。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>最近又打算从 caddy 换回 nginx 了，简单记录一下一些操作。</p>
@@ -707,7 +707,7 @@
     <title type="text">将博客分享到微信</title>
     <id>https://blog.u2sb.com/2023/01050.%E5%B0%86%E5%8D%9A%E5%AE%A2%E5%88%86%E4%BA%AB%E5%88%B0%E5%BE%AE%E4%BF%A1.html</id>
     <link href="https://blog.u2sb.com/2023/01050.%E5%B0%86%E5%8D%9A%E5%AE%A2%E5%88%86%E4%BA%AB%E5%88%B0%E5%BE%AE%E4%BF%A1.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>前段时间做了一个项目，搞了一个微信分享卡片，就打算给我的博客也搞上一个，简单记录一下过程。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>前段时间做了一个项目，搞了一个微信分享卡片，就打算给我的博客也搞上一个，简单记录一下过程。</p>
@@ -718,7 +718,7 @@
     <title type="text">小米 13 使用 KernelSU 获取 ROOT</title>
     <id>https://blog.u2sb.com/2023/01200.%E5%B0%8F%E7%B1%B313%E5%AE%89%E8%A3%85KernelSU.html</id>
     <link href="https://blog.u2sb.com/2023/01200.%E5%B0%8F%E7%B1%B313%E5%AE%89%E8%A3%85KernelSU.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>最近新买了小米 13，上周解锁了，最近看到网上比较火的 KernelSU，就打算搞上折腾一下。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>最近新买了小米 13，上周解锁了，最近看到网上比较火的 KernelSU，就打算搞上折腾一下。</p>
@@ -729,7 +729,7 @@
     <title type="text">在 Linux 中守护 .net core 程序</title>
     <id>https://blog.u2sb.com/2023/05100.%E5%9C%A8Linux%E4%B8%AD%E5%AE%88%E6%8A%A4dotnetcore%E7%A8%8B%E5%BA%8F.html</id>
     <link href="https://blog.u2sb.com/2023/05100.%E5%9C%A8Linux%E4%B8%AD%E5%AE%88%E6%8A%A4dotnetcore%E7%A8%8B%E5%BA%8F.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>说起来很惭愧，作为一个经常写 C# 的程序员，工作了四五年才真的搞明白在 Linux 正确守护 .net core 程序的方式。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>说起来很惭愧，作为一个经常写 C# 的程序员，工作了四五年才真的搞明白在 Linux 正确守护 .net core 程序的方式。</p>
@@ -740,7 +740,7 @@
     <title type="text">编译 Caddy 并使用</title>
     <id>https://blog.u2sb.com/2023/05210.%E7%BC%96%E8%AF%91Caddy%E5%B9%B6%E4%BD%BF%E7%94%A8.html</id>
     <link href="https://blog.u2sb.com/2023/05210.%E7%BC%96%E8%AF%91Caddy%E5%B9%B6%E4%BD%BF%E7%94%A8.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>前面有说过 <a href="/2023/01030.nginx-quic%E7%BC%96%E8%AF%91%E5%92%8C%E4%BD%BF%E7%94%A8.html" target="_blank">nginx-quic 编译和使用</a>，这篇文章就来简单记录一下 Caddy 的编译和使用。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>前面有说过 <a href="/2023/01030.nginx-quic%E7%BC%96%E8%AF%91%E5%92%8C%E4%BD%BF%E7%94%A8.html" target="_blank">nginx-quic 编译和使用</a>，这篇文章就来简单记录一下 Caddy 的编译和使用。</p>
@@ -751,7 +751,7 @@
     <title type="text">Unity3D 异步加载 Json</title>
     <id>https://blog.u2sb.com/2023/11120.Unity3D%E5%BC%82%E6%AD%A5%E5%8A%A0%E8%BD%BDJson.html</id>
     <link href="https://blog.u2sb.com/2023/11120.Unity3D%E5%BC%82%E6%AD%A5%E5%8A%A0%E8%BD%BDJson.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>最近一个项目需要在 Unity3D 中做异步 Json 序列化和反序列化，简单记录一下。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>最近一个项目需要在 Unity3D 中做异步 Json 序列化和反序列化，简单记录一下。</p>
@@ -762,7 +762,7 @@
     <title type="text">Unity3D中使用SkiaSharp处理Texture2D</title>
     <id>https://blog.u2sb.com/2024/03030.Unity3D%E4%B8%AD%E4%BD%BF%E7%94%A8SkiaSharp%E5%A4%84%E7%90%86Texture2D.html</id>
     <link href="https://blog.u2sb.com/2024/03030.Unity3D%E4%B8%AD%E4%BD%BF%E7%94%A8SkiaSharp%E5%A4%84%E7%90%86Texture2D.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>在 Unity 中，一些时候需要动态修改一些贴图，其中一种方式，就是使用图形处理库，例如 SkiaSharp 或 ImageSharp。这篇文章简单说一下在 Unity 中如何使用 SkiaSharp。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>在 Unity 中，一些时候需要动态修改一些贴图，其中一种方式，就是使用图形处理库，例如 SkiaSharp 或 ImageSharp。这篇文章简单说一下在 Unity 中如何使用 SkiaSharp。</p>
@@ -773,7 +773,7 @@
     <title type="text">vlc-unity编译过程</title>
     <id>https://blog.u2sb.com/2024/08240.vlc-unity%E7%BC%96%E8%AF%91%E8%BF%87%E7%A8%8B.html</id>
     <link href="https://blog.u2sb.com/2024/08240.vlc-unity%E7%BC%96%E8%AF%91%E8%BF%87%E7%A8%8B.html"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>最近一个项目需要在 Unity 中播放 RTSP 视频流，打算使用 vlc-unity，简单记录一下自行编译过程。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>最近一个项目需要在 Unity 中播放 RTSP 视频流，打算使用 vlc-unity，简单记录一下自行编译过程。</p>
@@ -784,7 +784,7 @@
     <title type="text">从零开始搭建一个Web服务器</title>
     <id>https://blog.u2sb.com/2023/05220.%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AAWeb%E6%9C%8D%E5%8A%A1%E5%99%A8/</id>
     <link href="https://blog.u2sb.com/2023/05220.%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AAWeb%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    <updated>2025-04-16T16:28:24.000Z</updated>
+    <updated>2025-05-05T14:37:47.000Z</updated>
     <summary type="html"><![CDATA[<p>前段时间一台服务器到期了，要把以前的一些服务部署到新的服务器上，这里就记录一下流程。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>前段时间一台服务器到期了，要把以前的一些服务部署到新的服务器上，这里就记录一下流程。</p>

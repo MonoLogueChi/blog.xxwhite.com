@@ -6,8 +6,8 @@
     <link>https://blog.u2sb.com/</link>
     <description>一个小白的技术博客</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 16 Apr 2025 16:29:24 GMT</pubDate>
-    <lastBuildDate>Wed, 16 Apr 2025 16:29:24 GMT</lastBuildDate>
+    <pubDate>Mon, 05 May 2025 14:38:45 GMT</pubDate>
+    <lastBuildDate>Mon, 05 May 2025 14:38:45 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <item>
@@ -44,6 +44,112 @@
 <p>前两天在 v 站无意中看到了关于 valine 的评论，这是什么东东，难道大清亡了？看了一下，是个不错的好东东，正好我对畅言不太满意，即使是用了自定义样式也不方便。好，那就研究一下，看看能不能用上。</p>
 ]]></content:encoded>
       <enclosure url="https://s1.ax2x.com/2017/12/20/zbDDr.png" type="image/png"/>
+    </item>
+    <item>
+      <title>50年后要看的文章</title>
+      <link>https://blog.u2sb.com/2018/0113.50YearsLater.html</link>
+      <guid>https://blog.u2sb.com/2018/0113.50YearsLater.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">50年后要看的文章</source>
+      <description>刚才在 V 站看到一篇有意思的帖子，说 100 年后的人们会不会看到现在咱们发的东西。</description>
+      <pubDate>Sat, 13 Jan 2018 17:30:07 GMT</pubDate>
+      <content:encoded><![CDATA[<p>刚才在 V 站看到一篇有意思的帖子，说 100 年后的人们会不会看到现在咱们发的东西。</p>
+]]></content:encoded>
+      <enclosure url="https://s1.ax2x.com/2018/01/13/G8y1G.png" type="image/png"/>
+    </item>
+    <item>
+      <title>强奸你的剪切板</title>
+      <link>https://blog.u2sb.com/2018/0127.Clipboard.html</link>
+      <guid>https://blog.u2sb.com/2018/0127.Clipboard.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">强奸你的剪切板</source>
+      <description>最近因为种种原因，经常有网页强奸你的手机剪切板，今天我们就来探究一下，这些网页究竟是怎么强奸你的剪切板的。</description>
+      <pubDate>Sat, 27 Jan 2018 15:43:35 GMT</pubDate>
+      <content:encoded><![CDATA[<p>最近因为种种原因，经常有网页强奸你的手机剪切板，今天我们就来探究一下，这些网页究竟是怎么强奸你的剪切板的。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>增加一个MarkDown文件下载功能</title>
+      <link>https://blog.u2sb.com/2018/0203.add-download-markdown.html</link>
+      <guid>https://blog.u2sb.com/2018/0203.add-download-markdown.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">增加一个MarkDown文件下载功能</source>
+      <description>昨天给博客加了一个下载 MarkDown 文件的功能，原本是很简单的一件事，但是中间涉及到了很多麻烦东西，所以就决定简单记录以下。</description>
+      <pubDate>Sat, 03 Feb 2018 16:10:01 GMT</pubDate>
+      <content:encoded><![CDATA[<p>昨天给博客加了一个下载 MarkDown 文件的功能，原本是很简单的一件事，但是中间涉及到了很多麻烦东西，所以就决定简单记录以下。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>中南大学联通校园网络第三方客户端</title>
+      <link>https://blog.u2sb.com/2018/0224.Drcom.html</link>
+      <guid>https://blog.u2sb.com/2018/0224.Drcom.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">中南大学联通校园网络第三方客户端</source>
+      <description>这是中南大学联通校园网络第三方客户端，供 Windows 系统登陆校园网使用。</description>
+      <pubDate>Sat, 24 Feb 2018 13:09:25 GMT</pubDate>
+      <content:encoded><![CDATA[<p>这是中南大学联通校园网络第三方客户端，供 Windows 系统登陆校园网使用。</p>
+]]></content:encoded>
+      <enclosure url="https://s1.ax2x.com/2018/06/01/7cjbN.png" type="image/png"/>
+    </item>
+    <item>
+      <title>写一个Drcom第三方客户端</title>
+      <link>https://blog.u2sb.com/2018/0301.drcom-develop.html</link>
+      <guid>https://blog.u2sb.com/2018/0301.drcom-develop.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">写一个Drcom第三方客户端</source>
+      <description>前一阵子弄了一个 Drcom 登陆客户端，用于登陆校园网，具体可以看中南大学联通校园网络第三方客户端，这次简单说一下这个东西是怎么做出来的。 这也是我第二次写 WPF 程序，很多地方都是一边学习一边瞎搞的。</description>
+      <pubDate>Thu, 01 Mar 2018 12:22:55 GMT</pubDate>
+      <content:encoded><![CDATA[<p>前一阵子弄了一个 Drcom 登陆客户端，用于登陆校园网，具体可以看<a href="https://www.xxwhite.com/2018/Drcom.html" target="_blank" rel="noopener noreferrer">中南大学联通校园网络第三方客户端</a>，这次简单说一下这个东西是怎么做出来的。</p>
+<p>这也是我第二次写 WPF 程序，很多地方都是一边学习一边瞎搞的。</p>
+]]></content:encoded>
+      <enclosure url="https://s1.ax2x.com/2018/02/26/ayUKY.png" type="image/png"/>
+    </item>
+    <item>
+      <title>毕业了，顺便立个Flag</title>
+      <link>https://blog.u2sb.com/2018/0525.graduation-and-flag.html</link>
+      <guid>https://blog.u2sb.com/2018/0525.graduation-and-flag.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">毕业了，顺便立个Flag</source>
+      <description>马上就要毕业了，最近经常被毕业论文烦的睡不着觉。思来想去，今天抽出来一点时间更新一下博客吧。</description>
+      <pubDate>Fri, 25 May 2018 20:49:49 GMT</pubDate>
+      <content:encoded><![CDATA[<p>马上就要毕业了，最近经常被毕业论文烦的睡不着觉。思来想去，今天抽出来一点时间更新一下博客吧。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>OneIndex下载站搭建</title>
+      <link>https://blog.u2sb.com/2018/0707.using-oneindex.html</link>
+      <guid>https://blog.u2sb.com/2018/0707.using-oneindex.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">OneIndex下载站搭建</source>
+      <description>很早之前就有为自己博客搭建一个下载站的想法了，正好这几天不算太忙，就弄个OneIndex实施一下。</description>
+      <pubDate>Sat, 07 Jul 2018 08:49:12 GMT</pubDate>
+      <content:encoded><![CDATA[<p>很早之前就有为自己博客搭建一个下载站的想法了，正好这几天不算太忙，就弄个OneIndex实施一下。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>聊聊几种常见的图片格式</title>
+      <link>https://blog.u2sb.com/2018/0713.image-format.html</link>
+      <guid>https://blog.u2sb.com/2018/0713.image-format.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">聊聊几种常见的图片格式</source>
+      <description>简单的科普一下几种常见的图片格式，探讨一下有损压缩和无损压缩的问题。</description>
+      <pubDate>Fri, 13 Jul 2018 23:27:44 GMT</pubDate>
+      <content:encoded><![CDATA[<p>简单的科普一下几种常见的图片格式，探讨一下有损压缩和无损压缩的问题。</p>
+]]></content:encoded>
+      <enclosure url="https://s1.ax2x.com/2018/07/14/q4v9K.png" type="image/png"/>
+    </item>
+    <item>
+      <title>录制视频时显示按键</title>
+      <link>https://blog.u2sb.com/2018/1028.KeyCastOW.html</link>
+      <guid>https://blog.u2sb.com/2018/1028.KeyCastOW.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">录制视频时显示按键</source>
+      <description>在录屏的时候，我们可能需要把按键情况准确的显示出来，这样就需要把按键映射到屏幕上。</description>
+      <pubDate>Sun, 28 Oct 2018 22:54:43 GMT</pubDate>
+      <content:encoded><![CDATA[<p>在录屏的时候，我们可能需要把按键情况准确的显示出来，这样就需要把按键映射到屏幕上。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>九九乘法表？</title>
+      <link>https://blog.u2sb.com/2018/1120.9x9.html</link>
+      <guid>https://blog.u2sb.com/2018/1120.9x9.html</guid>
+      <source url="https://blog.u2sb.com/rss.xml">九九乘法表？</source>
+      <description>打印九九乘法表？这么低端的事我会做？</description>
+      <pubDate>Tue, 20 Nov 2018 20:54:08 GMT</pubDate>
+      <content:encoded><![CDATA[<p>打印九九乘法表？这么低端的事我会做？</p>
+]]></content:encoded>
+      <enclosure url="https://s1.ax1x.com/2018/11/20/F9USDf.png" type="image/png"/>
     </item>
     <item>
       <title>为知识付费</title>
@@ -201,112 +307,6 @@
       <pubDate>Fri, 29 Nov 2019 19:48:35 GMT</pubDate>
       <content:encoded><![CDATA[<p>事情的起因是这样的，我博客里用的音乐插件<a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener noreferrer">hexo-tag-aplayer</a>太久没更新了，已经不能支持新版的<a href="https://github.com/metowolf/MetingJS" target="_blank" rel="noopener noreferrer">MetingJS</a>，我便决定自己尝试解决一下。</p>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>50年后要看的文章</title>
-      <link>https://blog.u2sb.com/2018/0113.50YearsLater.html</link>
-      <guid>https://blog.u2sb.com/2018/0113.50YearsLater.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">50年后要看的文章</source>
-      <description>刚才在 V 站看到一篇有意思的帖子，说 100 年后的人们会不会看到现在咱们发的东西。</description>
-      <pubDate>Sat, 13 Jan 2018 17:30:07 GMT</pubDate>
-      <content:encoded><![CDATA[<p>刚才在 V 站看到一篇有意思的帖子，说 100 年后的人们会不会看到现在咱们发的东西。</p>
-]]></content:encoded>
-      <enclosure url="https://s1.ax2x.com/2018/01/13/G8y1G.png" type="image/png"/>
-    </item>
-    <item>
-      <title>强奸你的剪切板</title>
-      <link>https://blog.u2sb.com/2018/0127.Clipboard.html</link>
-      <guid>https://blog.u2sb.com/2018/0127.Clipboard.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">强奸你的剪切板</source>
-      <description>最近因为种种原因，经常有网页强奸你的手机剪切板，今天我们就来探究一下，这些网页究竟是怎么强奸你的剪切板的。</description>
-      <pubDate>Sat, 27 Jan 2018 15:43:35 GMT</pubDate>
-      <content:encoded><![CDATA[<p>最近因为种种原因，经常有网页强奸你的手机剪切板，今天我们就来探究一下，这些网页究竟是怎么强奸你的剪切板的。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>增加一个MarkDown文件下载功能</title>
-      <link>https://blog.u2sb.com/2018/0203.add-download-markdown.html</link>
-      <guid>https://blog.u2sb.com/2018/0203.add-download-markdown.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">增加一个MarkDown文件下载功能</source>
-      <description>昨天给博客加了一个下载 MarkDown 文件的功能，原本是很简单的一件事，但是中间涉及到了很多麻烦东西，所以就决定简单记录以下。</description>
-      <pubDate>Sat, 03 Feb 2018 16:10:01 GMT</pubDate>
-      <content:encoded><![CDATA[<p>昨天给博客加了一个下载 MarkDown 文件的功能，原本是很简单的一件事，但是中间涉及到了很多麻烦东西，所以就决定简单记录以下。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>中南大学联通校园网络第三方客户端</title>
-      <link>https://blog.u2sb.com/2018/0224.Drcom.html</link>
-      <guid>https://blog.u2sb.com/2018/0224.Drcom.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">中南大学联通校园网络第三方客户端</source>
-      <description>这是中南大学联通校园网络第三方客户端，供 Windows 系统登陆校园网使用。</description>
-      <pubDate>Sat, 24 Feb 2018 13:09:25 GMT</pubDate>
-      <content:encoded><![CDATA[<p>这是中南大学联通校园网络第三方客户端，供 Windows 系统登陆校园网使用。</p>
-]]></content:encoded>
-      <enclosure url="https://s1.ax2x.com/2018/06/01/7cjbN.png" type="image/png"/>
-    </item>
-    <item>
-      <title>写一个Drcom第三方客户端</title>
-      <link>https://blog.u2sb.com/2018/0301.drcom-develop.html</link>
-      <guid>https://blog.u2sb.com/2018/0301.drcom-develop.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">写一个Drcom第三方客户端</source>
-      <description>前一阵子弄了一个 Drcom 登陆客户端，用于登陆校园网，具体可以看中南大学联通校园网络第三方客户端，这次简单说一下这个东西是怎么做出来的。 这也是我第二次写 WPF 程序，很多地方都是一边学习一边瞎搞的。</description>
-      <pubDate>Thu, 01 Mar 2018 12:22:55 GMT</pubDate>
-      <content:encoded><![CDATA[<p>前一阵子弄了一个 Drcom 登陆客户端，用于登陆校园网，具体可以看<a href="https://www.xxwhite.com/2018/Drcom.html" target="_blank" rel="noopener noreferrer">中南大学联通校园网络第三方客户端</a>，这次简单说一下这个东西是怎么做出来的。</p>
-<p>这也是我第二次写 WPF 程序，很多地方都是一边学习一边瞎搞的。</p>
-]]></content:encoded>
-      <enclosure url="https://s1.ax2x.com/2018/02/26/ayUKY.png" type="image/png"/>
-    </item>
-    <item>
-      <title>毕业了，顺便立个Flag</title>
-      <link>https://blog.u2sb.com/2018/0525.graduation-and-flag.html</link>
-      <guid>https://blog.u2sb.com/2018/0525.graduation-and-flag.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">毕业了，顺便立个Flag</source>
-      <description>马上就要毕业了，最近经常被毕业论文烦的睡不着觉。思来想去，今天抽出来一点时间更新一下博客吧。</description>
-      <pubDate>Fri, 25 May 2018 20:49:49 GMT</pubDate>
-      <content:encoded><![CDATA[<p>马上就要毕业了，最近经常被毕业论文烦的睡不着觉。思来想去，今天抽出来一点时间更新一下博客吧。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>OneIndex下载站搭建</title>
-      <link>https://blog.u2sb.com/2018/0707.using-oneindex.html</link>
-      <guid>https://blog.u2sb.com/2018/0707.using-oneindex.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">OneIndex下载站搭建</source>
-      <description>很早之前就有为自己博客搭建一个下载站的想法了，正好这几天不算太忙，就弄个OneIndex实施一下。</description>
-      <pubDate>Sat, 07 Jul 2018 08:49:12 GMT</pubDate>
-      <content:encoded><![CDATA[<p>很早之前就有为自己博客搭建一个下载站的想法了，正好这几天不算太忙，就弄个OneIndex实施一下。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>聊聊几种常见的图片格式</title>
-      <link>https://blog.u2sb.com/2018/0713.image-format.html</link>
-      <guid>https://blog.u2sb.com/2018/0713.image-format.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">聊聊几种常见的图片格式</source>
-      <description>简单的科普一下几种常见的图片格式，探讨一下有损压缩和无损压缩的问题。</description>
-      <pubDate>Fri, 13 Jul 2018 23:27:44 GMT</pubDate>
-      <content:encoded><![CDATA[<p>简单的科普一下几种常见的图片格式，探讨一下有损压缩和无损压缩的问题。</p>
-]]></content:encoded>
-      <enclosure url="https://s1.ax2x.com/2018/07/14/q4v9K.png" type="image/png"/>
-    </item>
-    <item>
-      <title>录制视频时显示按键</title>
-      <link>https://blog.u2sb.com/2018/1028.KeyCastOW.html</link>
-      <guid>https://blog.u2sb.com/2018/1028.KeyCastOW.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">录制视频时显示按键</source>
-      <description>在录屏的时候，我们可能需要把按键情况准确的显示出来，这样就需要把按键映射到屏幕上。</description>
-      <pubDate>Sun, 28 Oct 2018 22:54:43 GMT</pubDate>
-      <content:encoded><![CDATA[<p>在录屏的时候，我们可能需要把按键情况准确的显示出来，这样就需要把按键映射到屏幕上。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>九九乘法表？</title>
-      <link>https://blog.u2sb.com/2018/1120.9x9.html</link>
-      <guid>https://blog.u2sb.com/2018/1120.9x9.html</guid>
-      <source url="https://blog.u2sb.com/rss.xml">九九乘法表？</source>
-      <description>打印九九乘法表？这么低端的事我会做？</description>
-      <pubDate>Tue, 20 Nov 2018 20:54:08 GMT</pubDate>
-      <content:encoded><![CDATA[<p>打印九九乘法表？这么低端的事我会做？</p>
-]]></content:encoded>
-      <enclosure url="https://s1.ax1x.com/2018/11/20/F9USDf.png" type="image/png"/>
     </item>
     <item>
       <title>迟到的2019年终总结</title>
