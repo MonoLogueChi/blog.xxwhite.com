@@ -1,6 +1,6 @@
 ---
 home: true
-layout: BlogHome
+layout: Blog
 heroFullScreen: false
 bgImage: false
 heroText: false

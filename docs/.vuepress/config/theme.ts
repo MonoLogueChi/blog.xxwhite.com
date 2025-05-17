@@ -82,8 +82,7 @@ export default hopeTheme({
         "CodePen",
         "SiteInfo",
         "VidStack",
-        "VPCard",
-        "XiGua",
+        "VPCard"
       ],
     },
     redirect: {},
